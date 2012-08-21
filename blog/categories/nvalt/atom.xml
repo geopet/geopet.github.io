@@ -4,7 +4,7 @@
   <title><![CDATA[Category: nvAlt | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/nvalt/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2012-08-20T23:07:32-06:00</updated>
+  <updated>2012-08-20T23:13:58-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[nvAlt Quick Tip]]></title>
+    <link href="http://geopet.github.com/blog/2011/09/21/nvalt-quick-tip/"/>
+    <updated>2011-09-21T08:00:00-06:00</updated>
+    <id>http://geopet.github.com/blog/2011/09/21/nvalt-quick-tip</id>
+    <content type="html"><![CDATA[<h2>Making Markdown Readable and Your Default File Type</h2>
+
+<p>So normally I don't write tips on productivity, but lately I have been
+focusing more and more on workflow and I decided to start diving deeper
+into things like Brett Terpstra's
+<a href="http://brettterpstra.com/project/nvalt/">nvALT</a>, Smile's
+<a href="http://www.smilesoftware.com/TextExpander/">TextExpander</a>, and Second
+Gear's <a href="http://www.secondgearsoftware.com/elements/">Elements</a> (ala <a href="http://macpowerusers.com/">Mac
+Power Users</a>, <a href="http://5by5.tv/b2w">Back to
+Work</a> and <a href="http://www.merlinmann.com/">Merlin
+Mann</a>). This means you may see so more stuff
+from me regarding cool tools like these.</p>
+
+<p>But this is a quick tip. So here it is:</p>
+
+<p>When I installed nvALT there were two pieces that threw me right away.
+First, even after going into the preferences and changing "Read notes
+from folder" to the folder that had all my Markdown notes it didn't
+register any of them in the search.  The reason? I needed to change the
+"Store and read notes on disk as" drop down from "Single Database" to
+"Plain Text Files" and then I needed to add the file extension "md" to
+the "Recognize individual files with attributes:" extensions. Check out
+the screen capture below if this isn't quite making sense. (Also note
+that there is a "+" in that preference window, next to the "-" symbol,
+but it isn't showing right now in Lion.<a href="Many">^pe</a>)</p>
+
+<p><img src="http://media.tumblr.com/tumblr_lqtxi4bkBW1qfn6cf.png" alt="" /></p>
+
+<p>The second item that started to bug me was that any new note/file that I
+created was being created with the <code>.txt</code> extension instead of the <code>.md</code>
+extension that I work in all the time now. Frankly, if I couldn't fix
+this issue, I would have probably abandoned nvALT almost right away.
+Fortunately, I found that by selecting "md" in the "Recognize individual
+files with attributes:" list and then hitting the check mark, it bolded
+it and my tests have showed that all my new files being made by nvALT
+are now <code>.md</code> files.</p>
+
+<p>With these two items out of the way I plan to seriously play with this
+system.</p>
+
+<p>If, by some freakish chance Brett Terpstra checks out this post, one
+feature request that I would make right now is to allow for the use of
+his <a href="http://markedapp.com/">Marked</a> app for the preview instead of only
+having the built in, but excellent, nvALT HTML preview. There's a good
+chance that it is already a feature and I'm not aware of it. I'm loving
+Marked, and if you're a Markdown person and not using it yet, you should
+definitely check it out.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Creating a Service Using Automator for nvALT Notes Version Control]]></title>
@@ -178,61 +233,6 @@ cool.</p>
 
 <p>staging any files for <em>deletion</em> only modification. This means I won't
 worry about any files going away without my knowing.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[nvAlt Quick Tip]]></title>
-    <link href="http://geopet.github.com/blog/2011/09/01/nvalt-quick-tip/"/>
-    <updated>2011-09-01T08:00:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2011/09/01/nvalt-quick-tip</id>
-    <content type="html"><![CDATA[<h2>Making Markdown Readable and Your Default File Type</h2>
-
-<p>So normally I don't write tips on productivity, but lately I have been
-focusing more and more on workflow and I decided to start diving deeper
-into things like Brett Terpstra's
-<a href="http://brettterpstra.com/project/nvalt/">nvALT</a>, Smile's
-<a href="http://www.smilesoftware.com/TextExpander/">TextExpander</a>, and Second
-Gear's <a href="http://www.secondgearsoftware.com/elements/">Elements</a> (ala <a href="http://macpowerusers.com/">Mac
-Power Users</a>, <a href="http://5by5.tv/b2w">Back to
-Work</a> and <a href="http://www.merlinmann.com/">Merlin
-Mann</a>). This means you may see so more stuff
-from me regarding cool tools like these.</p>
-
-<p>But this is a quick tip. So here it is:</p>
-
-<p>When I installed nvALT there were two pieces that threw me right away.
-First, even after going into the preferences and changing "Read notes
-from folder" to the folder that had all my Markdown notes it didn't
-register any of them in the search.  The reason? I needed to change the
-"Store and read notes on disk as" drop down from "Single Database" to
-"Plain Text Files" and then I needed to add the file extension "md" to
-the "Recognize individual files with attributes:" extensions. Check out
-the screen capture below if this isn't quite making sense. (Also note
-that there is a "+" in that preference window, next to the "-" symbol,
-but it isn't showing right now in Lion.<a href="Many">^pe</a>)</p>
-
-<p><img src="http://media.tumblr.com/tumblr_lqtxi4bkBW1qfn6cf.png" alt="" /></p>
-
-<p>The second item that started to bug me was that any new note/file that I
-created was being created with the <code>.txt</code> extension instead of the <code>.md</code>
-extension that I work in all the time now. Frankly, if I couldn't fix
-this issue, I would have probably abandoned nvALT almost right away.
-Fortunately, I found that by selecting "md" in the "Recognize individual
-files with attributes:" list and then hitting the check mark, it bolded
-it and my tests have showed that all my new files being made by nvALT
-are now <code>.md</code> files.</p>
-
-<p>With these two items out of the way I plan to seriously play with this
-system.</p>
-
-<p>If, by some freakish chance Brett Terpstra checks out this post, one
-feature request that I would make right now is to allow for the use of
-his <a href="http://markedapp.com/">Marked</a> app for the preview instead of only
-having the built in, but excellent, nvALT HTML preview. There's a good
-chance that it is already a feature and I'm not aware of it. I'm loving
-Marked, and if you're a Markdown person and not using it yet, you should
-definitely check it out.</p>
 ]]></content>
   </entry>
   
