@@ -4,7 +4,7 @@
   <title><![CDATA[Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2012-08-20T22:03:28-06:00</updated>
+  <updated>2012-08-20T22:21:43-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -12,5 +12,306 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[On Sparrow and Google]]></title>
+    <link href="http://geopet.github.com/blog/2012/08/14/on-sparrow-and-google/"/>
+    <updated>2012-08-14T08:00:00-06:00</updated>
+    <id>http://geopet.github.com/blog/2012/08/14/on-sparrow-and-google</id>
+    <content type="html"><![CDATA[<p>So at the end of last month (July 20, 2012) there was a disturbance in the indie developer force when the great iOS/OS X gmail skin/email client Sparrow was acquired by Google.</p>
+
+<p>I&#8217;ll provide the text of their announcement at the end of this which you can (at the time of this writing) find <a href="http://sprw.me/">on their site</a>. The gist of the press release was that they&#8217;d been bought by Google, that they&#8217;d do one more bug fix and then they&#8217;d stop working on the Apple products and start working on other Gmail stuff for Google. As a side note, it was amusing to see the long list of &#8220;advisors&#8221; and investors that they thanked as well.</p>
+
+<p>Of course my initial reaction was disappointment. The iOS app they built was light-years ahead of the native Apple client and I found that the desktop client was a nice departure from OSX Mail. I was also excited when I saw they were heading toward a Sparrow iPad app. But, you know, Google apparently offered them all jobs and <a href="http://www.theverge.com/2012/7/20/3172365/sources-google-sparrow-25-million-gmail-client">something around $25 million</a> for them to stop working on their product.</p>
+
+<p>A large part of the chatter regarding this buyout was the argument that it is <em>really</em> hard to make it as an independent developer. There was also talk about how $25M really isn&#8217;t that much money when all is said and done. And how this was something along the lines of a talent acquisition. I would agree with all of this.</p>
+
+<p>But after the dust has settled what we still have is this great small software group that was given enough to stop building for Apple. And this got me thinking, and you&#8217;ll probably think I&#8217;m crazy, but I started to wonder if this could be a new business model for Google?</p>
+
+<p>And before you call bullshit on me, just consider it for a moment. Google is lousy at UI. Just look at how they screwed up Gmail and Reader. Sparrow is beautiful. It’s one of the reasons I enjoyed using it so much. Google is also working their asses off to make Android a legit contender to iOS. Some will say that Android is already competitive with iOS. I&#8217;m not going to waste my time with this argument. Furthermore, Google’s Android OS has a huge piracy issue on their hands right now, so many devs aren&#8217;t interested in spending their time to watch their work be stolen by douchebags who won&#8217;t drop $3.99 for their year and a half of work.</p>
+
+<p>So if you were one of the most wealthy companies on the planet and you were losing out due to lack of developer interest and a general lack of impacting talent in the UI department, why wouldn&#8217;t you bring excellent UI and mobile app developers in house to make kick ass products for your own OS? Why wouldn&#8217;t you start to cherry pick some of the exceptional talent that is out in the iOS space?</p>
+
+<p>I think it is possible that this is the beginning of a few other talent grabs by Google. I wouldn&#8217;t be shocked if we saw the end of <a href="http://reederapp.com/">Reeder</a> and possibly <a href="http://vemedio.com/products/instacast">Instacast</a> (although I prefer <a href="http://www.downcastapp.com/">Downcast</a> for podcast players but Instacast seems to get the lion&#8217;s share of mentions), and I  hope that the <a href="http://tapbots.com/">Tapbot</a> folk or the <a href="http://dayoneapp.com/">Day One</a> guys don&#8217;t get caught in this as well. But by taking on this model, Google gets rid of the lousy Android piracy issue by giving these developers a massive hiring bonus and it gives them a regular paycheck for as long as they want to be Google employees. They never have to sell another app in a market again, but they get to keep building for the platform they love. I wouldn&#8217;t blame anyone for accepting something like that. Plus, if Google makes this a culture thing, who&#8217;s to say what else may change because of it?</p>
+
+<p>If this really becomes a thing, it will be interesting to see what Apple does as a response.</p>
+
+<hr />
+
+<p><strong>Sparrow Press Release</strong></p>
+
+<blockquote><p>We&#8217;re excited to announce that Sparrow has been acquired by Google!</p>
+
+<p>We care a lot about how people communicate, and we did our best to provide you with the most intuitive and pleasurable mailing experience.</p>
+
+<p>Now we&#8217;re joining the Gmail team to accomplish a bigger vision — one that we think we can better achieve with Google.</p>
+
+<p>We’d like to extend a special thanks to all of our users who have supported us, advised us, given us priceless feedback and allowed us to build a better mail application. While we’ll be working on new things at Google, we will continue to make Sparrow available and provide support for our users.</p>
+
+<p>We had an amazing ride and can&#8217;t thank you enough.</p>
+
+<p>Full speed ahead!</p>
+
+<p>Dom Leca
+CEO
+Sparrow</p>
+
+<p><em>We also want to thank our advisors and investors — Loren Brichter, Dave Morin, John Maeda, Xavier Niel, Jérémie Berrebi — as well as our friends and family: Simon Istolainen, Jérémie Kanza, Sacha Cayre, Cedric Gepner, Laurent Merlinot, Didier Kuhn, Tariq Krim, Christophe Baillon, Laurent Cerveau, Christophe Giaume, Sebastien Maury, Manuel Colom, Bertrand Guiheneuf and all of you who have helped us along the way.</em></p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why I Love Gweek]]></title>
+    <link href="http://geopet.github.com/blog/2011/12/14/why-i-love-gweek/"/>
+    <updated>2011-12-14T08:00:00-07:00</updated>
+    <id>http://geopet.github.com/blog/2011/12/14/why-i-love-gweek</id>
+    <content type="html"><![CDATA[<p><img src="http://boingboing.net/images/gweek-logo-300x250.png" align="left" hspace="5" vspace="5">I am a podcast listener. I listen to them on my commute, when I exercise, when I walk from place to place and when I craft. Essentially I try to find reasons to do things that allow me to listen to podcasts. Now because I actually <em>listen</em> to podcasts I have a hard time listening to them while I program or write. This makes me sad sometimes, but I survive.</p>
+
+<p>Because I love podcasts so much, and the time available to me to listen to them is so little, the shows I listen to are at a minimum. This mean that if I add a show I typically need to drop a show.</p>
+
+<p>There are problems with the medium of podcasting, but there are two that stand out for me. The first is production value. The second is time.</p>
+
+<p>In the case of the production value, some podcasters simply don&#8217;t have the money to invest in a <a href="http://hivelogic.com/articles/podcasting-equipment-software-guide-2011/">proper setup</a>. This can mean that the show is either hard to listen to, or in some cases almost impossible. Post production work can only fix so many issues with the initial recording.</p>
+
+<p>In the case of time, some podcasting producers seem to think that time doesn&#8217;t matter. If they have two hours to interview someone then the completed show should be released at two hours. Sometimes this works, but often it doesn&#8217;t. I&#8217;ve found that some podcasting producers are afraid of killing their babies. In the case of podcasting the baby is often the random ramblings of an overly long conversation. When this happens enough times I end up listening to the next few shows at two-time speed. If that still doesn&#8217;t remedy the tedium for the show then I just stop listening to it. Sometimes I come back, sometimes I don&#8217;t. I can be fickle, but I&#8217;m also fair.</p>
+
+<p>But enough about my love and issues with podcasts. Let&#8217;s talk about <a href="http://boingboing.net/category/podcasts">Gweek</a>.</p>
+
+<p><em>This is my favorite podcast.</em></p>
+
+<p>Let me say that again.</p>
+
+<p><strong>This is my favorite podcast.</strong></p>
+
+<p>I&#8217;ve been a big <a href="http://boingboing.net/">Boing Boing</a> fan for years. I have recently found a way to make Boing Boing a part of my weekly routine again, after a long period of time where I just caught it as I could, but I&#8217;ll discuss this more in another post. The reason I mention Boing Boing is because Gweek is hosted by Mark Frauenfelder, the co-founder and an editor of Boing Boing (along with being the editor of the awesome <a href="http://makezine.com/">Make Magazine</a> &#8211; that I was just given as a Christmas gift from my parents). It is usually co-hosted by the oft-late (because of <a href="http://www.amazon.com/exec/obidos/ASIN/B004HYK956/boingboing">Skyrim</a>) Rob Beschizza, Managing Editor of Boing Boing, and Ruben Bolling, the mastermind behind <a href="http://gocomics.typepad.com/tomthedancingbugblog/">Tom the Dancing Bug</a>.</p>
+
+<p>Before I became a regular listener, each time Gweek was mentioned on Boing Boing I always said that I should at least check out an episode. Finally I did. It was <a href="http://boingboing.net/2011/11/14/gweek-podcast-episode-026-a-h.html">episode 26</a>. The reason I decided on this one was because it mentioned in the show notes about how Mark had an addiction to Dungeon Raid. I suffer from the same affliction, so I had to hear about how he avoided the intervention that I would typically require.</p>
+
+<p>The show begins, &#8220;Gweek is where the editors and friends of Boing Boing talk about comic books, science fiction and fantasy, video games, board games, tools, gadgets, apps and other neat stuff.&#8221; Everything that I like!</p>
+
+<p>When I had finished listening, it was clear that I had found a show that I would need to make room for on my <del>dance card</del> playlists.</p>
+
+<p>Joel Johnston was a guest/co-host of the show. I&#8217;ve been an admirer of Mark, Rob and him for some time. Joel did not disappoint and the conversation was filled with humor and insight. It was great. I was especially pleased about the discussion of <a href="http://www.minecraft.net/">Minecraft</a>, a game that I have recently started playing and enjoyed, the <a href="http://www.amazon.com/exec/obidos/ASIN/B004VQENY8/boingboing">Skylanders game</a>, that I had heard of but knew almost nothing about, the book <a href="http://www.amazon.com/exec/obidos/ASIN/0143119826/boingboing">The Postmortal</a>, that I immediately added to my Amazon wish list, and, of course, the iOS game <a href="http://itunes.apple.com/us/app/dungeon-raid/id403090531?mt=8">Dungeon Raid</a>.</p>
+
+<p>It was the next day that the next episode with <a href="http://boingboing.net/2011/11/21/gweek-episode-028-we-are-all.html">Seth Godin</a> came out. I got to listen to some of it as I went for a short run. Seth as a guest was super insightful and a great conversationalist. I got to learn more about his work on <a href="http://www.thedominoproject.com/">The Domino Project</a>. I am late to this game, but I found it a fascinating experiment. Mark also gave us a heads-up on <a href="http://blog.makezine.com/tag/collinslab">Collin&#8217;s Lab</a>. After watching one of his short seven minute videos I know more about electronics schematics than I ever have before. I also added <a href="http://www.amazon.com/exec/obidos/ASIN/1565235592/boingboing">Handmade Music Factory</a> to my Amazon wish list. This stuff is so cool.</p>
+
+<p>And I couldn&#8217;t wait another week to hear the next one, so I started to go back to the earlier episodes. They&#8217;re all this good.</p>
+
+<p>I listened to the episode with <a href="http://boingboing.net/2011/10/31/127095.html">John Hodgman</a>, and while I disagreed with the opinions regarding the DC Reboot (I actually am excited about being able to get into comic story lines that make sense), I am now reading <a href="https://comics.comixology.com/#/view/1/Atomic-Robo-1-of-6-">Atomic Robo</a> because of the conversation. It is <em>really</em> good. John continued the string of great guests.</p>
+
+<p>I listened to the episode with <a href="http://boingboing.net/2011/10/24/gweek-023-cool-apps-and-websit.html">David-Michel Davies</a>, the executive director of the Webbies. I signed up for the <a href="http://netted.net/">Netted</a> email list after that episode and had a half dozen sites that I needed to check out.</p>
+
+<p>And the episode with <a href="http://boingboing.net/2011/11/07/gweek-podcast-025-michael-kupp.html">Michael Kupperman</a> led to my education on the comic strip <a href="http://www.amazon.com/exec/obidos/ASIN/B0054U5862/boingboing">Cul de Sac</a>, <a href="http://www.darkhorse.com/Comics/16-912/Orchid-1-Massimo-Carnevale-cover">Orchid</a> and <a href="http://thelastmanalive.tripod.com/home.html">The Last Man Alive</a>.</p>
+
+<p>But the last two episodes, the one with Jon Ronson, author of <em>The Men Who Stare at Goats</em>, and the other with Maggie Koerth-Baker, the Boing Boing Science Editor, have just been off the charts good. Jon and Maggie were endlessly entertaining and interesting. By the end of Jon&#8217;s episode I had already purchased his <a href="http://www.amazon.com/exec/obidos/ASIN/B005ZOCFNQ/boingboing">ebook</a>, which was great, and started to wonder who around me was a psychopath. By the end of Maggie&#8217;s episode, I had a new web comic to start reading (<a href="http://oglaf.com/">Oglaf</a>, which is absolutely fantastic and <em>totally</em> NSFW), I couldn&#8217;t wait for <a href="http://www.amazon.com/exec/obidos/ASIN/0470876255/boingboing">Maggie&#8217;s new book</a> to be released, and I wished I had the time to play Skyrim.</p>
+
+<p>I&#8217;m now back as far as <a href="http://boingboing.net/2011/10/18/gweek-022-the-fishbone-documen.html">episode 22</a>, and I like this show so much that I plan on going through the rest of the catalog.</p>
+
+<p>But let&#8217;s run full circle here. My two big complaints about podcasts are production value and time. Well Mark Frauenfelder keeps the time perfect. I don&#8217;t think there&#8217;s been a show that&#8217;s gone much beyond an hour. I <em>really</em> appreciate that. The production value leaves something to be desired. Mark occasionally remarks that his USB mic needs to be unplugged and replugged, and there are some occasional challenges with static and background noise. But the quality of the conversation is so excellent that these details become insignificant. I would listen to this show while they sat on a steam powered train.</p>
+
+<p>So if you&#8217;re looking for a podcast that is filled with geeky, neat and thoughtful conversation, along with great recommendations of terrific media, you <em>must</em> listen to <a href="http://boingboing.net/category/podcasts/">Gweek</a>. I can&#8217;t get enough.</p>
+
+<h2>TL;DR</h2>
+
+<ul>
+<li><a href="http://boingboing.net/category/podcasts">Gweek</a> is awesome.</li>
+<li>Go listen to <a href="http://boingboing.net/category/podcasts">Gweek</a>.</li>
+</ul>
+
+
+<h2>Follow Up</h2>
+
+<p>I&#8217;m currently listening to <a href="http://boingboing.net/2011/12/12/gweek-030-supergods-mutants.html">Gweek 30</a>. Guest <a href="http://sketchyrobots.com/">Barry McWilliams</a> is terrific. I love hearing about the artist process and this show definitely gets into that.</p>
+
+<p>Also, <a href="http://www.amazon.com/exec/obidos/ASIN/160699347X/boingboing">Dungeon Quest, Book One</a> has already been added to my Amazon Wish List.</p>
+
+<p>I&#8217;ll probably end up finding a way to finish up the episode tonight after my oldest goes to sleep.</p>
+
+<h2>Follow Up Two</h2>
+
+<p>This has really tickled me. I wrote a short note to Mark Frauenfelder about how much I like the show and he posted it on <a href="http://boingboing.net/2011/12/12/email-from-a-gweek-reader.html">Boing Boing</a>. I think that&#8217;s pretty cool.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Great Tip on Apple IDs]]></title>
+    <link href="http://geopet.github.com/blog/2011/10/12/great-tip-on-apple-ids/"/>
+    <updated>2011-10-12T12:48:00-06:00</updated>
+    <id>http://geopet.github.com/blog/2011/10/12/great-tip-on-apple-ids</id>
+    <content type="html"><![CDATA[<blockquote><p>But what if I share my Apple ID?</p>
+
+<p>If you use your Apple ID on multiple devices to buy apps (say, if you have one central account for your, your spouse’s, and your children’s purchases), it’s best not to convert it into an iCloud account. Although your installed iCloud account is, by default, the one you’ll use to purchase music and apps with, you can still manually sign in and out of the App and iTunes Stores on your device. Instead, you should create an entirely separate account to use with iCloud.</p></blockquote>
+
+<p>Awesome tip from Macworld&#8217;s <a href="http://www.macworld.com/article/162963/2011/10/meet_icloud_apples_new_sync_service.html">Getting started with iCloud, Apple&#8217;s new sync service</a> article.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Creating a Service Using Automator for nvALT Notes Version Control]]></title>
+    <link href="http://geopet.github.com/blog/2011/09/20/creating-a-service-using-automator-for-nvalt-notes-version-control/"/>
+    <updated>2011-09-20T08:00:00-06:00</updated>
+    <id>http://geopet.github.com/blog/2011/09/20/creating-a-service-using-automator-for-nvalt-notes-version-control</id>
+    <content type="html"><![CDATA[<h2>Introduction</h2>
+
+<p>I&#8217;m going to get a pretty nerdy here for a moment.</p>
+
+<p>So I dove in and I&#8217;m now using <a href="http://brettterpstra.com/project/nvalt/">nvALT</a>, <a href="http://www.secondgearsoftware.com/elements/">Elements</a> and <a href="http://git-scm.com/">Git</a> for
+my note taking needs. Aside from a few minor hiccups, which I&#8217;ll address
+in a later post, this is really working nicely.</p>
+
+<p>The one thing that I needed when I added nvALT and Elements to my note
+taking workflow was the ability to easily continue version control with
+Git. Before taking on this new process I was using Git in my notes
+directory and I wasn&#8217;t about to lose that option now.</p>
+
+<p>But the ease which nvALT allows me to create new text files, and with
+nvALT built to work better with <a href="http://brettterpstra.com/break-up-your-text-documents/">smaller files</a>, I need some way to get my
+version control under control.<a href="For">^version</a></p>
+
+<p>Here&#8217;s what my workflow was:</p>
+
+<ol>
+<li>Work, notes, work, notes.</li>
+<li>Work, notes, work, notes.</li>
+<li>Look at the time.</li>
+<li><em>Damn! How long has it been since I last did a commit?</em></li>
+<li>cd to my notes directory.</li>
+<li>Commit my notes to my repository.</li>
+</ol>
+
+
+<p>It wasn&#8217;t really precision based. Plus it had the added detriment of
+taking me out of what I was doing to commit my notes.</p>
+
+<p>What I did<a href="My">^original</a> was create a Bash script and then used Automator to create a
+Service for it that I also applied a keyboard shortcut to.</p>
+
+<p>If you&#8217;re still with me, here&#8217;s how I did it:</p>
+
+<h2>The Reveal</h2>
+
+<p>First<a href="This">^realfirst</a>, create your Bash script.</p>
+
+<p>I keep all my notes in one directory. This is the way that nvALT and, it
+seems, Elements like to work. With some light taxonomy (ala <a href="http://macpowerusers.com/2011/03/mpu-046-workflows-with-merlin-mann-ii/">Merlin Mann
+and Mac Power Users</a>) I have a reasonably good system in place. All
+my notes are in a <a href="http://db.tt/eOrvceA">Dropbox</a> subdirectory called &#8220;notes.&#8221;</p>
+
+<p>To get this to work I created a Bash script named <code>git_notes.sh</code> and put
+this in it:</p>
+
+<pre><code>#!/bin/bash
+
+cd /Users/username/Dropbox/notes/
+git add .
+git commit -m 'nvALT Service Commit'
+echo "* "`date`" nvALT Commit" &gt;&gt; /Users/username/Dropbox/notes/noteCommits`date "+%Y%m%d"`.md
+</code></pre>
+
+<p>Now, you&#8217;ll see that this is redundant and probably a lot silly, but
+this is what it does.</p>
+
+<ol>
+<li>It makes sure that we&#8217;r in my notes directory using the absolute pathname.</li>
+<li>It stages only the modified files to the repository.<a href="This">^keypoint</a></li>
+<li>It commits those changes and uses a standard message for my Git
+log file.</li>
+<li>The last line is where it gets a little silly, it appends to another
+file in the same Dropbox subdirectory with a message that also gives a
+human readable date/time. Why am I doing this? I don&#8217;t know, maybe
+someday I&#8217;ll set up something to parse it to get some analytics of when
+I do most of my commits for my notes file.</li>
+</ol>
+
+
+<p>But now that we have our Bash script. The rest is <em>trivial</em>.</p>
+
+<p>First, we open <a href="http://support.apple.com/kb/ht2488">Automator</a> and select &#8220;Service&#8221; as our document type
+under the &#8220;Choose a type for your document:&#8221;</p>
+
+<p><img src="http://media.tumblr.com/tumblr_lru5ivFxwR1qfn6cf.png" alt="" /></p>
+
+<p>Next, we&#8217;re going to change the &#8220;Service receives&#8221; from the default
+&#8220;text&#8221; to &#8220;no input&#8221;. Leave the &#8220;in&#8221; &#8220;any application&#8221; as it is.</p>
+
+<p><img src="http://media.tumblr.com/tumblr_lru5j6QlKF1qfn6cf.png" alt="" /></p>
+
+<p>Penultimately, we click &#8220;Utilities&#8221; under the left-side &#8220;Library&#8221; dropdown and
+then drag the &#8220;Run Shell Script&#8221; from the middle column over to the
+right side.</p>
+
+<p><img src="http://media.tumblr.com/tumblr_lru5kkxqBI1qfn6cf.png" alt="" /></p>
+
+<p>Lastly, we enter in the location of the script in the workflow. It&#8217;s a
+good idea to use the absolute pathname here. In my case it was
+<code>/Users/username/Dropbox/notes/git_notes.sh</code>.</p>
+
+<p>Once you save you&#8217;ll have a Service that will be available from any
+of your application menus. Click on the Service and it will do a Git
+commit of all the changes to that notes directory as well as update the
+faux log file we&#8217;ve created for the day.</p>
+
+<p><img src="http://media.tumblr.com/tumblr_lru5kv56vm1qfn6cf.png" alt="" /></p>
+
+<p>But I don&#8217;t like to use the mouse/trackpad that much. So the final touch
+to this is to create a keyboard shortcut in your System Preferences. Go
+to <code>Applications &gt; System Preferences &gt; Keyboard</code>. Then choose &#8220;Keyboard
+Shortcuts&#8221; and select &#8220;Services&#8221; from the left side. Your new Service
+should be at the end of the Services listings. Just click the blank
+space at the far end of the window and you should get a text input
+field. You can use anything you want for your shortcut, but I chose
+control-option-command-shift-s for mine to avoid any chance of a
+keyboard conflict.</p>
+
+<p><img src="http://media.tumblr.com/tumblr_lru5l4QquU1qfn6cf.png" alt="" /></p>
+
+<h2>Conclusion</h2>
+
+<p>So there you have it. A quick and dirty way to make sure that the notes
+you&#8217;re producing will be version controlled through Git. As a final
+remark, I&#8217;ll say that having version control has already paid off for
+me.</p>
+
+<p>I use multiple computers and I made the <em>huge</em> mistake of accidentally
+deleting a bunch of files when a prompt popped up and I didn&#8217;t read
+exactly what it said. All of a sudden 20-some-odd notes of mine were
+<em>gone</em>. But version control to the rescue! I <em>knew</em> I had just committed
+to my repo before I had deleted the files and I was able to pull them
+back from brink of deletion hell. But this was even easier than it could
+have been because I had been using <code>git add .</code> instead of <code>git add -a</code>.
+All it meant was that I needed to unstage the deleted files. It was
+great and a perfect reason why doing something like this makes sense.</p>
+
+<h2>Post Script</h2>
+
+<p>I should add that the use of a common/standard commit message is bad
+practice. The reason I do this, instead of throwing a prompt so that I
+can enter in a more detailed message, is that this is supposed to create
+a workflow that won&#8217;t interrupt what you&#8217;re in the middle of but give
+you the peace of mind that you&#8217;ve got things in a version controlled
+environment. This <em>does not</em> prevent you from going to your notes
+directory and doing a proper Git commit with a detailed message on what
+you&#8217;ve done since your last commit. In fact, at the end of this
+paragraph I&#8217;ll be committing properly to say that this draft is
+finished. And when I finish my review of the draft I&#8217;ll commit again,
+and message that it is ready for posting. After that, I&#8217;ll probably do a
+name change to the file (this is the taxonomy thing I mentioned before)
+and then do another <em>proper</em> commit.</p>
+
+<p>One last point: You may have noticed that you can easily change the Bash
+script to point to any directory you want. Once you have the Service in
+place, you can edit your <code>.sh</code> file whenever you please and have a
+temporary keyboard shortcut for Git repo commits. I think that&#8217;s kinda
+cool.</p>
+
+<p>If you don&#8217;t have one and want to learn how, you can check out my
+<a href="http://faceofgeoff.com/post/5383300462/learning-git">post</a> on the subject of Git.</p>
+
+<p>and then have it run through <a href="http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/launchctl.1.html">launchctl</a> on a regular basis.</p>
+
+<p>staging any files for <em>deletion</em> only modification. This means I won&#8217;t
+worry about any files going away without my knowing.</p>
+]]></content>
+  </entry>
   
 </feed>
