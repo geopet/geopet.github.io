@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: OOP | Thoughts of Geoff]]></title>
+  <link href="http://geopet.github.com/blog/categories/oop/atom.xml" rel="self"/>
+  <link href="http://geopet.github.com/"/>
+  <updated>2012-08-20T23:07:32-06:00</updated>
+  <id>http://geopet.github.com/</id>
+  <author>
+    <name><![CDATA[Geoff Petrie]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Object Quote]]></title>
+    <link href="http://geopet.github.com/blog/2011/04/03/object-quote/"/>
+    <updated>2011-04-03T10:00:00-06:00</updated>
+    <id>http://geopet.github.com/blog/2011/04/03/object-quote</id>
+    <content type="html"><![CDATA[<blockquote><p>An object is a container of properties, where a property has a name and a value.</p></blockquote>
+
+<p>Douglas Crockford, <em>JavaScript: The Good Parts</em></p>
+
+<p>Nice and succinct.</p>
+]]></content>
+  </entry>
+  
+</feed>

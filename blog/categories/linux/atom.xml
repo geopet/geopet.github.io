@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: linux | Thoughts of Geoff]]></title>
+  <link href="http://geopet.github.com/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://geopet.github.com/"/>
+  <updated>2012-08-20T23:07:32-06:00</updated>
+  <id>http://geopet.github.com/</id>
+  <author>
+    <name><![CDATA[Geoff Petrie]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Helpful Linux Commands]]></title>
+    <link href="http://geopet.github.com/blog/2011/04/05/helpful-linux-commands/"/>
+    <updated>2011-04-05T14:30:00-06:00</updated>
+    <id>http://geopet.github.com/blog/2011/04/05/helpful-linux-commands</id>
+    <content type="html"><![CDATA[<p>I was asked to give a bunch of detail on a server that I use so that I could request permission to participate in migrating some of the web work I do onto a new CMS. The requests seemed fine, but the form provided no way of easily estimating the file numbers they requested. I used these linux commands to find the details I needed:</p>
+
+<p><code>find . -type f -name '*.php' | wc -l</code> gave me the number of files I had in the directory with .php file extensions.</p>
+
+<p><code>du /var/www/html/ -ch | grep total</code> gave me the total amount of disk space being used in the directory in "human readable" format.</p>
+
+<p><code>/sbin/ifconfig</code> gave me the ip address of the server the information was currently sitting on.</p>
+
+<p>I had to look up the first one, I didn't know how to get down to that sort of granularity, but I think the others are worthy of documenting here in case someone finds some use in them.</p>
+
+<p>I was then informed about this:</p>
+
+<blockquote><p>Fun fact: "find -name -type" is way faster than "find -type -name" because it avoids doing a stat() call if the name doesn't match. stat() on a file that isn't already in RAM likely triggers a seek and can take beaucoup milliseconds.</p></blockquote>
+
+<p>Which is an awesome tip from a person who had been reading the blog.</p>
+]]></content>
+  </entry>
+  
+</feed>
