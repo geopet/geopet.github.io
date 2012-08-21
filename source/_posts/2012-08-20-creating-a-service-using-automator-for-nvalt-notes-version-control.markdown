@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating a Service Using Automator for nvALT Notes Version Control"
-date: 2011-09-20 08:00
+date: 2011-09-21 08:00
 comments: false
 categories: [nvAlt, Git, Service, Automator, OSX, tips]
 ---
