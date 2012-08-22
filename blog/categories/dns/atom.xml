@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: general | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/general/atom.xml" rel="self"/>
+  <title><![CDATA[Category: dns | Thoughts of Geoff]]></title>
+  <link href="http://geopet.github.com/blog/categories/dns/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
   <updated>2012-08-22T17:05:36-06:00</updated>
   <id>http://geopet.github.com/</id>
@@ -37,21 +37,6 @@
 <p>After this all that's needed is <code>rake generate</code> and <code>rake deploy</code>. (You may as well commit to your source branch after this.)</p>
 
 <p>Wait a couple of minutes for things to work their way through DNS and Github's world and you'll be looking at your Octopress blog on your own domain.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Starting Again With Octopress]]></title>
-    <link href="http://geopet.github.com/blog/2012/08/21/starting-again-with-octopress/"/>
-    <updated>2012-08-21T22:01:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/08/21/starting-again-with-octopress</id>
-    <content type="html"><![CDATA[<p>Moving my <a href="http://faceofgeoff.com">Tumblr</a> to <a href="https://github.com/imathis/octopress">Octopress</a> seems to be a bit more of a chore than I had initially expected. My journey into <a href="https://github.com/mojombo/jekyll">Jekyll</a> turned out to be something that required more time that I could commit at this very moment, so I decided to take a quicker path to getting a better blogging workflow into my life by implementing some really exceptional work done <a href="http://brandonmathis.com/">Brandon Mathis</a> in Octopress as recommended by my friend <a href="http://brianarn.github.com/">Brian Arnold</a>.</p>
-
-<p>Still, this is a new application that I haven't had a chance to really kick the tires on. I tried to grab the less family specific pieces from the Tumblr I kept, and the more bloggy pieces from there. There is more work to be done on that front. For one, I need to get some of the original images from there for the technical pieces that I took screen captures of. In the mean time I'll see if I can get URLs back to the original Tumblr pieces if there is any interest in that at all.</p>
-
-<p>While I would love to spend time tweaking this install of Octopress, I suspect that I'll spend the time I do have writing rather than tweaking for the moment. Forward progression is key for me right now, even though this is something I should dive deeper into.</p>
-
-<p>If I ignore what I said above and fall into the abyss, I will post the tricks I find along the way.</p>
 ]]></content>
   </entry>
   
