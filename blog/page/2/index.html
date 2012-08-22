@@ -9,8 +9,7 @@
   <meta name="author" content="Geoff Petrie">
 
   
-  <meta name="description" content="An object is a container of properties, where a property has a name and a value. Douglas Crockford, JavaScript: The Good Parts Nice and succinct.
-">
+  <meta name="description" content="I was asked to give a bunch of detail on a server that I use so that I could request permission to participate in migrating some of the web work I do &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +76,56 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/04/05/helpful-linux-commands/">Helpful Linux Commands</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-04-05T14:30:00-06:00" pubdate data-updated="true">Apr 5<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I was asked to give a bunch of detail on a server that I use so that I could request permission to participate in migrating some of the web work I do onto a new CMS. The requests seemed fine, but the form provided no way of easily estimating the file numbers they requested. I used these linux commands to find the details I needed:</p>
+
+<p><code>find . -type f -name '*.php' | wc -l</code> gave me the number of files I had in the directory with .php file extensions.</p>
+
+<p><code>du /var/www/html/ -ch | grep total</code> gave me the total amount of disk space being used in the directory in &#8220;human readable&#8221; format.</p>
+
+<p><code>/sbin/ifconfig</code> gave me the ip address of the server the information was currently sitting on.</p>
+
+<p>I had to look up the first one, I didn&#8217;t know how to get down to that sort of granularity, but I think the others are worthy of documenting here in case someone finds some use in them.</p>
+
+<p>I was then informed about this:</p>
+
+<blockquote><p>Fun fact: &#8220;find -name -type&#8221; is way faster than &#8220;find -type -name&#8221; because it avoids doing a stat() call if the name doesn&#8217;t match. stat() on a file that isn&#8217;t already in RAM likely triggers a seek and can take beaucoup milliseconds.</p></blockquote>
+
+<p>Which is an awesome tip from a person who had been reading the blog.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -208,6 +257,10 @@ this forum to point to interesting potential projects.</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/08/21/starting-again-with-octopress/">Starting Again With Octopress</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/08/14/on-sparrow-and-google/">On Sparrow and Google</a>
       </li>
     
@@ -221,10 +274,6 @@ this forum to point to interesting potential projects.</p>
     
       <li class="post">
         <a href="/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control/">Creating a Service Using Automator for nvALT Notes Version Control</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/09/20/temp-text-expander-tip/">Temp Text Expander Tip</a>
       </li>
     
   </ul>
