@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tips | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/tips/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2012-08-27T22:57:53-06:00</updated>
+  <updated>2012-08-27T23:02:40-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -239,7 +239,7 @@ the screen capture below if this isn't quite making sense. (Also note
 that there is a "+" in that preference window, next to the "-" symbol,
 but it isn't showing right now in Lion.<a href="Many">^pe</a>)</p>
 
-<p><img src="http://media.tumblr.com/tumblr_lqtxi4bkBW1qfn6cf.png" alt="" /></p>
+<p><img src="../images/nvALT-quick-tip-01.png" alt="" /></p>
 
 <p>The second item that started to bug me was that any new note/file that I
 created was being created with the <code>.txt</code> extension instead of the <code>.md</code>
@@ -260,6 +260,8 @@ having the built in, but excellent, nvALT HTML preview. There's a good
 chance that it is already a feature and I'm not aware of it. I'm loving
 Marked, and if you're a Markdown person and not using it yet, you should
 definitely check it out.</p>
+
+<p><em>I originally posted this on my Tumblr <a href="http://faceofgeoff.com/post/9665888623/nvalt-quick-tip-making-markdown-readable-and-your">The Face of Geoff</a></em></p>
 ]]></content>
   </entry>
   
