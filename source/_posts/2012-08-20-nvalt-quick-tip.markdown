@@ -32,7 +32,7 @@ the screen capture below if this isn't quite making sense. (Also note
 that there is a "+" in that preference window, next to the "-" symbol,
 but it isn't showing right now in Lion.[^pe])
 
-![](http://media.tumblr.com/tumblr_lqtxi4bkBW1qfn6cf.png)
+![](../images/nvALT-quick-tip-01.png)
 
 The second item that started to bug me was that any new note/file that I
 created was being created with the `.txt` extension instead of the `.md`
@@ -53,5 +53,7 @@ having the built in, but excellent, nvALT HTML preview. There's a good
 chance that it is already a feature and I'm not aware of it. I'm loving
 Marked, and if you're a Markdown person and not using it yet, you should
 definitely check it out.
+
+_I originally posted this on my Tumblr [The Face of Geoff](http://faceofgeoff.com/post/9665888623/nvalt-quick-tip-making-markdown-readable-and-your)_
 
 [^pe]:Many thanks to Eddie Smith at [Practically Efficient](http://www.practicallyefficient.com/2011/08/02/1l-byword-nvalt-simplenote/) for that helpful one-liner!

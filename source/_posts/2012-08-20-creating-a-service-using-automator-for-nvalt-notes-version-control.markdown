@@ -77,18 +77,18 @@ But now that we have our Bash script. The rest is *trivial*.
 First, we open [Automator][9] and select "Service" as our document type
 under the "Choose a type for your document:"
 
-![](http://media.tumblr.com/tumblr_lru5ivFxwR1qfn6cf.png)
+![](../images/creating-a-service-01.png)
 
 Next, we're going to change the "Service receives" from the default
 "text" to "no input". Leave the "in" "any application" as it is.
 
-![](http://media.tumblr.com/tumblr_lru5j6QlKF1qfn6cf.png)
+![](../images/creating-a-service-02.png)
 
 Penultimately, we click "Utilities" under the left-side "Library" dropdown and
 then drag the "Run Shell Script" from the middle column over to the
 right side.
 
-![](http://media.tumblr.com/tumblr_lru5kkxqBI1qfn6cf.png)
+![](../images/creating-a-service-03.png)
 
 Lastly, we enter in the location of the script in the workflow. It's a
 good idea to use the absolute pathname here. In my case it was
@@ -99,7 +99,7 @@ of your application menus. Click on the Service and it will do a Git
 commit of all the changes to that notes directory as well as update the
 faux log file we've created for the day.
 
-![](http://media.tumblr.com/tumblr_lru5kv56vm1qfn6cf.png)
+![](../images/creating-a-service-04.png)
 
 But I don't like to use the mouse/trackpad that much. So the final touch
 to this is to create a keyboard shortcut in your System Preferences. Go
@@ -111,7 +111,7 @@ field. You can use anything you want for your shortcut, but I chose
 control-option-command-shift-s for mine to avoid any chance of a
 keyboard conflict.
 
-![](http://media.tumblr.com/tumblr_lru5l4QquU1qfn6cf.png)
+![](../images/creating-a-service-05.png)
 
 ## Conclusion
 
@@ -164,6 +164,8 @@ and then have it run through [launchctl][6] on a regular basis.
 [^keypoint]: This is a key point because what I am *not* doing is
 staging any files for *deletion* only modification. This means I won't
 worry about any files going away without my knowing.
+
+_I originally posted this tutorial on my Tumblr: [The Face of Geoff](http://faceofgeoff.com/post/10480335918/creating-a-service-using-automator-for-nvalt-notes)_
 
 [1]: http://brettterpstra.com/project/nvalt/
 [2]: http://www.secondgearsoftware.com/elements/
