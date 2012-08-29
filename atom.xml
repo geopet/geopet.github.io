@@ -4,7 +4,7 @@
   <title><![CDATA[Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2012-08-27T23:18:12-06:00</updated>
+  <updated>2012-08-29T12:15:40-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -12,6 +12,143 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[On the Problems of Education in a Developer's World]]></title>
+    <link href="http://geopet.github.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/"/>
+    <updated>2012-08-29T11:31:00-06:00</updated>
+    <id>http://geopet.github.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world</id>
+    <content type="html"><![CDATA[<p>or,</p>
+
+<h2>How the Learning Voice Needs to Roundhouse Kick the Work Voice in the Face</h2>
+
+<p><img class="center" src="http://geopet.github.com/images/on_the_problems_of_education_in_a_developers_world-loc-classroom.jpg" title="N.Y. schools opening" alt="N.Y. schools opening"></p>
+
+<p><strong>Preface:</strong></p>
+
+<p>As a little background, I wrote the post below about a week or two ago. I&#8217;ve been sitting on it since.</p>
+
+<p>The gist of the post is about my frustration in trying to get better or even keep up with skills and tools. I was blaming my deadlines and commitments for getting in the way.</p>
+
+<p>While I was writing this post I came to the realization that only <em>I</em> could really make a difference in the jammed feeling I had. Deadlines will never go away. Commitments will never end. If I really wanted to pick up and understand something, then <em>I</em> had to make that happen for myself. No one else would do that for me.</p>
+
+<p>So in the past couple of weeks I started to look at <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a> and then I rebuilt my <a href="http://geoffpetrie.com">personal site</a> on it. (Bootstrap is amazing. I can&#8217;t recommend it more highly.) I took a couple of hours and got <a href="http://octopress.org/">Octopress</a> in place and moved my more substantial writing from my old <a href="http://faceofgeoff.com">Tumblr</a> and put it in place <em>right</em> here. Additionally, I have started to take a more serious look at Python again. I also started to build and put up on GitHub a little <a href="http://dayoneapp.com/">Day One</a> journal service pack that I&#8217;m having a ball building. Finally, I&#8217;m also seriously looking at <a href="https://developer.mozilla.org/en-US/docs/HTML/Canvas">Canvas</a> and I am trying to figure out a way to prototype a Canvas web app that uses <a href="https://developer.mozilla.org/en-US/docs/WebSockets">WebSockets</a>.</p>
+
+<p>This effort has significantly improved my spirit. I&#8217;m feeling creative and rejuvenated. While the deadlines haven&#8217;t gone away, I feel like I&#8217;m not deadline bound in my day any more. There are tons of new project possibilities out there now. It&#8217;s invigorating.</p>
+
+<p>I had considered dumping this post entirely, but I thought it might be worth posting just to see where my head was at when I wrote this a few weeks back. I know I&#8217;m not the only person who gets in these sorts of ruts. Maybe this will resonate with someone else and they&#8217;ll be able to pull themselves into their creative zone like I seem to be doing now.</p>
+
+<!-- more -->
+
+
+<h3>TL; DR</h3>
+
+<p>I have a long list of things I want to learn or get better at but I&#8217;m worried about taking time away from my current deadlines and obligations to really learn this stuff well. I know I&#8217;m not alone here, but I don&#8217;t have a good solution to this. The real take-away for me has been to accept that while thrashing and coming up with a solution for the moment may potentially take less time initially, the better, and less overall time intensive solution, is to take more time on the front end to really learn the tool and solution you want to implement.</p>
+
+<h3>Full Text</h3>
+
+<p>I&#8217;m frustrated. Here&#8217;s why:</p>
+
+<p>This is an abbreviated list of stuff I currently want to learn or get deeper into:</p>
+
+<p>Objective-C, Ruby and the Rails framework, Python and Django, JavaScript (JS data structures, jQuery), Twitter Bootstrap, HTML Boilerplate, Unity, PhoneGap, Sass, Vim, Sublime Text 2, CodeKit, CoffeeScript, Canvas, Web Sockets, Zen-Coding, CSS3, HTML5, Git, Wordpress and Jekyll.</p>
+
+<p>Three points I need to make:</p>
+
+<ol>
+<li>As I said, this is an <em>abbreviated</em> list.</li>
+<li>I know a some of this stuff already. Some of it I know quite well, actually. I&#8217;ll touch on this point in a bit.</li>
+<li>This is <em>only</em> my development interests. This doesn&#8217;t cover the dozens of other hobbies I have as well.</li>
+</ol>
+
+
+<p>So this is my dilemma: There is so much stuff to learn and so many things I <em>want</em> to learn so that I can maintain a positive forward direction in my development skill set, but I&#8217;m finding myself increasingly jammed for time. This jammed for time has less to do with needing better time management skills, and more to do with the fact that deadlines (some reasonable, others not so much) are giving me a feeling that there is no opportunity to stop and properly capture a skill.</p>
+
+<p>So what do you do?</p>
+
+<p>In the time you make for yourself you read blogs, and stack overflow, and documentation, and you network, and you read Twitter. But you have to limit the amount of time you do spend on those resources because while you&#8217;re doing that, there is a little voice in the back of your head that is screaming at you to be <em>doing</em> something.</p>
+
+<p>&#8220;<strong>CODE, &lt; &lt; EXPLETIVE > >!</strong>&#8221; is what mine usually says.</p>
+
+<p>&#8220;<strong>SPEND TIME WITH YOUR FAMILY</strong>&#8221; is another good one that comes up when it is 6:30 on a Friday evening.</p>
+
+<p>What&#8217;s worse, is that while you&#8217;re reading about these awesome things that these people have <em>already</em> done, or about the solution so elegant that it brings a tear to your eye, you&#8217;re wondering about how the hell they found the time to work out such an awesome solution. How did they get so far ahead of their field that you&#8217;re reading about their work when you should be the one talking about a cool solution to some challenge?</p>
+
+<p>So you stop reading about this amazing shit and get back to &#8220;work.&#8221;</p>
+
+<p>If you&#8217;re unlucky<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a>, then you have a supervisor (a manager, director, whatever) who doesn&#8217;t really get what you do for a living. They count work by bug fixes or new features produced in the week.</p>
+
+<p>The better situation is that your supervisor isn&#8217;t so much fixated on the bug fixes and so-called features produced, but they are focused on the deadline. This can make sense. An example would be that you really do need to clean up that thing that broke IE8 so that you can release code on production. I get that and that doesn&#8217;t make them a bad boss, it just means they hold themselves accountable to making a deadline<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a>.</p>
+
+<p>If you&#8217;re lucky, you have a supervisor who understands what it means to be a developer. Perhaps they&#8217;re one as well. Maybe they&#8217;re competent enough to bounce ideas off of and get better direction. They understand that research and learning is part of the job.</p>
+
+<p>If you have it made, you have a boss who understands that <strong>learning <em>is</em> the job!</strong> The code comes second. They definitely care about your product, but they absolutely understand the necessity of learning. They view that the success of the product comes from your own quality of education.</p>
+
+<p>I feel that most of us don&#8217;t have that &#8220;made in the shade&#8221; situation. I believe that most of us have way too much stuff to do, way too many deadlines and feel way too stressed to even consider finding the time to check out that cool new thing, let alone spending time to work with it and understand it.</p>
+
+<p>So what you do is you stick with the toolset you&#8217;ve cobbled together over the years and hope that it&#8217;ll be enough to get you through this current project. If it isn&#8217;t then you try to find a quick solution to the challenge you&#8217;re working on and find a way to implement that.</p>
+
+<p>And this is the crazy part. <em>This</em> becomes the education process. You bump into a problem you don&#8217;t know how to solve in your current project and solve it due to desperation and <em>hope</em> that something sticks. And, really, you better hope something does. Because in three weeks to two months from now you&#8217;re going to need to revisit this quick fix solution you came up with and if nothing has stuck you&#8217;re going to need to relearn that solution all over again. Maybe this time it&#8217;ll stick better. Maybe not.</p>
+
+<p>Let me describe my typical scenario:</p>
+
+<p>I&#8217;m working on something and I know there must be a better way to do it. If I had time to research how to do it, I would know how to implement that better change. The problem is that I don&#8217;t have the luxury of that time while I&#8217;m working on this problem. But I&#8217;m almost certain that if I spent the time studying and understanding the solution, the time I spent on this problem would diminish as well and I would have this cool new skill in my toolkit. But <em>there&#8217;s</em> the rub. The work voice in the back of my head is asking me whether it would be a commensurate exchange on the time. Meaning: Will the time that I spend on learning this new thing be less than or equal to the time I would spend thrashing on this problem and coming up with the surface level understanding of a solution? I almost never feel like I can risk the better of the two options.</p>
+
+<p>This sucks<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">[3]</a>. And it is always wrong<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a></p>
+
+<p>Of course, when you take the lesser approach, this isn&#8217;t a real education process. When I do this, I just won&#8217;t fully comprehend what the solution entails. I <em>have</em> to understand it enough to be able to implement it, but beyond that I&#8217;m pretty much on to the next thing that&#8217;s on my list as soon as I deem it working. Like I say, it <em>sucks</em>.<a href="#fn:5" id="fnref:5" title="see footnote" class="footnote">[5]</a></p>
+
+<p>And this is where the second point from above comes into place. A lot of the stuff that&#8217;s on my list of things to learn are things I already have some or, in some cases, a lot of experience in, I just don&#8217;t feel like I have as deep of an understanding as I want, or it is a subject that I <em>really</em> want to be more proficient in.</p>
+
+<p>I&#8217;ll use an easy example: <em>Vim</em>. God, I <em>love</em> using Vim. I think it is by far the best editor I have ever used. But when I got started on it, I spent a couple of weeks reading and practicing the first few chapters of O&#8217;Reilly&#8217;s <em>Learning Vi and Vim</em> and watching videos on <a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/">Derek Wyatt&#8217;s Blog</a> and really dove into Vim. I even wrote a Vim cheat sheet for myself.</p>
+
+<p>But now, after Vim has been a part of my daily work for hours and hours, I&#8217;ve lost a lot of that thoughtfulness that went into it before. Sure my muscle memory is ridiculous when it comes to its use, but several times each day I bump into something while using it where I <em>know</em> there is a better way to do it but I feel that I don&#8217;t have time to research and learn it so I push on.</p>
+
+<p>The <em>insane</em> thing for me about getting a better understanding of Vim is that it absolutely <em>will</em> have a time payoff benefit. Vim may be my <em>most</em> important tool. It&#8217;s how I do anything with code. The more I know about how to make Vim bend to my will, the more efficient I will become. Why haven&#8217;t I spent the time on this?</p>
+
+<p>Now eventually, the learning voice does overwhelm the work voice because it just starts screaming at me.</p>
+
+<p>&#8220;<strong>STUDY, STUPID!</strong>&#8221; is usually what it sounds like.</p>
+
+<p>So then I break away from my coding routine and take some time to look at something. But it isn&#8217;t long before the voice of getting back to work is screaming at me again and there&#8217;s just no way I have had a chance to get any real depth. The cycle is appalling.</p>
+
+<p>I don&#8217;t have a clear solution here, unfortunately. This is reason the title states that this is about the <em>problems</em> of education. The way I figure, I have to find a way to silence the &#8220;work&#8221; voice by proving that the &#8220;study&#8221; voice makes me a better worker, even if the time spent studying doesn&#8217;t come out as a one to one correlation to the time spent thrashing.</p>
+
+<p><strong>UPDATE:</strong></p>
+
+<p>So as the bit before the cut mentions, for the moment I <em>have</em> found a way to get past this. Interestingly, it wasn&#8217;t by silencing the work voice, it was by changing that voice&#8217;s message.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn:1">
+<p>If you&#8217;re really unlucky, and I&#8217;ve lived this in the past, you have a boss who doesn&#8217;t understand development at all. All they want from you is product and it better not have a bug in it. You can do research on your own time. When you&#8217;re on &#8220;the clock&#8221; you better be writing lines of code, because that&#8217;s real work. <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:2">
+<p>Being totally deadline driven can be a major problem as well, but that discussion it outside the scope of this article. <a href="#fnref:2" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:3">
+<p>Truthfully, this sucks. <a href="#fnref:3" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:4">
+<p>The reality is that even if the time doesn&#8217;t even out, the time spent learning something new has so many more benefits than just getting the job done faster does. But this is outside the scope of this article. <a href="#fnref:4" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+<li id="fn:5">
+<p>Seriously, this sucks.  <a href="#fnref:5" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+
+<p><em>Image &#8220;N.Y. schools opening&#8221; from the <a href="http://www.flickr.com/photos/library_of_congress/4176254887/">Library of Congress Flickr Page</a></em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Adding a CNAME to your Octopress Blog]]></title>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: developers | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/developers/atom.xml" rel="self"/>
+  <title><![CDATA[Category: education | Thoughts of Geoff]]></title>
+  <link href="http://geopet.github.com/blog/categories/education/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
   <updated>2012-08-29T12:15:40-06:00</updated>
   <id>http://geopet.github.com/</id>
@@ -147,53 +147,6 @@
 
 
 <p><em>Image "N.Y. schools opening" from the <a href="http://www.flickr.com/photos/library_of_congress/4176254887/">Library of Congress Flickr Page</a></em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[On Sparrow and Google]]></title>
-    <link href="http://geopet.github.com/blog/2012/08/14/on-sparrow-and-google/"/>
-    <updated>2012-08-14T08:00:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/08/14/on-sparrow-and-google</id>
-    <content type="html"><![CDATA[<p>So at the end of last month (July 20, 2012) there was a disturbance in the indie developer force when the great iOS/OS X gmail skin/email client Sparrow was acquired by Google.</p>
-
-<p>I'll provide the text of their announcement at the end of this which you can (at the time of this writing) find <a href="http://sprw.me/">on their site</a>. The gist of the press release was that they'd been bought by Google, that they'd do one more bug fix and then they'd stop working on the Apple products and start working on other Gmail stuff for Google. As a side note, it was amusing to see the long list of "advisors" and investors that they thanked as well.</p>
-
-<p>Of course my initial reaction was disappointment. The iOS app they built was light-years ahead of the native Apple client and I found that the desktop client was a nice departure from OSX Mail. I was also excited when I saw they were heading toward a Sparrow iPad app. But, you know, Google apparently offered them all jobs and <a href="http://www.theverge.com/2012/7/20/3172365/sources-google-sparrow-25-million-gmail-client">something around $25 million</a> for them to stop working on their product.</p>
-
-<p>A large part of the chatter regarding this buyout was the argument that it is <em>really</em> hard to make it as an independent developer. There was also talk about how $25M really isn't that much money when all is said and done. And how this was something along the lines of a talent acquisition. I would agree with all of this.</p>
-
-<p>But after the dust has settled what we still have is this great small software group that was given enough to stop building for Apple. And this got me thinking, and you'll probably think I'm crazy, but I started to wonder if this could be a new business model for Google?</p>
-
-<p>And before you call bullshit on me, just consider it for a moment. Google is lousy at UI. Just look at how they screwed up Gmail and Reader. Sparrow is beautiful. It’s one of the reasons I enjoyed using it so much. Google is also working their asses off to make Android a legit contender to iOS. Some will say that Android is already competitive with iOS. I'm not going to waste my time with this argument. Furthermore, Google’s Android OS has a huge piracy issue on their hands right now, so many devs aren't interested in spending their time to watch their work be stolen by douchebags who won't drop $3.99 for their year and a half of work.</p>
-
-<p>So if you were one of the most wealthy companies on the planet and you were losing out due to lack of developer interest and a general lack of impacting talent in the UI department, why wouldn't you bring excellent UI and mobile app developers in house to make kick ass products for your own OS? Why wouldn't you start to cherry pick some of the exceptional talent that is out in the iOS space?</p>
-
-<p>I think it is possible that this is the beginning of a few other talent grabs by Google. I wouldn't be shocked if we saw the end of <a href="http://reederapp.com/">Reeder</a> and possibly <a href="http://vemedio.com/products/instacast">Instacast</a> (although I prefer <a href="http://www.downcastapp.com/">Downcast</a> for podcast players but Instacast seems to get the lion's share of mentions), and I  hope that the <a href="http://tapbots.com/">Tapbot</a> folk or the <a href="http://dayoneapp.com/">Day One</a> guys don't get caught in this as well. But by taking on this model, Google gets rid of the lousy Android piracy issue by giving these developers a massive hiring bonus and it gives them a regular paycheck for as long as they want to be Google employees. They never have to sell another app in a market again, but they get to keep building for the platform they love. I wouldn't blame anyone for accepting something like that. Plus, if Google makes this a culture thing, who's to say what else may change because of it?</p>
-
-<p>If this really becomes a thing, it will be interesting to see what Apple does as a response.</p>
-
-<hr />
-
-<p><strong>Sparrow Press Release</strong></p>
-
-<blockquote><p>We're excited to announce that Sparrow has been acquired by Google!</p>
-
-<p>We care a lot about how people communicate, and we did our best to provide you with the most intuitive and pleasurable mailing experience.</p>
-
-<p>Now we're joining the Gmail team to accomplish a bigger vision — one that we think we can better achieve with Google.</p>
-
-<p>We’d like to extend a special thanks to all of our users who have supported us, advised us, given us priceless feedback and allowed us to build a better mail application. While we’ll be working on new things at Google, we will continue to make Sparrow available and provide support for our users.</p>
-
-<p>We had an amazing ride and can't thank you enough.</p>
-
-<p>Full speed ahead!</p>
-
-<p>Dom Leca
-CEO
-Sparrow</p>
-
-<p><em>We also want to thank our advisors and investors — Loren Brichter, Dave Morin, John Maeda, Xavier Niel, Jérémie Berrebi — as well as our friends and family: Simon Istolainen, Jérémie Kanza, Sacha Cayre, Cedric Gepner, Laurent Merlinot, Didier Kuhn, Tariq Krim, Christophe Baillon, Laurent Cerveau, Christophe Giaume, Sebastien Maury, Manuel Colom, Bertrand Guiheneuf and all of you who have helped us along the way.</em></p></blockquote>
 ]]></content>
   </entry>
   
