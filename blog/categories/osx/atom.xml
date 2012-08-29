@@ -4,7 +4,7 @@
   <title><![CDATA[Category: OSX | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/osx/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2012-08-29T12:24:46-06:00</updated>
+  <updated>2012-08-29T12:36:10-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -22,9 +22,12 @@
 
 <p>I'm going to get a pretty nerdy here for a moment.</p>
 
-<p>So I dove in and I'm now using <a href="http://brettterpstra.com/project/nvalt/">nvALT</a>, <a href="http://www.secondgearsoftware.com/elements/">Elements</a> and <a href="http://git-scm.com/">Git</a> for
-my note taking needs. Aside from a few minor hiccups, which I'll address
-in a later post, this is really working nicely.</p>
+<p>So I dove in and I'm now using
+<a href="http://brettterpstra.com/project/nvalt/">nvALT</a>,
+<a href="http://www.secondgearsoftware.com/elements/">Elements</a> and
+<a href="http://git-scm.com/">Git</a> for my note taking needs. Aside from a few
+minor hiccups, which I'll address in a later post, this is really
+working nicely.</p>
 
 <p>The one thing that I needed when I added nvALT and Elements to my note
 taking workflow was the ability to easily continue version control with
@@ -32,8 +35,10 @@ Git. Before taking on this new process I was using Git in my notes
 directory and I wasn't about to lose that option now.</p>
 
 <p>But the ease which nvALT allows me to create new text files, and with
-nvALT built to work better with <a href="http://brettterpstra.com/break-up-your-text-documents/">smaller files</a>, I need some way to get my
-version control under control.<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote"><a href="http://brettterpstra.com/project/nvalt/">1</a></a></p>
+nvALT built to work better with <a href="http://brettterpstra.com/break-up-your-text-documents/">smaller
+files</a>, I need
+some way to get my version control under control.<a href="#fn:1"
+id="fnref:1" title="see footnote" class="footnote">[1]</a></p>
 
 <p>Here's what my workflow was:</p>
 
@@ -50,19 +55,21 @@ version control under control.<a href="#fn:1" id="fnref:1" title="see footnote" 
 <p>It wasn't really precision based. Plus it had the added detriment of
 taking me out of what I was doing to commit my notes.</p>
 
-<p>What I did<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote"><a href="http://www.secondgearsoftware.com/elements/">2</a></a> was create a Bash script and then used Automator to create a
+<p>What I did<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a> was create a Bash script and then used Automator to create a
 Service for it that I also applied a keyboard shortcut to.</p>
 
 <p>If you're still with me, here's how I did it:</p>
 
 <h2>The Reveal</h2>
 
-<p>First<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote"><a href="http://git-scm.com/">3</a></a>, create your Bash script.</p>
+<p>First<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">[3]</a>, create your Bash script.</p>
 
 <p>I keep all my notes in one directory. This is the way that nvALT and, it
 seems, Elements like to work. With some light taxonomy (ala <a href="http://macpowerusers.com/2011/03/mpu-046-workflows-with-merlin-mann-ii/">Merlin Mann
-and Mac Power Users</a>) I have a reasonably good system in place. All
-my notes are in a <a href="http://db.tt/eOrvceA">Dropbox</a> subdirectory called "notes."</p>
+and Mac Power
+Users</a>)
+I have a reasonably good system in place. All my notes are in a
+<a href="http://db.tt/eOrvceA">Dropbox</a> subdirectory called "notes."</p>
 
 <p>To get this to work I created a Bash script named <code>git_notes.sh</code> and put
 this in it:</p>
@@ -80,7 +87,7 @@ this is what it does.</p>
 
 <ol>
 <li>It makes sure that we'r in my notes directory using the absolute pathname.</li>
-<li>It stages only the modified files to the repository.<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote"><a href="http://brettterpstra.com/break-up-your-text-documents/">4</a></a></li>
+<li>It stages only the modified files to the repository.<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a></li>
 <li>It commits those changes and uses a standard message for my Git
 log file.</li>
 <li>The last line is where it gets a little silly, it appends to another
@@ -93,8 +100,9 @@ I do most of my commits for my notes file.</li>
 
 <p>But now that we have our Bash script. The rest is <em>trivial</em>.</p>
 
-<p>First, we open <a href="http://support.apple.com/kb/ht2488">Automator</a> and select "Service" as our document type
-under the "Choose a type for your document:"</p>
+<p>First, we open <a href="http://support.apple.com/kb/ht2488">Automator</a> and
+select "Service" as our document type under the "Choose a type for your
+document:"</p>
 
 <p><img class="center" src="/images/creating-a-service-01.png"></p>
 
