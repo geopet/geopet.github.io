@@ -6,7 +6,7 @@ comments: true
 categories: [Ruby, Objects, Hashes]
 ---
 
-Contrary to the date listed, the [previous post](http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/) about Python and dictionaries and PHP and associative arrays was written a few weeks back. I've since been spending more time with Ruby than with Python since.
+Contrary to the date listed, the [previous post](http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/) about Python and dictionaries and PHP and associative arrays was written a few weeks back. I've since been spending more time with Ruby.
 
 After posting that article about how tight the Python code was in order to build a string with just the right number of semicolons, I decided to see if I could do the same thing with Ruby.
 
