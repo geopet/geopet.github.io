@@ -9,7 +9,7 @@
   <meta name="author" content="Geoff Petrie">
 
   
-  <meta name="description" content="If you read my previous post on the challenge of education as a developer, you&#8217;ll know about my interested in the Python language and syntax. I &hellip;">
+  <meta name="description" content="Contrary to the date listed, the previous post about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&#8217;ve &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +77,62 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/09/25/the-ruby-hashes-case/">The Ruby Hashes Case</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-25T23:55:00-06:00" pubdate data-updated="true">Sep 25<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Contrary to the date listed, the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">previous post</a> about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&#8217;ve since been spending more time with Ruby than with Python since.</p>
+
+<p>After posting that article about how tight the Python code was in order to build a string with just the right number of semicolons, I decided to see if I could do the same thing with Ruby.</p>
+
+<p>This is the solution I came up with:</p>
+
+<pre><code>hash = {"server"=&gt;"gpetrie", "database"=&gt;"localhost", "uid"=&gt;"sa", "pwd"=&gt;"secret"}
+
+hash.each do |key, val|
+  if hash.length == 1
+    print "#{key}=#{val}\n"
+  else
+    print "#{key}=#{val}; "
+    hash.delete(key)
+  end
+end
+</code></pre>
+
+<p>I think I&#8217;m missing something here that would make this code much tighter. This looks very similar to the PHP code that I wrote as the solution in my previous article. There&#8217;s got to be a method that I&#8217;m not using that would allow me to dismiss the <code>delete</code> and the <code>hash.length</code> that I am using.</p>
+
+<p>If you have thoughts or suggestions, hit me up on <a href="https://twitter.com/geopet">Twitter</a> and let me know.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -896,45 +952,6 @@ worry about any files going away without my knowing. <a href="#fnref:4" title="r
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/09/20/temp-text-expander-tip/">Temp Text Expander Tip</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-09-20T16:00:00-06:00" pubdate data-updated="true">Sep 20<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><blockquote><p>Don’t hesitate to create temporary TextExpander snippets for a specific project, but put them in a ‘Temp’ folder so that you can easily delete them when done.</p></blockquote>
-
-<p>This is <em>such</em> a good idea.<br/>
-<a href="http://www.practicallyefficient.com/2011/08/30/1l-te/">One line at a time #16: TextExpander</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -955,6 +972,10 @@ worry about any files going away without my knowing. <a href="#fnref:4" title="r
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/09/25/the-ruby-hashes-case/">The Ruby Hashes Case</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/09/25/python-dictionaries/">Python Dictionaries, PHP Associative Arrays and Python Objects</a>
       </li>
     
@@ -968,10 +989,6 @@ worry about any files going away without my knowing. <a href="#fnref:4" title="r
     
       <li class="post">
         <a href="/blog/2012/08/22/adding-a-cname-to-your-octopress-blog/">Adding a CNAME to your Octopress Blog</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/08/21/starting-again-with-octopress/">Starting Again With Octopress</a>
       </li>
     
   </ul>

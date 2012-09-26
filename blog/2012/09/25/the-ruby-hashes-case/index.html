@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: introspection - Thoughts of Geoff</title>
+  <title>The Ruby Hashes Case - Thoughts of Geoff</title>
   <meta name="author" content="Geoff Petrie">
 
   
-  <meta name="description" content="Category: introspection">
+  <meta name="description" content="Contrary to the date listed, the previous post about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&#8217;ve &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://geopet.github.comblog/categories/introspection/">
+  <link rel="canonical" href="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -76,35 +76,104 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Introspection</h1>
+    
+      <h1 class="entry-title">The Ruby Hashes Case</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-25T23:55:00-06:00" pubdate data-updated="true">Sep 25<span>th</span>, 2012</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>Contrary to the date listed, the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">previous post</a> about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&#8217;ve since been spending more time with Ruby than with Python since.</p>
 
-  
-  <h2>2012</h2>
+<p>After posting that article about how tight the Python code was in order to build a string with just the right number of semicolons, I decided to see if I could do the same thing with Ruby.</p>
 
-<article>
-  
-<h1><a href="/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/">On the Problems of Education in a Developer's World</a></h1>
-<time datetime="2012-08-29T11:31:00-06:00" pubdate><span class='month'>Aug</span> <span class='day'>29</span> <span class='year'>2012</span></time>
+<p>This is the solution I came up with:</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/developers/'>developers</a>, <a class='category' href='/blog/categories/education/'>education</a>, <a class='category' href='/blog/categories/introspection/'>introspection</a></span>
-</footer>
+<pre><code>hash = {"server"=&gt;"gpetrie", "database"=&gt;"localhost", "uid"=&gt;"sa", "pwd"=&gt;"secret"}
 
+hash.each do |key, val|
+  if hash.length == 1
+    print "#{key}=#{val}\n"
+  else
+    print "#{key}=#{val}; "
+    hash.delete(key)
+  end
+end
+</code></pre>
 
-</article>
+<p>I think I&#8217;m missing something here that would make this code much tighter. This looks very similar to the PHP code that I wrote as the solution in my previous article. There&#8217;s got to be a method that I&#8217;m not using that would allow me to dismiss the <code>delete</code> and the <code>hash.length</code> that I am using.</p>
 
+<p>If you have thoughts or suggestions, hit me up on <a href="https://twitter.com/geopet">Twitter</a> and let me know.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Geoff Petrie</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-25T23:55:00-06:00" pubdate data-updated="true">Sep 25<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/hashes/'>Hashes</a>, <a class='category' href='/blog/categories/objects/'>Objects</a>, <a class='category' href='/blog/categories/ruby/'>Ruby</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/09/25/python-dictionaries/" title="Previous Post: Python Dictionaries, PHP Associative Arrays and Python Objects">&laquo; Python Dictionaries, PHP Associative Arrays and Python Objects</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>

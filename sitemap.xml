@@ -2,82 +2,86 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://geopet.github.com/blog/2011/03/18/in-search-of-the-open-source-project/</loc>
-        <lastmod>2012-08-20T22:54:56-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2011/04/03/object-quote/</loc>
-        <lastmod>2012-08-20T22:51:09-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2011/04/05/helpful-linux-commands/</loc>
-        <lastmod>2012-08-20T22:49:28-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2011/05/10/learning-git/</loc>
-        <lastmod>2012-08-20T22:44:31-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2011/09/02/icloud/</loc>
-        <lastmod>2012-08-20T23:16:14-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2011/09/07/little-details/</loc>
-        <lastmod>2012-08-27T23:06:11-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2011/09/20/nvalt-quick-tip/</loc>
-        <lastmod>2012-08-27T23:02:30-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2011/09/20/temp-text-expander-tip/</loc>
-        <lastmod>2012-08-20T22:27:21-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>
             http://geopet.github.com/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control/
         </loc>
-        <lastmod>2012-08-29T12:35:58-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2011/10/12/great-tip-on-apple-ids/</loc>
-        <lastmod>2012-08-20T22:17:08-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2011/12/14/why-i-love-gweek/</loc>
-        <lastmod>2012-08-20T22:17:25-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2012/08/14/on-sparrow-and-google/</loc>
-        <lastmod>2012-08-20T22:16:21-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2012/08/21/starting-again-with-octopress/</loc>
-        <lastmod>2012-08-21T22:18:22-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2012/08/22/adding-a-cname-to-your-octopress-blog/</loc>
-        <lastmod>2012-08-22T17:05:28-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>
             http://geopet.github.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/
         </loc>
-        <lastmod>2012-08-29T12:13:35-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2012/09/04/some-quick-git-tips/</loc>
-        <lastmod>2012-09-04T23:36:38-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/2012/09/25/python-dictionaries/</loc>
-        <lastmod>2012-09-25T20:56:06-06:00</lastmod>
+        <lastmod>2012-09-25T23:53:52-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/</loc>
+        <lastmod>2012-09-26T00:17:21-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/blog/archives/</loc>
-        <lastmod>2012-09-25T20:56:06-06:00</lastmod>
+        <lastmod>2012-09-26T00:17:21-06:00</lastmod>
     </url>
     <url>
         <loc>http://geopet.github.com/</loc>
-        <lastmod>2012-09-25T20:56:06-06:00</lastmod>
+        <lastmod>2012-09-26T00:17:21-06:00</lastmod>
     </url>
 </urlset>
