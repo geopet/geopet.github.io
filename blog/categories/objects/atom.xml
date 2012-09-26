@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Objects | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/objects/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2012-09-26T00:17:47-06:00</updated>
+  <updated>2012-09-26T00:19:38-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -18,7 +18,7 @@
     <link href="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/"/>
     <updated>2012-09-25T23:55:00-06:00</updated>
     <id>http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case</id>
-    <content type="html"><![CDATA[<p>Contrary to the date listed, the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">previous post</a> about Python and dictionaries and PHP and associative arrays was written a few weeks back. I've since been spending more time with Ruby than with Python since.</p>
+    <content type="html"><![CDATA[<p>Contrary to the date listed, the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">previous post</a> about Python and dictionaries and PHP and associative arrays was written a few weeks back. I've since been spending more time with Ruby.</p>
 
 <p>After posting that article about how tight the Python code was in order to build a string with just the right number of semicolons, I decided to see if I could do the same thing with Ruby.</p>
 
