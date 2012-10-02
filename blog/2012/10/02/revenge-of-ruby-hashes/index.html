@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Revenge of Ruby Hashes - Thoughts of Geoff</title>
+  <meta name="author" content="Geoff Petrie">
+
+  
+  <meta name="description" content="Because I can&#8217;t seem to let this go, I continued to research the
+challenge I was dealing with a few days back
+where I was trying to get the &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://geopet.github.com/blog/2012/10/02/revenge-of-ruby-hashes/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Thoughts of Geoff" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2059328-12']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Thoughts of Geoff</a></h1>
+  
+    <h2>Some writing by Geoff Petrie</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:geopet.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="http://geoffpetrie.com">About Geoff</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Revenge of Ruby Hashes</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-02T17:02:00-06:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Because I can&#8217;t seem to let this go, I continued to research the
+challenge I was dealing with a <a href="http://blog.geoffpetrie.com/blog/2012/09/25/the-ruby-hashes-case/">few days back</a>
+where I was trying to get the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">cool python trick</a>
+to work with Ruby hashes.</p>
+
+<p>After scrubbing the Ruby documentation a more carefully, it seems that
+Ruby hashes and Python dictionaries are not entirely identical.  Most
+importantly, Ruby hashes don&#8217;t have the same string methods that Python
+dictionaries do. Meaning: Ruby hashes and Python dictionaries, while
+similar, may be more of an apples and oranges sort of comparison.</p>
+
+<p>With this in mind, I tried to trim up the code I wrote the last time to
+produce the same output. This is what I came up with:</p>
+
+<figure class='code'><figcaption><span>The New Semi-Colon Goodness semicolon2.rb </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">hash</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;server&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;gpetrie&quot;</span><span class="p">,</span> <span class="s2">&quot;database&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;localhost&quot;</span><span class="p">,</span> <span class="s2">&quot;uid&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;sa&quot;</span><span class="p">,</span> <span class="s2">&quot;pwd&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;secret&quot;</span><span class="p">}</span>
+</span><span class='line'><span class="n">arr</span> <span class="o">=</span> <span class="nb">Array</span><span class="o">.</span><span class="n">new</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">hash</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">key</span><span class="p">,</span> <span class="n">val</span><span class="o">|</span>
+</span><span class='line'>  <span class="n">arr</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">key</span><span class="si">}</span><span class="s2">=</span><span class="si">#{</span><span class="n">val</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">puts</span> <span class="n">arr</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot;; &quot;</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>What I&#8217;m doing here is forcing myself to work within the confines of the
+initial premiss that the values are given to me in a hash. I convert the
+hash to an array and then use the join method on the array to do what I
+want to do to get the output that I want. <em>Semi-colon success achieved!</em></p>
+
+<p>I think we can generally agree that this is better than the option I
+proposed previously:</p>
+
+<figure class='code'><figcaption><span>The Old Semi-Colon Badness semicolon.rb </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">hash</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;server&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;gpetrie&quot;</span><span class="p">,</span> <span class="s2">&quot;database&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;localhost&quot;</span><span class="p">,</span> <span class="s2">&quot;uid&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;sa&quot;</span><span class="p">,</span> <span class="s2">&quot;pwd&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;secret&quot;</span><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">hash</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">key</span><span class="p">,</span> <span class="n">val</span><span class="o">|</span>
+</span><span class='line'>  <span class="k">if</span> <span class="nb">hash</span><span class="o">.</span><span class="n">length</span> <span class="o">==</span> <span class="mi">1</span>
+</span><span class='line'>    <span class="nb">print</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">key</span><span class="si">}</span><span class="s2">=</span><span class="si">#{</span><span class="n">val</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span>
+</span><span class='line'>  <span class="k">else</span>
+</span><span class='line'>    <span class="nb">print</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">key</span><span class="si">}</span><span class="s2">=</span><span class="si">#{</span><span class="n">val</span><span class="si">}</span><span class="s2">; &quot;</span>
+</span><span class='line'>    <span class="nb">hash</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>For my money, the new snippet is much more readable and is just a smidge
+more compact. A win on all sides.</p>
+
+<p>I probably won&#8217;t be returning to this subject again in the near term
+(unless I find out I&#8217;m totally wrong here), but expect more Ruby focused
+conversation coming up regularly here while I work my way through the
+language.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Geoff Petrie</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-02T17:02:00-06:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/hashes/'>Hashes</a>, <a class='category' href='/blog/categories/objects/'>Objects</a>, <a class='category' href='/blog/categories/ruby/'>Ruby</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2012/10/02/revenge-of-ruby-hashes/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2012/10/02/revenge-of-ruby-hashes/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/09/25/the-ruby-hashes-case/" title="Previous Post: The Ruby Hashes Case">&laquo; The Ruby Hashes Case</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>About Me</h1>
+  <p>I'm a software developer and a technical manager. I like <em>a lot</em> of different things. This space is for me to have a place to write about those things.</p>
+  <p>You can find out more about me by going to <a href="http://geoffpetrie.com">geoffpetrie.com</a></p>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/10/02/revenge-of-ruby-hashes/">Revenge of Ruby Hashes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/25/the-ruby-hashes-case/">The Ruby Hashes Case</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/25/python-dictionaries/">Python Dictionaries, PHP Associative Arrays and Python Objects</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/04/some-quick-git-tips/">Git Tip: Use Prune to Update Local Repo Branches</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/">On the Problems of Education in a Developer's World</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("geopet", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/geopet" class="twitter-follow-button" data-show-count="false">Follow @geopet</a>
+  
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/geopet">@geopet</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'geopet',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Geoff Petrie -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
