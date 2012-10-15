@@ -4,7 +4,7 @@
   <title><![CDATA[Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2012-10-02T17:35:19-06:00</updated>
+  <updated>2012-10-14T21:24:03-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -12,6 +12,82 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git Tips: Tagging]]></title>
+    <link href="http://geopet.github.com/blog/2012/10/14/git-tips-tagging/"/>
+    <updated>2012-10-14T21:06:00-06:00</updated>
+    <id>http://geopet.github.com/blog/2012/10/14/git-tips-tagging</id>
+    <content type="html"><![CDATA[<p>File this under the <em>I&#8217;m always referencing this, so I&#8217;m going to do a
+quick post about it</em> category.</p>
+
+<p>Tagging in Git is super powerful and can save your butt. Here are a few
+commands that I use often but never seem to remember.</p>
+
+<p><strong>List</strong> all your tags:</p>
+
+<p><code>git tag</code></p>
+
+<hr />
+
+<p><strong>Create</strong> a tag:</p>
+
+<p><code>git tag -a v1.4</code></p>
+
+<hr />
+
+<p><strong>Push</strong> tags:</p>
+
+<p><code>git push origin v1.4</code></p>
+
+<p>or</p>
+
+<p><code>git push origin --tags</code></p>
+
+<hr />
+
+<p><strong>Checkout</strong> a tag:</p>
+
+<p><code>git checkout -b v1.4</code></p>
+
+<hr />
+
+<p><strong>Deleting</strong> a tag</p>
+
+<p><code>git tag -d v1.4</code></p>
+
+<hr />
+
+<p><strong>Deleting</strong> a <em>remote</em> tag</p>
+
+<p><code>git push origin :v1.4</code></p>
+
+<hr />
+
+<p><strong>Search</strong> for <em>specific</em> tags:</p>
+
+<p><code>git tag -l 'v1.0.2'</code></p>
+
+<hr />
+
+<p><strong>See</strong> tag <em>data</em>:</p>
+
+<p><code>git show v1.4</code></p>
+
+<hr />
+
+<p><strong>Retroactively</strong> tag:</p>
+
+<p><code>git tag -a v1.4 &lt;&lt;checksum&gt;&gt;</code></p>
+
+<hr />
+
+<p>A couple of nice references on tagging:</p>
+
+<p><a href="http://git-scm.com/book/en/Git-Basics-Tagging">Git Basics - Tagging</a><br/>
+<a href="http://gitready.com/beginner/2009/02/03/tagging.html">Git Ready - Tagging</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Revenge of Ruby Hashes]]></title>

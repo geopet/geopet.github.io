@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>The Ruby Hashes Case - Thoughts of Geoff</title>
+  <title>Git Tips: Tagging - Thoughts of Geoff</title>
   <meta name="author" content="Geoff Petrie">
 
   
-  <meta name="description" content="Contrary to the date listed, the previous post about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&#8217;ve &hellip;">
+  <meta name="description" content="File this under the I&#8217;m always referencing this, so I&#8217;m going to do a
+quick post about it category. Tagging in Git is super powerful and &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/">
+  <link rel="canonical" href="http://geopet.github.com/blog/2012/10/14/git-tips-tagging/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -80,7 +81,7 @@
   
   <header>
     
-      <h1 class="entry-title">The Ruby Hashes Case</h1>
+      <h1 class="entry-title">Git Tips: Tagging</h1>
     
     
       <p class="meta">
@@ -96,34 +97,81 @@
   
 
 
-<time datetime="2012-09-25T23:55:00-06:00" pubdate data-updated="true">Sep 25<span>th</span>, 2012</time>
+<time datetime="2012-10-14T21:06:00-06:00" pubdate data-updated="true">Oct 14<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Contrary to the date listed, the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">previous post</a> about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&#8217;ve since been spending more time with Ruby.</p>
+<div class="entry-content"><p>File this under the <em>I&#8217;m always referencing this, so I&#8217;m going to do a
+quick post about it</em> category.</p>
 
-<p>After posting that article about how tight the Python code was in order to build a string with just the right number of semicolons, I decided to see if I could do the same thing with Ruby.</p>
+<p>Tagging in Git is super powerful and can save your butt. Here are a few
+commands that I use often but never seem to remember.</p>
 
-<p>This is the solution I came up with:</p>
+<p><strong>List</strong> all your tags:</p>
 
-<pre><code>hash = {"server"=&gt;"gpetrie", "database"=&gt;"localhost", "uid"=&gt;"sa", "pwd"=&gt;"secret"}
+<p><code>git tag</code></p>
 
-hash.each do |key, val|
-  if hash.length == 1
-    print "#{key}=#{val}\n"
-  else
-    print "#{key}=#{val}; "
-    hash.delete(key)
-  end
-end
-</code></pre>
+<hr />
 
-<p>I think I&#8217;m missing something here that would make this code much tighter. This looks very similar to the PHP code that I wrote as the solution in my previous article. There&#8217;s got to be a method that I&#8217;m not using that would allow me to dismiss the <code>delete</code> and the <code>hash.length</code> that I am using.</p>
+<p><strong>Create</strong> a tag:</p>
 
-<p>If you have thoughts or suggestions, hit me up on <a href="https://twitter.com/geopet">Twitter</a> and let me know.</p>
+<p><code>git tag -a v1.4</code></p>
+
+<hr />
+
+<p><strong>Push</strong> tags:</p>
+
+<p><code>git push origin v1.4</code></p>
+
+<p>or</p>
+
+<p><code>git push origin --tags</code></p>
+
+<hr />
+
+<p><strong>Checkout</strong> a tag:</p>
+
+<p><code>git checkout -b v1.4</code></p>
+
+<hr />
+
+<p><strong>Deleting</strong> a tag</p>
+
+<p><code>git tag -d v1.4</code></p>
+
+<hr />
+
+<p><strong>Deleting</strong> a <em>remote</em> tag</p>
+
+<p><code>git push origin :v1.4</code></p>
+
+<hr />
+
+<p><strong>Search</strong> for <em>specific</em> tags:</p>
+
+<p><code>git tag -l 'v1.0.2'</code></p>
+
+<hr />
+
+<p><strong>See</strong> tag <em>data</em>:</p>
+
+<p><code>git show v1.4</code></p>
+
+<hr />
+
+<p><strong>Retroactively</strong> tag:</p>
+
+<p><code>git tag -a v1.4 &lt;&lt;checksum&gt;&gt;</code></p>
+
+<hr />
+
+<p>A couple of nice references on tagging:</p>
+
+<p><a href="http://git-scm.com/book/en/Git-Basics-Tagging">Git Basics - Tagging</a><br/>
+<a href="http://gitready.com/beginner/2009/02/03/tagging.html">Git Ready - Tagging</a></p>
 </div>
 
 
@@ -146,12 +194,12 @@ end
   
 
 
-<time datetime="2012-09-25T23:55:00-06:00" pubdate data-updated="true">Sep 25<span>th</span>, 2012</time>
+<time datetime="2012-10-14T21:06:00-06:00" pubdate data-updated="true">Oct 14<span>th</span>, 2012</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/hashes/'>Hashes</a>, <a class='category' href='/blog/categories/objects/'>Objects</a>, <a class='category' href='/blog/categories/ruby/'>Ruby</a>
+    <a class='category' href='/blog/categories/git/'>Git</a>, <a class='category' href='/blog/categories/tagging/'>Tagging</a>, <a class='category' href='/blog/categories/tips/'>Tips</a>
   
 </span>
 
@@ -160,7 +208,7 @@ end
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2012/10/14/git-tips-tagging/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2012/10/14/git-tips-tagging/" >Tweet</a>
   
   
   
@@ -169,10 +217,8 @@ end
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/09/25/python-dictionaries/" title="Previous Post: Python Dictionaries, PHP Associative Arrays and Python Objects">&laquo; Python Dictionaries, PHP Associative Arrays and Python Objects</a>
+        <a class="basic-alignment left" href="/blog/2012/10/02/revenge-of-ruby-hashes/" title="Previous Post: Revenge of Ruby Hashes">&laquo; Revenge of Ruby Hashes</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2012/10/02/revenge-of-ruby-hashes/" title="Next Post: Revenge of Ruby Hashes">Revenge of Ruby Hashes &raquo;</a>
       
     </p>
   </footer>

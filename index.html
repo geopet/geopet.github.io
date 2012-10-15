@@ -9,9 +9,8 @@
   <meta name="author" content="Geoff Petrie">
 
   
-  <meta name="description" content="Because I can&#8217;t seem to let this go, I continued to research the
-challenge I was dealing with a few days back
-where I was trying to get the &hellip;">
+  <meta name="description" content="File this under the I&#8217;m always referencing this, so I&#8217;m going to do a
+quick post about it category. Tagging in Git is super powerful and &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +78,109 @@ where I was trying to get the &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/10/14/git-tips-tagging/">Git Tips: Tagging</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-14T21:06:00-06:00" pubdate data-updated="true">Oct 14<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>File this under the <em>I&#8217;m always referencing this, so I&#8217;m going to do a
+quick post about it</em> category.</p>
+
+<p>Tagging in Git is super powerful and can save your butt. Here are a few
+commands that I use often but never seem to remember.</p>
+
+<p><strong>List</strong> all your tags:</p>
+
+<p><code>git tag</code></p>
+
+<hr />
+
+<p><strong>Create</strong> a tag:</p>
+
+<p><code>git tag -a v1.4</code></p>
+
+<hr />
+
+<p><strong>Push</strong> tags:</p>
+
+<p><code>git push origin v1.4</code></p>
+
+<p>or</p>
+
+<p><code>git push origin --tags</code></p>
+
+<hr />
+
+<p><strong>Checkout</strong> a tag:</p>
+
+<p><code>git checkout -b v1.4</code></p>
+
+<hr />
+
+<p><strong>Deleting</strong> a tag</p>
+
+<p><code>git tag -d v1.4</code></p>
+
+<hr />
+
+<p><strong>Deleting</strong> a <em>remote</em> tag</p>
+
+<p><code>git push origin :v1.4</code></p>
+
+<hr />
+
+<p><strong>Search</strong> for <em>specific</em> tags:</p>
+
+<p><code>git tag -l 'v1.0.2'</code></p>
+
+<hr />
+
+<p><strong>See</strong> tag <em>data</em>:</p>
+
+<p><code>git show v1.4</code></p>
+
+<hr />
+
+<p><strong>Retroactively</strong> tag:</p>
+
+<p><code>git tag -a v1.4 &lt;&lt;checksum&gt;&gt;</code></p>
+
+<hr />
+
+<p>A couple of nice references on tagging:</p>
+
+<p><a href="http://git-scm.com/book/en/Git-Basics-Tagging">Git Basics - Tagging</a><br/>
+<a href="http://gitready.com/beginner/2009/02/03/tagging.html">Git Ready - Tagging</a></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -796,46 +898,6 @@ Sparrow</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/10/12/great-tip-on-apple-ids/">Great Tip on Apple IDs</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-10-12T12:48:00-06:00" pubdate data-updated="true">Oct 12<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><blockquote><p>But what if I share my Apple ID?</p>
-
-<p>If you use your Apple ID on multiple devices to buy apps (say, if you have one central account for your, your spouse’s, and your children’s purchases), it’s best not to convert it into an iCloud account. Although your installed iCloud account is, by default, the one you’ll use to purchase music and apps with, you can still manually sign in and out of the App and iTunes Stores on your device. Instead, you should create an entirely separate account to use with iCloud.</p></blockquote>
-
-<p>Awesome tip from Macworld&#8217;s <a href="http://www.macworld.com/article/162963/2011/10/meet_icloud_apples_new_sync_service.html">Getting started with iCloud, Apple&#8217;s new sync service</a> article.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -856,6 +918,10 @@ Sparrow</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/10/14/git-tips-tagging/">Git Tips: Tagging</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/10/02/revenge-of-ruby-hashes/">Revenge of Ruby Hashes</a>
       </li>
     
@@ -869,10 +935,6 @@ Sparrow</p>
     
       <li class="post">
         <a href="/blog/2012/09/04/some-quick-git-tips/">Git Tip: Use Prune to Update Local Repo Branches</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/">On the Problems of Education in a Developer&#8217;s World</a>
       </li>
     
   </ul>
