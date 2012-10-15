@@ -28,5 +28,32 @@ The next step is to change your `Gemfile` located in the top directory
 of your Octopress files.  Simply add `gem 'thin'` to the development
 group and save the changes. 
 
+This is what your `Gemfile` should look like now if you're running
+Octopress 2.0 without any changes up to this point:
+
+{% codeblock lang:ruby %}
+source "http://rubygems.org"
+
+group :development do
+  gem 'rake', '~> 0.9.2'
+  gem 'rack', '~> 1.4.1'
+  gem 'jekyll', '~> 0.11.2'
+  gem 'rdiscount', '~> 1.6.8'
+  gem 'pygments.rb', '~> 0.2.12'
+  gem 'RedCloth', '~> 4.2.9'
+  gem 'haml', '~> 3.1.6'
+  gem 'compass', '~> 0.12.1'
+  gem 'rubypants', '~> 0.2.0'
+  gem 'rb-fsevent', '~> 0.9'
+  gem 'stringex', '~> 1.4.0'
+  gem 'liquid', '~> 2.3.0'
+  gem 'thin'
+end
+
+gem 'sinatra', '~> 1.3.2'
+{% endcodeblock %}
+
 The next time you run `rake preview` your blog on
-<http://localhost:4000> should run smooth as silk.
+<http://localhost:4000> should run smooth as silk on the Thin server.
+
+Enjoy your sweet, speedy, dev environment!
