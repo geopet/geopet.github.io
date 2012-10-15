@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: octopress | Thoughts of Geoff]]></title>
+  <title><![CDATA[Category: Octopress | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2012-10-14T21:43:29-06:00</updated>
+  <updated>2012-10-14T21:50:09-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -14,29 +14,61 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Adding a CNAME to your Octopress Blog]]></title>
-    <link href="http://geopet.github.com/blog/2012/08/22/adding-a-cname-to-your-octopress-blog/"/>
-    <updated>2012-08-22T16:42:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/08/22/adding-a-cname-to-your-octopress-blog</id>
-    <content type="html"><![CDATA[<p>This option isn't terribly well explained in the <a href="http://octopress.org/docs/deploying/github/">Octopress documentation</a>, and slightly confusing within the <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">Github</a>.</p>
+    <title type="html"><![CDATA[Octopress: Change the Default Preview Server]]></title>
+    <link href="http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server/"/>
+    <updated>2012-10-14T21:27:00-06:00</updated>
+    <id>http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server</id>
+    <content type="html"><![CDATA[<p>Another quick tip for people using <a href="http://octopress.org/">Octopress</a>:</p>
 
-<p>So that I could get <em>blog.geoffpetrie.com</em> to work as my url to my Octopress blog hosted by Github at <em>geopet.github.com</em>, I needed to go to my current hosting service. In my case this is currently <a href="http://www.dreamhost.com/r.cgi?1197623">Dreamhost</a>.</p>
+<p>If you're running Octopress on Mac OSX you may be running into some real
+performance issues when you run the <code>rake preview</code> command to check your
+posts locally before you run the <code>rake deploy</code> to get things up and
+running live. This is because, for whatever reason, the
+<a href="http://en.wikipedia.org/wiki/WEBrick">Webrick</a> server runs slowly on
+XCode 4.2+. I haven't dived deep into finding a solution for this
+because I found a nice fix.</p>
 
-<p>Since I wasn't changing my top-level domain (TLD), I wanted to keep <em>geoffpetrie.com</em> pointed at my hosting service, I wanted to add a subdomain, i.e., <em>blog</em> to my domain name server (DNS) run by Dreamhost.</p>
+<p>First, run <code>gem install thin</code> from your command line.</p>
 
-<p>I went into the DNS configuration in the Dreamhost cpanel and added <em>blog</em> as the <strong>name/record</strong>, <em>CNAME</em> as the <strong>type</strong> and <em>geopet.github.com</em> as the <strong>value</strong>.</p>
+<p>This command will install the <a href="http://code.macournoyer.com/thin/">Ruby Thin Server</a>. This server is what I use
+for my Rails testing as well and it works exactly the way I want it to.
+(I have read many recommendations on using <a href="http://pow.cx/">Pow</a> as
+well, but I haven't spent the time looking into it so I can't personally
+recommend it yet.)</p>
 
-<p>This is the first step, and once the DNS is refreshed your new subdomain (in my case <em>blog.geoffpetrie.com</em>) will start pointing to a Github 404.</p>
+<p>The next step is to change your <code>Gemfile</code> located in the top directory
+of your Octopress files.  Simply add <code>gem 'thin'</code> to the development
+group and save the changes.</p>
 
-<p>The next step is to add the CNAME to your Octopress <em>master</em> branch. This is surprisingly simple, but not completely intuitive. In the top level of the <em>source</em> branch, you want to use the command:</p>
+<p>This is what your <code>Gemfile</code> should look like now if you're running
+Octopress 2.0 without any changes up to this point:</p>
 
-<p><code>echo 'blog.geoffpetrie.com' &gt;&gt; source/CNAME</code></p>
+<p>{% codeblock lang:ruby %}
+source "http://rubygems.org"</p>
 
-<p>Of course you're going to use your own subdomain instead of <em>blog.geoffpetrie.com</em>. This command will create the CNAME file in your source directory with the url that you want to direct people to.</p>
+<p>group :development do
+  gem 'rake', '~> 0.9.2'
+  gem 'rack', '~> 1.4.1'
+  gem 'jekyll', '~> 0.11.2'
+  gem 'rdiscount', '~> 1.6.8'
+  gem 'pygments.rb', '~> 0.2.12'
+  gem 'RedCloth', '~> 4.2.9'
+  gem 'haml', '~> 3.1.6'
+  gem 'compass', '~> 0.12.1'
+  gem 'rubypants', '~> 0.2.0'
+  gem 'rb-fsevent', '~> 0.9'
+  gem 'stringex', '~> 1.4.0'
+  gem 'liquid', '~> 2.3.0'
+  gem 'thin'
+end</p>
 
-<p>After this all that's needed is <code>rake generate</code> and <code>rake deploy</code>. (You may as well commit to your source branch after this.)</p>
+<p>gem 'sinatra', '~> 1.3.2'
+{% endcodeblock %}</p>
 
-<p>Wait a couple of minutes for things to work their way through DNS and Github's world and you'll be looking at your Octopress blog on your own domain.</p>
+<p>The next time you run <code>rake preview</code> your blog on
+<a href="http://localhost:4000">http://localhost:4000</a> should run smooth as silk on the Thin server.</p>
+
+<p>Enjoy your sweet, speedy, dev environment!</p>
 ]]></content>
   </entry>
   

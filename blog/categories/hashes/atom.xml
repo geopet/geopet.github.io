@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Hashes | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/hashes/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2012-10-14T21:42:12-06:00</updated>
+  <updated>2012-10-14T21:50:09-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -32,24 +32,16 @@ similar, may be more of an apples and oranges sort of comparison.</p>
 <p>With this in mind, I tried to trim up the code I wrote the last time to
 produce the same output. This is what I came up with:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>The New Semi-Colon Goodness semicolon2.rb </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">hash</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;server&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;gpetrie&quot;</span><span class="p">,</span> <span class="s2">&quot;database&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;localhost&quot;</span><span class="p">,</span> <span class="s2">&quot;uid&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;sa&quot;</span><span class="p">,</span> <span class="s2">&quot;pwd&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;secret&quot;</span><span class="p">}</span>
-</span><span class='line'><span class="n">arr</span> <span class="o">=</span> <span class="nb">Array</span><span class="o">.</span><span class="n">new</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="sr">&lt;p&gt;hash.each do |key, val|</span>
-</span><span class='line'><span class="sr">  arr &amp;lt;&amp;lt; &quot;</span><span class="si">#{</span><span class="n">key</span><span class="si">}</span><span class="sr">=</span><span class="si">#{</span><span class="n">val</span><span class="si">}</span><span class="sr">&quot;</span>
-</span><span class='line'><span class="sr">end&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="nb">puts</span> <span class="n">arr</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot;; &quot;</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock The New Semi-Colon Goodness semicolon2.rb %}
+hash = {"server"=>"gpetrie", "database"=>"localhost", "uid"=>"sa", "pwd"=>"secret"}
+arr = Array.new</p>
+
+<p>hash.each do |key, val|
+  arr &lt;&lt; "#{key}=#{val}"
+end</p>
+
+<p>puts arr.join("; ")
+{% endcodeblock %}</p>
 
 <p>What I'm doing here is forcing myself to work within the confines of the
 initial premiss that the values are given to me in a hash. I convert the
@@ -59,40 +51,24 @@ want to do to get the output that I want. <em>Semi-colon success achieved!</em><
 <p>I think we can generally agree that this is better than the option I
 proposed previously:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>The Old Semi-Colon Badness semicolon.rb </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">hash</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;server&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;gpetrie&quot;</span><span class="p">,</span> <span class="s2">&quot;database&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;localhost&quot;</span><span class="p">,</span> <span class="s2">&quot;uid&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;sa&quot;</span><span class="p">,</span> <span class="s2">&quot;pwd&quot;</span><span class="o">=&gt;</span><span class="s2">&quot;secret&quot;</span><span class="p">}</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="sr">&lt;p&gt;hash.each do |key, val|</span>
-</span><span class='line'><span class="sr">  if hash.length == 1&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="nb">print</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">key</span><span class="si">}</span><span class="s2">=</span><span class="si">#{</span><span class="n">val</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span>
-</span><span class='line'><span class="o">&lt;</span><span class="sr">/code&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>  <span class="k">else</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="sr">&lt;pre&gt;&lt;code&gt;print &quot;</span><span class="si">#{</span><span class="n">key</span><span class="si">}</span><span class="sr">=</span><span class="si">#{</span><span class="n">val</span><span class="si">}</span><span class="sr">; &quot;</span>
-</span><span class='line'><span class="sr">hash.delete(key)</span>
-</span><span class='line'><span class="sr">&lt;/</span><span class="n">code</span><span class="o">&gt;&lt;</span><span class="sr">/pre&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="sr">&lt;p&gt;  end</span>
-</span><span class='line'><span class="sr">end</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock The Old Semi-Colon Badness semicolon.rb %}
+hash = {"server"=>"gpetrie", "database"=>"localhost", "uid"=>"sa", "pwd"=>"secret"}</p>
+
+<p>hash.each do |key, val|
+  if hash.length == 1</p>
+
+<pre><code>print "#{key}=#{val}\n"
+</code></pre>
+
+<p>  else</p>
+
+<pre><code>print "#{key}=#{val}; "
+hash.delete(key)
+</code></pre>
+
+<p>  end
+end
+{% endcodeblock %}</p>
 
 <p>For my money, the new snippet is much more readable and is just a smidge
 more compact. A win on all sides.</p>
