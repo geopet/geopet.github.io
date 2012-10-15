@@ -4,7 +4,7 @@
   <title><![CDATA[Category: prune | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/prune/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2012-10-14T21:50:09-06:00</updated>
+  <updated>2012-10-14T21:59:59-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -18,7 +18,7 @@
     <link href="http://geopet.github.com/blog/2012/09/04/some-quick-git-tips/"/>
     <updated>2012-09-04T21:46:00-06:00</updated>
     <id>http://geopet.github.com/blog/2012/09/04/some-quick-git-tips</id>
-    <content type="html"><![CDATA[<p>{% img center /images/git-prune.jpg [pruning the stale branches] %}</p>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/git-prune.jpg" title="[pruning the stale branches]" ></p>
 
 <p>I have multiple places where I work and I use <a href="http://git-scm.com/">Git</a> to support that. The general Git workflow I've adopted is similar to the one <a href="http://scottchacon.com/2011/08/31/github-flow.html">Scott Chacon describes</a>.</p>
 

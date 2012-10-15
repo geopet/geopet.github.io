@@ -4,7 +4,7 @@
   <title><![CDATA[Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2012-10-14T21:49:23-06:00</updated>
+  <updated>2012-10-14T21:59:59-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -24,7 +24,7 @@
 performance issues when you run the <code>rake preview</code> command to check your
 posts locally before you run the <code>rake deploy</code> to get things up and
 running live. This is because, for whatever reason, the
-<a href="http://en.wikipedia.org/wiki/WEBrick">Webrick</a> server runs slowly on
+<a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/webrick/rdoc/index.html">WEBrick</a> server runs slowly on
 XCode 4.2+. I haven&#8217;t dived deep into finding a solution for this
 because I found a nice fix.</p>
 
@@ -85,7 +85,9 @@ Octopress 2.0 without any changes up to this point:</p>
 
 
 <p>The next time you run <code>rake preview</code> your blog on
-<a href="http://localhost:4000">http://localhost:4000</a> should run smooth as silk.</p>
+<a href="http://localhost:4000">http://localhost:4000</a> should run smooth as silk on the Thin server.</p>
+
+<p>Enjoy your sweet, speedy, dev environment!</p>
 ]]></content>
   </entry>
   
