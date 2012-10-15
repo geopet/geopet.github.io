@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: education - Thoughts of Geoff</title>
+  <title>Octopress: Change the Default Preview Server - Thoughts of Geoff</title>
   <meta name="author" content="Geoff Petrie">
 
   
-  <meta name="description" content="Category: education">
+  <meta name="description" content="Another quick tip for people using Octopress: If you&#8217;re running Octopress on Mac OSX you may be running into some real
+performance issues when &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://geopet.github.comblog/categories/education/">
+  <link rel="canonical" href="http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -76,35 +77,107 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Education</h1>
+    
+      <h1 class="entry-title">Octopress: Change the Default Preview Server</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-14T21:27:00-06:00" pubdate data-updated="true">Oct 14<span>th</span>, 2012</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>Another quick tip for people using <a href="http://octopress.org/">Octopress</a>:</p>
 
-  
-  <h2>2012</h2>
+<p>If you&#8217;re running Octopress on Mac OSX you may be running into some real
+performance issues when you run the <code>rake preview</code> command to check your
+posts locally before you run the <code>rake deploy</code> to get things up and
+running live. This is because, for whatever reason, the
+<a href="http://en.wikipedia.org/wiki/WEBrick">Webrick</a> server runs slowly on
+XCode 4.2+. I haven&#8217;t dived deep into finding a solution for this
+because I found a nice fix.</p>
 
-<article>
-  
-<h1><a href="/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/">On the Problems of Education in a Developer's World</a></h1>
-<time datetime="2012-08-29T11:31:00-06:00" pubdate><span class='month'>Aug</span> <span class='day'>29</span> <span class='year'>2012</span></time>
+<p>First, run <code>gem install thin</code> from your command line.</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/developers/'>developers</a>, <a class='category' href='/blog/categories/education/'>education</a>, <a class='category' href='/blog/categories/introspection/'>introspection</a></span>
-</footer>
+<p>This command will install the <a href="http://code.macournoyer.com/thin/">Ruby Thin Server</a>. This server is what I use
+for my Rails testing as well and it works exactly the way I want it to.
+(I have read many recommendations on using <a href="http://pow.cx/">Pow</a> as
+well, but I haven&#8217;t spent the time looking into it so I can&#8217;t personally
+recommend it yet.)</p>
 
+<p>The next step is to change your <code>Gemfile</code> located in the top directory
+of your Octopress files.  Simply add <code>gem 'thin'</code> to the development
+group and save the changes.</p>
 
-</article>
-
+<p>The next time you run <code>rake preview</code> your blog on
+<a href="http://localhost:4000">http://localhost:4000</a> should run smooth as silk.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Geoff Petrie</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-14T21:27:00-06:00" pubdate data-updated="true">Oct 14<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/octopress/'>Octopress</a>, <a class='category' href='/blog/categories/tip/'>Tip</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/10/14/git-tips-tagging/" title="Previous Post: Git Tips: Tagging">&laquo; Git Tips: Tagging</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>

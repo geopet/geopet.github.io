@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Service | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/service/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2012-10-14T21:24:03-06:00</updated>
+  <updated>2012-10-14T21:43:29-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -104,18 +104,18 @@ I do most of my commits for my notes file.</li>
 select "Service" as our document type under the "Choose a type for your
 document:"</p>
 
-<p><img class="center" src="/images/creating-a-service-01.png"></p>
+<p>{% img center /images/creating-a-service-01.png %}</p>
 
 <p>Next, we're going to change the "Service receives" from the default
 "text" to "no input". Leave the "in" "any application" as it is.</p>
 
-<p><img class="center" src="/images/creating-a-service-02.png"></p>
+<p>{% img center /images/creating-a-service-02.png %}</p>
 
 <p>Penultimately, we click "Utilities" under the left-side "Library" dropdown and
 then drag the "Run Shell Script" from the middle column over to the
 right side.</p>
 
-<p><img class="center" src="/images/creating-a-service-03.png"></p>
+<p>{% img center /images/creating-a-service-03.png %}</p>
 
 <p>Lastly, we enter in the location of the script in the workflow. It's a
 good idea to use the absolute pathname here. In my case it was
@@ -126,7 +126,7 @@ of your application menus. Click on the Service and it will do a Git
 commit of all the changes to that notes directory as well as update the
 faux log file we've created for the day.</p>
 
-<p><img class="center" src="/images/creating-a-service-04.png"></p>
+<p>{% img center /images/creating-a-service-04.png %}</p>
 
 <p>But I don't like to use the mouse/trackpad that much. So the final touch
 to this is to create a keyboard shortcut in your System Preferences. Go
@@ -138,7 +138,7 @@ field. You can use anything you want for your shortcut, but I chose
 control-option-command-shift-s for mine to avoid any chance of a
 keyboard conflict.</p>
 
-<p><img class="center" src="/images/creating-a-service-05.png"></p>
+<p>{% img center /images/creating-a-service-05.png %}</p>
 
 <h2>Conclusion</h2>
 

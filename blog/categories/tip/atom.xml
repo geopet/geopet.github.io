@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tip | Thoughts of Geoff]]></title>
+  <link href="http://geopet.github.com/blog/categories/tip/atom.xml" rel="self"/>
+  <link href="http://geopet.github.com/"/>
+  <updated>2012-10-14T21:42:12-06:00</updated>
+  <id>http://geopet.github.com/</id>
+  <author>
+    <name><![CDATA[Geoff Petrie]]></name>
+    <email><![CDATA[g.petrie@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress: Change the Default Preview Server]]></title>
+    <link href="http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server/"/>
+    <updated>2012-10-14T21:27:00-06:00</updated>
+    <id>http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server</id>
+    <content type="html"><![CDATA[<p>Another quick tip for people using <a href="http://octopress.org/">Octopress</a>:</p>
+
+<p>If you're running Octopress on Mac OSX you may be running into some real
+performance issues when you run the <code>rake preview</code> command to check your
+posts locally before you run the <code>rake deploy</code> to get things up and
+running live. This is because, for whatever reason, the
+<a href="http://en.wikipedia.org/wiki/WEBrick">Webrick</a> server runs slowly on
+XCode 4.2+. I haven't dived deep into finding a solution for this
+because I found a nice fix.</p>
+
+<p>First, run <code>gem install thin</code> from your command line.</p>
+
+<p>This command will install the <a href="http://code.macournoyer.com/thin/">Ruby Thin Server</a>. This server is what I use
+for my Rails testing as well and it works exactly the way I want it to.
+(I have read many recommendations on using <a href="http://pow.cx/">Pow</a> as
+well, but I haven't spent the time looking into it so I can't personally
+recommend it yet.)</p>
+
+<p>The next step is to change your <code>Gemfile</code> located in the top directory
+of your Octopress files.  Simply add <code>gem 'thin'</code> to the development
+group and save the changes.</p>
+
+<p>The next time you run <code>rake preview</code> your blog on
+<a href="http://localhost:4000">http://localhost:4000</a> should run smooth as silk.</p>
+]]></content>
+  </entry>
+  
+</feed>
