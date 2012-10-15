@@ -12,7 +12,7 @@ If you're running Octopress on Mac OSX you may be running into some real
 performance issues when you run the `rake preview` command to check your
 posts locally before you run the `rake deploy` to get things up and
 running live. This is because, for whatever reason, the
-[WEBrick](http://en.wikipedia.org/wiki/WEBrick) server runs slowly on
+[WEBrick](http://www.ruby-doc.org/stdlib-1.9.3/libdoc/webrick/rdoc/index.html) server runs slowly on
 XCode 4.2+. I haven't dived deep into finding a solution for this
 because I found a nice fix.
 
