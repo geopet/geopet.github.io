@@ -4,7 +4,7 @@
   <title><![CDATA[Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2012-11-14T20:40:45-07:00</updated>
+  <updated>2013-01-18T10:56:12-07:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Some Thoughts on Ego]]></title>
+    <link href="http://geopet.github.com/blog/2013/01/18/thoughts-on-ego/"/>
+    <updated>2013-01-18T10:36:00-07:00</updated>
+    <id>http://geopet.github.com/blog/2013/01/18/thoughts-on-ego</id>
+    <content type="html"><![CDATA[<p>To categorically define <em>Ego</em> is out of the scope of this writing. In order to make things easier on myself, and hopefully you, I will attempt to elucidate my meaning through example. But so that we&#8217;re all starting on the same foot, when I say ego I am referring to the informal and negative connotation of the word.</p>
+
+<p>Why am I talking about ego?</p>
+
+<p>For months now I have been trying to write about my journey as a newbie in the Ruby programming language. I have more than half a dozen starts to what should be a simple short piece of writing. All I wanted to do was provide some preamble so that I could then post the video I used as an entry into the <a href="http://rubyrogues.com/ruby-nuby-project/">Ruby Nuby</a> contest that the <a href="http://rubyrogues.com/">Ruby Rogues</a> podcast put together in October of last year. For some reason every time I attempted to write this article it came out feeling wrong. I&#8217;m going to try a different take on this subject now.</p>
+
+<p>Several months ago I decided that I needed to broaden my professional horizons. I had been singularly focused on a few programming languages for far too long. I knew I needed to break out of that sedentary place and that there was a fundamental element I was missing. The problem: I didn&#8217;t know what that element was.</p>
+
+<p>Now I say that several months ago I decided to do something, but the reality is that I have known for years that I could be doing more. <em>This</em> is where ego comes into play.</p>
+
+<p>Ego may be the <em>single biggest impediment to improvement</em>.</p>
+
+<p>Ego prevents us from asking questions. It prevents us from seeking out help. It stops us from acting in an empathetic way. Ego encourages us to be know-it-alls.</p>
+
+<p>The astounding thing about ego is how difficult it is to counteract it. If you call someone out on their ego, what is driving that? There is likely a healthy dose of ego fueling the accusation that someone is filled with hubris. &#8220;This person is interfering with my greatness, I need to tell them to drop their ego!&#8221; At least that&#8217;s what I&#8217;ve tended to hear when someone has talked about another&#8217;s ego with me.</p>
+
+<p>But for me, I believe ego has significantly impaired my ability to level up or move forward. I never wanted to accept that I was the least informed, or educated, person in the room. Often times I was being paid to be the most knowledgable person only to realize that I was maybe just slightly more experienced in the subject. Often I was either on even footing or worse! In these situations it wasn&#8217;t unusual if I found personal security in grabbing my ego tight and running with it. An opportunity for learning? I think not! I would have been more comfortable either attempting to look contemplative, while really just being confused, or, even worse, I would have attempted to derail conversations to a place where I was more familiar.</p>
+
+<p>Was this always the case for me? No. Of course not. But in hindsight it happen more than it should have.</p>
+
+<p>So why am I writing about this?</p>
+
+<p>Ultimately breaking the ego chain was what I needed to write about when I have been trying to talk about starting fresh with Ruby. Yes, embracing newbiness requires a dismissal of ego. But the direction doesn&#8217;t go newbie to ego. It is the other way around! <em>Ego must go before</em> you can consider being a newbie of anything.</p>
+
+<p>I wish I could say that dumping your ego was easy and that it felt good. Sometimes it does. It certainly depends on the people around you. Having a supportive group does make things simpler.</p>
+
+<p>As a programmer it is tough to dismiss the ego outright. We pride ourselves on reviewing someone&#8217;s code and finding a bug, or figuring out a more elegant way to write the same method or class. Our ego is what drives us to solve problems! If I didn&#8217;t think I couldn&#8217;t do something I hadn&#8217;t done before I would never have made it in this profession at all. This is a time that ego is a benefit. Ego that pushes us, that drives us to become more than we are, that&#8217;s something we can embrace. Looking at it in this sense, it isn&#8217;t incorrect to say that ego is what is driving me to dismiss my ego now. How odd!</p>
+
+<p>So in an effort to move past my typical embarrassment of asking questions that clearly show I don&#8217;t understand a subject with any sort of depth, or to try something, with varying degrees of success, just so that I can work on that particular skill, I am making a concerted effort to dismiss my ego. I made the video I&#8217;m embedding below with this in mind as well.</p>
+
+<p>I want to continue to live a fulfilling life. In order for me to do that I need to know that I won&#8217;t allow something as insignificant as my ego get in the way of asking a question that could lead to a path of new experiences.</p>
+
+<p>At the end of the day this is all about being a happier person.</p>
+
+<p>Thanks for reading.</p>
+
+<p>And here&#8217;s the video that I&#8217;ve been wanting to post here for months:</p>
+
+<!-- more -->
+
+
+
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/8enQ96-xOOw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>As a side note, I&#8217;ll be a guest on the Ruby Rogues next week and the show will air probably at the end of the month.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Vim - Precision Editing Video]]></title>
@@ -1549,29 +1604,6 @@ $ git checkout &lt;SHA-1&gt; &lt;file name&gt;
 
 <p>Provides an abbreviated SHA-1 of your git log, a nice thing to have when
 you&#8217;re trying to choose specific commits.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Helpful Linux Commands]]></title>
-    <link href="http://geopet.github.com/blog/2011/04/05/helpful-linux-commands/"/>
-    <updated>2011-04-05T14:30:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2011/04/05/helpful-linux-commands</id>
-    <content type="html"><![CDATA[<p>I was asked to give a bunch of detail on a server that I use so that I could request permission to participate in migrating some of the web work I do onto a new CMS. The requests seemed fine, but the form provided no way of easily estimating the file numbers they requested. I used these linux commands to find the details I needed:</p>
-
-<p><code>find . -type f -name '*.php' | wc -l</code> gave me the number of files I had in the directory with .php file extensions.</p>
-
-<p><code>du /var/www/html/ -ch | grep total</code> gave me the total amount of disk space being used in the directory in &#8220;human readable&#8221; format.</p>
-
-<p><code>/sbin/ifconfig</code> gave me the ip address of the server the information was currently sitting on.</p>
-
-<p>I had to look up the first one, I didn&#8217;t know how to get down to that sort of granularity, but I think the others are worthy of documenting here in case someone finds some use in them.</p>
-
-<p>I was then informed about this:</p>
-
-<blockquote><p>Fun fact: &#8220;find -name -type&#8221; is way faster than &#8220;find -type -name&#8221; because it avoids doing a stat() call if the name doesn&#8217;t match. stat() on a file that isn&#8217;t already in RAM likely triggers a seek and can take beaucoup milliseconds.</p></blockquote>
-
-<p>Which is an awesome tip from a person who had been reading the blog.</p>
 ]]></content>
   </entry>
   

@@ -9,7 +9,7 @@
   <meta name="author" content="Geoff Petrie">
 
   
-  <meta name="description" content="So at the end of last month (July 20, 2012) there was a disturbance in the indie developer force when the great iOS/OS X gmail skin/email client &hellip;">
+  <meta name="description" content="Moving my Tumblr to Octopress seems to be a bit more of a chore than I had initially expected. My journey into Jekyll turned out to be something that &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +77,48 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/08/21/starting-again-with-octopress/">Starting Again With Octopress</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-21T22:01:00-06:00" pubdate data-updated="true">Aug 21<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Moving my <a href="http://faceofgeoff.com">Tumblr</a> to <a href="https://github.com/imathis/octopress">Octopress</a> seems to be a bit more of a chore than I had initially expected. My journey into <a href="https://github.com/mojombo/jekyll">Jekyll</a> turned out to be something that required more time that I could commit at this very moment, so I decided to take a quicker path to getting a better blogging workflow into my life by implementing some really exceptional work done <a href="http://brandonmathis.com/">Brandon Mathis</a> in Octopress as recommended by my friend <a href="http://brianarn.github.com/">Brian Arnold</a>.</p>
+
+<p>Still, this is a new application that I haven&#8217;t had a chance to really kick the tires on. I tried to grab the less family specific pieces from the Tumblr I kept, and the more bloggy pieces from there. There is more work to be done on that front. For one, I need to get some of the original images from there for the technical pieces that I took screen captures of. In the mean time I&#8217;ll see if I can get URLs back to the original Tumblr pieces if there is any interest in that at all.</p>
+
+<p>While I would love to spend time tweaking this install of Octopress, I suspect that I&#8217;ll spend the time I do have writing rather than tweaking for the moment. Forward progression is key for me right now, even though this is something I should dive deeper into.</p>
+
+<p>If I ignore what I said above and fall into the abyss, I will post the tricks I find along the way.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -812,56 +854,6 @@ From my perspective, this is worth your time to understand.</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/04/05/helpful-linux-commands/">Helpful Linux Commands</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-04-05T14:30:00-06:00" pubdate data-updated="true">Apr 5<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I was asked to give a bunch of detail on a server that I use so that I could request permission to participate in migrating some of the web work I do onto a new CMS. The requests seemed fine, but the form provided no way of easily estimating the file numbers they requested. I used these linux commands to find the details I needed:</p>
-
-<p><code>find . -type f -name '*.php' | wc -l</code> gave me the number of files I had in the directory with .php file extensions.</p>
-
-<p><code>du /var/www/html/ -ch | grep total</code> gave me the total amount of disk space being used in the directory in &#8220;human readable&#8221; format.</p>
-
-<p><code>/sbin/ifconfig</code> gave me the ip address of the server the information was currently sitting on.</p>
-
-<p>I had to look up the first one, I didn&#8217;t know how to get down to that sort of granularity, but I think the others are worthy of documenting here in case someone finds some use in them.</p>
-
-<p>I was then informed about this:</p>
-
-<blockquote><p>Fun fact: &#8220;find -name -type&#8221; is way faster than &#8220;find -type -name&#8221; because it avoids doing a stat() call if the name doesn&#8217;t match. stat() on a file that isn&#8217;t already in RAM likely triggers a seek and can take beaucoup milliseconds.</p></blockquote>
-
-<p>Which is an awesome tip from a person who had been reading the blog.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -884,6 +876,10 @@ From my perspective, this is worth your time to understand.</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/01/18/thoughts-on-ego/">Some Thoughts on Ego</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/11/14/vim-precision-editing-video/">Vim - Precision Editing Video</a>
       </li>
     
@@ -897,10 +893,6 @@ From my perspective, this is worth your time to understand.</p>
     
       <li class="post">
         <a href="/blog/2012/10/02/revenge-of-ruby-hashes/">Revenge of Ruby Hashes</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/09/25/the-ruby-hashes-case/">The Ruby Hashes Case</a>
       </li>
     
   </ul>
@@ -962,7 +954,7 @@ From my perspective, this is worth your time to understand.</p>
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Geoff Petrie -
+  Copyright &copy; 2013 - Geoff Petrie -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
