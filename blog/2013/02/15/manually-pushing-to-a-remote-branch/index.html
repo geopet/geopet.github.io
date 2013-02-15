@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Fixing a Slow Localhost Webrick Server - Thoughts of Geoff</title>
+  <title>Manually Pushing to a Remote Git Branch - Thoughts of Geoff</title>
   <meta name="author" content="Geoff Petrie">
 
   
-  <meta name="description" content="For the longest time I could not get Webrick to work for me. It would boot up with rails s but would take several seconds for even the default &hellip;">
+  <meta name="description" content="If you have a heavy feature branch you may end up being in a place where your master local branch is actually another branch in your distributed repo &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://geopet.github.com/blog/2013/01/30/fixing-a-slow-localhost-webrick-server/">
+  <link rel="canonical" href="http://geopet.github.com/blog/2013/02/15/manually-pushing-to-a-remote-branch/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -80,7 +80,7 @@
   
   <header>
     
-      <h1 class="entry-title">Fixing a Slow Localhost Webrick Server</h1>
+      <h1 class="entry-title">Manually Pushing to a Remote Git Branch</h1>
     
     
       <p class="meta">
@@ -96,32 +96,30 @@
   
 
 
-<time datetime="2013-01-30T23:16:00-07:00" pubdate data-updated="true">Jan 30<span>th</span>, 2013</time>
+<time datetime="2013-02-15T11:40:00-07:00" pubdate data-updated="true">Feb 15<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>For the longest time I could not get Webrick to work for me. It would boot up with <code>rails s</code> but would take several seconds for even the default landing page of a rails app to load. It was terrible.</p>
+<div class="entry-content"><p>If you have a heavy feature branch you may end up being in a place where your master local branch is actually another branch in your distributed repo. This can be confusing and cause challenges when pushing changes to your remote.</p>
 
-<p>I resorted to using <a href="http://code.macournoyer.com/thin/">Thin</a> as my default browser by making sure it was in all my Gem files, but I still wanted to figure out why Webrick simply wouldn&#8217;t work for me. (Truth is, Thin is a better web server, but I still wanted to get Webrick to work for me.)</p>
+<p>What you might see when you run <code>git remote show origin</code> is something like your Fetch URL and your Push URL are pointing to the same repo, and your local branch is properly configured for git pull, but git push is off.  It&#8217;ll probably say something like:</p>
 
-<p>Searching for &#8220;webrick slow&#8221; brought up a possible solution via <a href="http://stackoverflow.com/a/3465134/887078">Stack Overflow</a>. Basically you change the <code>:DoNotReverseLookup</code> symbol in your global Webrick config from <code>nil</code> to <code>true</code>.</p>
+<p><code>master pushes to master (local out of date)</code></p>
 
-<p>If you&#8217;re on OS X Lion you&#8217;ll find the Webrick configuration here:</p>
+<p>Now there are ways to configure push and use tracking, but this is how to properly push to a remote branch manually that you&#8217;re not tracking locally:</p>
 
-<p><code>~/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/config.rb</code></p>
+<p><code>git push origin &lt;local_branch_name&gt;:&lt;remote_branch_name&gt;</code></p>
 
-<p>I found the <code>:DoNotReverseLookup</code> configuration on line 36.</p>
+<p>or:</p>
 
-<p>Once I made the change Webrick was screaming fast. I&#8217;m pretty happy about it.</p>
+<p><code>git push origin master:web_site</code></p>
 
-<p>I still haven&#8217;t found the definitive reason why this problem is occurring, but at least this change appears to fix things for me.</p>
+<p>This pushes your local branch <code>master</code> to the remote branch <code>web_site</code> on the remote repo <code>origin</code>.</p>
 
-<hr />
-
-<p>Please note, depending on the version of Ruby you&#8217;re running <code>ruby-1.9.3-p362</code> could be something different. Just as long as you&#8217;re changing the <code>confg.rb</code> file in the <code>webrick/</code> directory, you should be fine.</p>
+<p>And that&#8217;s it!</p>
 </div>
 
 
@@ -144,12 +142,12 @@
   
 
 
-<time datetime="2013-01-30T23:16:00-07:00" pubdate data-updated="true">Jan 30<span>th</span>, 2013</time>
+<time datetime="2013-02-15T11:40:00-07:00" pubdate data-updated="true">Feb 15<span>th</span>, 2013</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/fix/'>fix</a>, <a class='category' href='/blog/categories/localhost/'>localhost</a>, <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/webrick/'>webrick</a>
+    <a class='category' href='/blog/categories/branching/'>branching</a>, <a class='category' href='/blog/categories/git/'>git</a>
   
 </span>
 
@@ -158,7 +156,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2013/01/30/fixing-a-slow-localhost-webrick-server/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2013/01/30/fixing-a-slow-localhost-webrick-server/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2013/02/15/manually-pushing-to-a-remote-branch/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2013/02/15/manually-pushing-to-a-remote-branch/" >Tweet</a>
   
   
   
@@ -167,10 +165,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/01/18/thoughts-on-ego/" title="Previous Post: Some Thoughts on Ego">&laquo; Some Thoughts on Ego</a>
+        <a class="basic-alignment left" href="/blog/2013/01/30/fixing-a-slow-localhost-webrick-server/" title="Previous Post: Fixing a Slow Localhost Webrick Server">&laquo; Fixing a Slow Localhost Webrick Server</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2013/02/15/manually-pushing-to-a-remote-branch/" title="Next Post: Manually Pushing to a Remote Git Branch">Manually Pushing to a Remote Git Branch &raquo;</a>
       
     </p>
   </footer>
