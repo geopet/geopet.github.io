@@ -9,7 +9,7 @@
   <meta name="author" content="Geoff Petrie">
 
   
-  <meta name="description" content="Another quick tip for people using Octopress: If you&#8217;re running Octopress on Mac OSX you may be running into some real
+  <meta name="description" content="Another quick tip for people using Octopress: If you&rsquo;re running Octopress on Mac OSX you may be running into some real
 performance issues when &hellip;">
   
 
@@ -19,13 +19,14 @@ performance issues when &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server/">
+  <link rel="canonical" href="http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Thoughts of Geoff" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -106,12 +107,12 @@ performance issues when &hellip;">
 
 <div class="entry-content"><p>Another quick tip for people using <a href="http://octopress.org/">Octopress</a>:</p>
 
-<p>If you&#8217;re running Octopress on Mac OSX you may be running into some real
+<p>If you&rsquo;re running Octopress on Mac OSX you may be running into some real
 performance issues when you run the <code>rake preview</code> command to check your
 posts locally before you run the <code>rake deploy</code> to get things up and
 running live. This is because, for whatever reason, the
 <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/webrick/rdoc/index.html">WEBrick</a> server runs slowly on
-XCode 4.2+. I haven&#8217;t dived deep into finding a solution for this
+XCode 4.2+. I haven&rsquo;t dived deep into finding a solution for this
 because I found a nice fix.</p>
 
 <p>First, run <code>gem install thin</code> from your command line.</p>
@@ -119,14 +120,14 @@ because I found a nice fix.</p>
 <p>This command will install the <a href="http://code.macournoyer.com/thin/">Ruby Thin Server</a>. This server is what I use
 for my Rails testing as well and it works exactly the way I want it to.
 (I have read many recommendations on using <a href="http://pow.cx/">Pow</a> as
-well, but I haven&#8217;t spent the time looking into it so I can&#8217;t personally
+well, but I haven&rsquo;t spent the time looking into it so I can&rsquo;t personally
 recommend it yet.)</p>
 
 <p>The next step is to change your <code>Gemfile</code> located in the top directory
 of your Octopress files.  Simply add <code>gem 'thin'</code> to the development
 group and save the changes.</p>
 
-<p>This is what your <code>Gemfile</code> should look like now if you&#8217;re running
+<p>This is what your <code>Gemfile</code> should look like now if you&rsquo;re running
 Octopress 2.0 without any changes up to this point:</p>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -210,7 +211,7 @@ Octopress 2.0 without any changes up to this point:</p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server/" >Tweet</a>
   
   
   
@@ -234,7 +235,7 @@ Octopress 2.0 without any changes up to this point:</p>
   
     <section>
   <h1>About Me</h1>
-  <p>I'm a software developer and a technical manager. I like <em>a lot</em> of different things. This space is for me to have a place to write about those things.</p>
+  <p>I am a web programmer and a technical manager. I like <em>a lot</em> of different things. This space is for me to have a place to write about those things.</p>
   <p>You can find out more about me by going to <a href="http://geoffpetrie.com">geoffpetrie.com</a></p>
 </section>
 <section>
@@ -290,7 +291,7 @@ Octopress 2.0 without any changes up to this point:</p>
   <a href="https://github.com/geopet">@geopet</a> on GitHub
   
   <script type="text/javascript">
-    $.domReady(function(){
+    $(document).ready(function(){
         if (!window.jXHR){
             var jxhr = document.createElement('script');
             jxhr.type = 'text/javascript';
@@ -309,9 +310,6 @@ Octopress 2.0 without any changes up to this point:</p>
   </script>
   <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
-
-
-
 
 
   
@@ -339,7 +337,7 @@ Octopress 2.0 without any changes up to this point:</p>
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: introspection | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/introspection/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2013-02-15T11:43:32-07:00</updated>
+  <updated>2013-07-28T00:12:47-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -22,32 +22,32 @@
 
 <h2>How the Learning Voice Needs to Roundhouse Kick the Work Voice in the Face</h2>
 
-<p><img class="center" src="/images/on_the_problems_of_education_in_a_developers_world-loc-classroom.jpg" title="N.Y. schools opening" alt="N.Y. schools opening"></p>
+<p><img class="center" src="/images/on_the_problems_of_education_in_a_developers_world-loc-classroom.jpg" title="[500] [366] &lsquo;N.Y. schools opening&rsquo; &lsquo;N.Y. schools opening&rsquo;" ></p>
 
 <p><strong>Preface:</strong></p>
 
-<p>As a little background, I wrote the post below about a week or two ago. I've been sitting on it since.</p>
+<p>As a little background, I wrote the post below about a week or two ago. I&rsquo;ve been sitting on it since.</p>
 
 <p>The gist of the post is about my frustration in trying to get better or even keep up with skills and tools. I was blaming my deadlines and commitments for getting in the way.</p>
 
 <p>While I was writing this post I came to the realization that only <em>I</em> could really make a difference in the jammed feeling I had. Deadlines will never go away. Commitments will never end. If I really wanted to pick up and understand something, then <em>I</em> had to make that happen for myself. No one else would do that for me.</p>
 
-<p>So in the past couple of weeks I started to look at <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a> and then I rebuilt my <a href="http://geoffpetrie.com">personal site</a> on it. (Bootstrap is amazing. I can't recommend it more highly.) I took a couple of hours and got <a href="http://octopress.org/">Octopress</a> in place and moved my more substantial writing from my old <a href="http://faceofgeoff.com">Tumblr</a> and put it in place <em>right</em> here. Additionally, I have started to take a more serious look at Python again. I also started to build and put up on GitHub a little <a href="http://dayoneapp.com/">Day One</a> journal service pack that I'm having a ball building. Finally, I'm also seriously looking at <a href="https://developer.mozilla.org/en-US/docs/HTML/Canvas">Canvas</a> and I am trying to figure out a way to prototype a Canvas web app that uses <a href="https://developer.mozilla.org/en-US/docs/WebSockets">WebSockets</a>.</p>
+<p>So in the past couple of weeks I started to look at <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a> and then I rebuilt my <a href="http://geoffpetrie.com">personal site</a> on it. (Bootstrap is amazing. I can&rsquo;t recommend it more highly.) I took a couple of hours and got <a href="http://octopress.org/">Octopress</a> in place and moved my more substantial writing from my old <a href="http://faceofgeoff.com">Tumblr</a> and put it in place <em>right</em> here. Additionally, I have started to take a more serious look at Python again. I also started to build and put up on GitHub a little <a href="http://dayoneapp.com/">Day One</a> journal service pack that I&rsquo;m having a ball building. Finally, I&rsquo;m also seriously looking at <a href="https://developer.mozilla.org/en-US/docs/HTML/Canvas">Canvas</a> and I am trying to figure out a way to prototype a Canvas web app that uses <a href="https://developer.mozilla.org/en-US/docs/WebSockets">WebSockets</a>.</p>
 
-<p>This effort has significantly improved my spirit. I'm feeling creative and rejuvenated. While the deadlines haven't gone away, I feel like I'm not deadline bound in my day any more. There are tons of new project possibilities out there now. It's invigorating.</p>
+<p>This effort has significantly improved my spirit. I&rsquo;m feeling creative and rejuvenated. While the deadlines haven&rsquo;t gone away, I feel like I&rsquo;m not deadline bound in my day any more. There are tons of new project possibilities out there now. It&rsquo;s invigorating.</p>
 
-<p>I had considered dumping this post entirely, but I thought it might be worth posting just to see where my head was at when I wrote this a few weeks back. I know I'm not the only person who gets in these sorts of ruts. Maybe this will resonate with someone else and they'll be able to pull themselves into their creative zone like I seem to be doing now.</p>
+<p>I had considered dumping this post entirely, but I thought it might be worth posting just to see where my head was at when I wrote this a few weeks back. I know I&rsquo;m not the only person who gets in these sorts of ruts. Maybe this will resonate with someone else and they&rsquo;ll be able to pull themselves into their creative zone like I seem to be doing now.</p>
 
 <!-- more -->
 
 
 <h3>TL; DR</h3>
 
-<p>I have a long list of things I want to learn or get better at but I'm worried about taking time away from my current deadlines and obligations to really learn this stuff well. I know I'm not alone here, but I don't have a good solution to this. The real take-away for me has been to accept that while thrashing and coming up with a solution for the moment may potentially take less time initially, the better, and less overall time intensive solution, is to take more time on the front end to really learn the tool and solution you want to implement.</p>
+<p>I have a long list of things I want to learn or get better at but I&rsquo;m worried about taking time away from my current deadlines and obligations to really learn this stuff well. I know I&rsquo;m not alone here, but I don&rsquo;t have a good solution to this. The real take-away for me has been to accept that while thrashing and coming up with a solution for the moment may potentially take less time initially, the better, and less overall time intensive solution, is to take more time on the front end to really learn the tool and solution you want to implement.</p>
 
 <h3>Full Text</h3>
 
-<p>I'm frustrated. Here's why:</p>
+<p>I&rsquo;m frustrated. Here&rsquo;s why:</p>
 
 <p>This is an abbreviated list of stuff I currently want to learn or get deeper into:</p>
 
@@ -57,66 +57,66 @@
 
 <ol>
 <li>As I said, this is an <em>abbreviated</em> list.</li>
-<li>I know a some of this stuff already. Some of it I know quite well, actually. I'll touch on this point in a bit.</li>
-<li>This is <em>only</em> my development interests. This doesn't cover the dozens of other hobbies I have as well.</li>
+<li>I know a some of this stuff already. Some of it I know quite well, actually. I&rsquo;ll touch on this point in a bit.</li>
+<li>This is <em>only</em> my development interests. This doesn&rsquo;t cover the dozens of other hobbies I have as well.</li>
 </ol>
 
 
-<p>So this is my dilemma: There is so much stuff to learn and so many things I <em>want</em> to learn so that I can maintain a positive forward direction in my development skill set, but I'm finding myself increasingly jammed for time. This jammed for time has less to do with needing better time management skills, and more to do with the fact that deadlines (some reasonable, others not so much) are giving me a feeling that there is no opportunity to stop and properly capture a skill.</p>
+<p>So this is my dilemma: There is so much stuff to learn and so many things I <em>want</em> to learn so that I can maintain a positive forward direction in my development skill set, but I&rsquo;m finding myself increasingly jammed for time. This jammed for time has less to do with needing better time management skills, and more to do with the fact that deadlines (some reasonable, others not so much) are giving me a feeling that there is no opportunity to stop and properly capture a skill.</p>
 
 <p>So what do you do?</p>
 
-<p>In the time you make for yourself you read blogs, and stack overflow, and documentation, and you network, and you read Twitter. But you have to limit the amount of time you do spend on those resources because while you're doing that, there is a little voice in the back of your head that is screaming at you to be <em>doing</em> something.</p>
+<p>In the time you make for yourself you read blogs, and stack overflow, and documentation, and you network, and you read Twitter. But you have to limit the amount of time you do spend on those resources because while you&rsquo;re doing that, there is a little voice in the back of your head that is screaming at you to be <em>doing</em> something.</p>
 
-<p>"<strong>CODE, &lt; &lt; EXPLETIVE > >!</strong>" is what mine usually says.</p>
+<p>&ldquo;<strong>CODE, &lt; &lt; EXPLETIVE > >!</strong>&rdquo; is what mine usually says.</p>
 
-<p>"<strong>SPEND TIME WITH YOUR FAMILY</strong>" is another good one that comes up when it is 6:30 on a Friday evening.</p>
+<p>&ldquo;<strong>SPEND TIME WITH YOUR FAMILY</strong>&rdquo; is another good one that comes up when it is 6:30 on a Friday evening.</p>
 
-<p>What's worse, is that while you're reading about these awesome things that these people have <em>already</em> done, or about the solution so elegant that it brings a tear to your eye, you're wondering about how the hell they found the time to work out such an awesome solution. How did they get so far ahead of their field that you're reading about their work when you should be the one talking about a cool solution to some challenge?</p>
+<p>What&rsquo;s worse, is that while you&rsquo;re reading about these awesome things that these people have <em>already</em> done, or about the solution so elegant that it brings a tear to your eye, you&rsquo;re wondering about how the hell they found the time to work out such an awesome solution. How did they get so far ahead of their field that you&rsquo;re reading about their work when you should be the one talking about a cool solution to some challenge?</p>
 
-<p>So you stop reading about this amazing shit and get back to "work."</p>
+<p>So you stop reading about this amazing shit and get back to &ldquo;work.&rdquo;</p>
 
-<p>If you're unlucky<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a>, then you have a supervisor (a manager, director, whatever) who doesn't really get what you do for a living. They count work by bug fixes or new features produced in the week.</p>
+<p>If you&rsquo;re unlucky<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a>, then you have a supervisor (a manager, director, whatever) who doesn&rsquo;t really get what you do for a living. They count work by bug fixes or new features produced in the week.</p>
 
-<p>The better situation is that your supervisor isn't so much fixated on the bug fixes and so-called features produced, but they are focused on the deadline. This can make sense. An example would be that you really do need to clean up that thing that broke IE8 so that you can release code on production. I get that and that doesn't make them a bad boss, it just means they hold themselves accountable to making a deadline<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a>.</p>
+<p>The better situation is that your supervisor isn&rsquo;t so much fixated on the bug fixes and so-called features produced, but they are focused on the deadline. This can make sense. An example would be that you really do need to clean up that thing that broke IE8 so that you can release code on production. I get that and that doesn&rsquo;t make them a bad boss, it just means they hold themselves accountable to making a deadline<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a>.</p>
 
-<p>If you're lucky, you have a supervisor who understands what it means to be a developer. Perhaps they're one as well. Maybe they're competent enough to bounce ideas off of and get better direction. They understand that research and learning is part of the job.</p>
+<p>If you&rsquo;re lucky, you have a supervisor who understands what it means to be a developer. Perhaps they&rsquo;re one as well. Maybe they&rsquo;re competent enough to bounce ideas off of and get better direction. They understand that research and learning is part of the job.</p>
 
 <p>If you have it made, you have a boss who understands that <strong>learning <em>is</em> the job!</strong> The code comes second. They definitely care about your product, but they absolutely understand the necessity of learning. They view that the success of the product comes from your own quality of education.</p>
 
-<p>I feel that most of us don't have that "made in the shade" situation. I believe that most of us have way too much stuff to do, way too many deadlines and feel way too stressed to even consider finding the time to check out that cool new thing, let alone spending time to work with it and understand it.</p>
+<p>I feel that most of us don&rsquo;t have that &ldquo;made in the shade&rdquo; situation. I believe that most of us have way too much stuff to do, way too many deadlines and feel way too stressed to even consider finding the time to check out that cool new thing, let alone spending time to work with it and understand it.</p>
 
-<p>So what you do is you stick with the toolset you've cobbled together over the years and hope that it'll be enough to get you through this current project. If it isn't then you try to find a quick solution to the challenge you're working on and find a way to implement that.</p>
+<p>So what you do is you stick with the toolset you&rsquo;ve cobbled together over the years and hope that it&rsquo;ll be enough to get you through this current project. If it isn&rsquo;t then you try to find a quick solution to the challenge you&rsquo;re working on and find a way to implement that.</p>
 
-<p>And this is the crazy part. <em>This</em> becomes the education process. You bump into a problem you don't know how to solve in your current project and solve it due to desperation and <em>hope</em> that something sticks. And, really, you better hope something does. Because in three weeks to two months from now you're going to need to revisit this quick fix solution you came up with and if nothing has stuck you're going to need to relearn that solution all over again. Maybe this time it'll stick better. Maybe not.</p>
+<p>And this is the crazy part. <em>This</em> becomes the education process. You bump into a problem you don&rsquo;t know how to solve in your current project and solve it due to desperation and <em>hope</em> that something sticks. And, really, you better hope something does. Because in three weeks to two months from now you&rsquo;re going to need to revisit this quick fix solution you came up with and if nothing has stuck you&rsquo;re going to need to relearn that solution all over again. Maybe this time it&rsquo;ll stick better. Maybe not.</p>
 
 <p>Let me describe my typical scenario:</p>
 
-<p>I'm working on something and I know there must be a better way to do it. If I had time to research how to do it, I would know how to implement that better change. The problem is that I don't have the luxury of that time while I'm working on this problem. But I'm almost certain that if I spent the time studying and understanding the solution, the time I spent on this problem would diminish as well and I would have this cool new skill in my toolkit. But <em>there's</em> the rub. The work voice in the back of my head is asking me whether it would be a commensurate exchange on the time. Meaning: Will the time that I spend on learning this new thing be less than or equal to the time I would spend thrashing on this problem and coming up with the surface level understanding of a solution? I almost never feel like I can risk the better of the two options.</p>
+<p>I&rsquo;m working on something and I know there must be a better way to do it. If I had time to research how to do it, I would know how to implement that better change. The problem is that I don&rsquo;t have the luxury of that time while I&rsquo;m working on this problem. But I&rsquo;m almost certain that if I spent the time studying and understanding the solution, the time I spent on this problem would diminish as well and I would have this cool new skill in my toolkit. But <em>there&rsquo;s</em> the rub. The work voice in the back of my head is asking me whether it would be a commensurate exchange on the time. Meaning: Will the time that I spend on learning this new thing be less than or equal to the time I would spend thrashing on this problem and coming up with the surface level understanding of a solution? I almost never feel like I can risk the better of the two options.</p>
 
 <p>This sucks<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">[3]</a>. And it is always wrong<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a></p>
 
-<p>Of course, when you take the lesser approach, this isn't a real education process. When I do this, I just won't fully comprehend what the solution entails. I <em>have</em> to understand it enough to be able to implement it, but beyond that I'm pretty much on to the next thing that's on my list as soon as I deem it working. Like I say, it <em>sucks</em>.<a href="#fn:5" id="fnref:5" title="see footnote" class="footnote">[5]</a></p>
+<p>Of course, when you take the lesser approach, this isn&rsquo;t a real education process. When I do this, I just won&rsquo;t fully comprehend what the solution entails. I <em>have</em> to understand it enough to be able to implement it, but beyond that I&rsquo;m pretty much on to the next thing that&rsquo;s on my list as soon as I deem it working. Like I say, it <em>sucks</em>.<a href="#fn:5" id="fnref:5" title="see footnote" class="footnote">[5]</a></p>
 
-<p>And this is where the second point from above comes into place. A lot of the stuff that's on my list of things to learn are things I already have some or, in some cases, a lot of experience in, I just don't feel like I have as deep of an understanding as I want, or it is a subject that I <em>really</em> want to be more proficient in.</p>
+<p>And this is where the second point from above comes into place. A lot of the stuff that&rsquo;s on my list of things to learn are things I already have some or, in some cases, a lot of experience in, I just don&rsquo;t feel like I have as deep of an understanding as I want, or it is a subject that I <em>really</em> want to be more proficient in.</p>
 
-<p>I'll use an easy example: <em>Vim</em>. God, I <em>love</em> using Vim. I think it is by far the best editor I have ever used. But when I got started on it, I spent a couple of weeks reading and practicing the first few chapters of O'Reilly's <em>Learning Vi and Vim</em> and watching videos on <a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/">Derek Wyatt's Blog</a> and really dove into Vim. I even wrote a Vim cheat sheet for myself.</p>
+<p>I&rsquo;ll use an easy example: <em>Vim</em>. God, I <em>love</em> using Vim. I think it is by far the best editor I have ever used. But when I got started on it, I spent a couple of weeks reading and practicing the first few chapters of O'Reilly&rsquo;s <em>Learning Vi and Vim</em> and watching videos on <a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/">Derek Wyatt&rsquo;s Blog</a> and really dove into Vim. I even wrote a Vim cheat sheet for myself.</p>
 
-<p>But now, after Vim has been a part of my daily work for hours and hours, I've lost a lot of that thoughtfulness that went into it before. Sure my muscle memory is ridiculous when it comes to its use, but several times each day I bump into something while using it where I <em>know</em> there is a better way to do it but I feel that I don't have time to research and learn it so I push on.</p>
+<p>But now, after Vim has been a part of my daily work for hours and hours, I&rsquo;ve lost a lot of that thoughtfulness that went into it before. Sure my muscle memory is ridiculous when it comes to its use, but several times each day I bump into something while using it where I <em>know</em> there is a better way to do it but I feel that I don&rsquo;t have time to research and learn it so I push on.</p>
 
-<p>The <em>insane</em> thing for me about getting a better understanding of Vim is that it absolutely <em>will</em> have a time payoff benefit. Vim may be my <em>most</em> important tool. It's how I do anything with code. The more I know about how to make Vim bend to my will, the more efficient I will become. Why haven't I spent the time on this?</p>
+<p>The <em>insane</em> thing for me about getting a better understanding of Vim is that it absolutely <em>will</em> have a time payoff benefit. Vim may be my <em>most</em> important tool. It&rsquo;s how I do anything with code. The more I know about how to make Vim bend to my will, the more efficient I will become. Why haven&rsquo;t I spent the time on this?</p>
 
 <p>Now eventually, the learning voice does overwhelm the work voice because it just starts screaming at me.</p>
 
-<p>"<strong>STUDY, STUPID!</strong>" is usually what it sounds like.</p>
+<p>&ldquo;<strong>STUDY, STUPID!</strong>&rdquo; is usually what it sounds like.</p>
 
-<p>So then I break away from my coding routine and take some time to look at something. But it isn't long before the voice of getting back to work is screaming at me again and there's just no way I have had a chance to get any real depth. The cycle is appalling.</p>
+<p>So then I break away from my coding routine and take some time to look at something. But it isn&rsquo;t long before the voice of getting back to work is screaming at me again and there&rsquo;s just no way I have had a chance to get any real depth. The cycle is appalling.</p>
 
-<p>I don't have a clear solution here, unfortunately. This is reason the title states that this is about the <em>problems</em> of education. The way I figure, I have to find a way to silence the "work" voice by proving that the "study" voice makes me a better worker, even if the time spent studying doesn't come out as a one to one correlation to the time spent thrashing.</p>
+<p>I don&rsquo;t have a clear solution here, unfortunately. This is reason the title states that this is about the <em>problems</em> of education. The way I figure, I have to find a way to silence the &ldquo;work&rdquo; voice by proving that the &ldquo;study&rdquo; voice makes me a better worker, even if the time spent studying doesn&rsquo;t come out as a one to one correlation to the time spent thrashing.</p>
 
 <p><strong>UPDATE:</strong></p>
 
-<p>So as the bit before the cut mentions, for the moment I <em>have</em> found a way to get past this. Interestingly, it wasn't by silencing the work voice, it was by changing that voice's message.</p>
+<p>So as the bit before the cut mentions, for the moment I <em>have</em> found a way to get past this. Interestingly, it wasn&rsquo;t by silencing the work voice, it was by changing that voice&rsquo;s message.</p>
 
 <div class="footnotes">
 <hr />
@@ -146,7 +146,7 @@
 </div>
 
 
-<p><em>Image "N.Y. schools opening" from the <a href="http://www.flickr.com/photos/library_of_congress/4176254887/">Library of Congress Flickr Page</a></em></p>
+<p><em>Image &ldquo;N.Y. schools opening&rdquo; from the <a href="http://www.flickr.com/photos/library_of_congress/4176254887/">Library of Congress Flickr Page</a></em></p>
 ]]></content>
   </entry>
   

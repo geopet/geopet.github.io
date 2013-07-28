@@ -9,7 +9,7 @@
   <meta name="author" content="Geoff Petrie">
 
   
-  <meta name="description" content="Contrary to the date listed, the previous post about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&#8217;ve &hellip;">
+  <meta name="description" content="Contrary to the date listed, the previous post about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&rsquo;ve &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,13 +18,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/">
+  <link rel="canonical" href="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Thoughts of Geoff" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -103,7 +104,7 @@
   </header>
 
 
-<div class="entry-content"><p>Contrary to the date listed, the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">previous post</a> about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&#8217;ve since been spending more time with Ruby.</p>
+<div class="entry-content"><p>Contrary to the date listed, the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">previous post</a> about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&rsquo;ve since been spending more time with Ruby.</p>
 
 <p>After posting that article about how tight the Python code was in order to build a string with just the right number of semicolons, I decided to see if I could do the same thing with Ruby.</p>
 
@@ -121,7 +122,7 @@ hash.each do |key, val|
 end
 </code></pre>
 
-<p>I think I&#8217;m missing something here that would make this code much tighter. This looks very similar to the PHP code that I wrote as the solution in my previous article. There&#8217;s got to be a method that I&#8217;m not using that would allow me to dismiss the <code>delete</code> and the <code>hash.length</code> that I am using.</p>
+<p>I think I&rsquo;m missing something here that would make this code much tighter. This looks very similar to the PHP code that I wrote as the solution in my previous article. There&rsquo;s got to be a method that I&rsquo;m not using that would allow me to dismiss the <code>delete</code> and the <code>hash.length</code> that I am using.</p>
 
 <p>If you have thoughts or suggestions, hit me up on <a href="https://twitter.com/geopet">Twitter</a> and let me know.</p>
 </div>
@@ -160,7 +161,7 @@ end
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/" >Tweet</a>
   
   
   
@@ -184,7 +185,7 @@ end
   
     <section>
   <h1>About Me</h1>
-  <p>I'm a software developer and a technical manager. I like <em>a lot</em> of different things. This space is for me to have a place to write about those things.</p>
+  <p>I am a web programmer and a technical manager. I like <em>a lot</em> of different things. This space is for me to have a place to write about those things.</p>
   <p>You can find out more about me by going to <a href="http://geoffpetrie.com">geoffpetrie.com</a></p>
 </section>
 <section>
@@ -240,7 +241,7 @@ end
   <a href="https://github.com/geopet">@geopet</a> on GitHub
   
   <script type="text/javascript">
-    $.domReady(function(){
+    $(document).ready(function(){
         if (!window.jXHR){
             var jxhr = document.createElement('script');
             jxhr.type = 'text/javascript';
@@ -259,9 +260,6 @@ end
   </script>
   <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
-
-
-
 
 
   
@@ -289,7 +287,7 @@ end
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

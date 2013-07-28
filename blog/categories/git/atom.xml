@@ -4,7 +4,7 @@
   <title><![CDATA[Category: git | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2013-02-15T11:43:32-07:00</updated>
+  <updated>2013-07-28T00:12:47-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -20,11 +20,11 @@
     <id>http://geopet.github.com/blog/2013/02/15/manually-pushing-to-a-remote-branch</id>
     <content type="html"><![CDATA[<p>If you have a heavy feature branch you may end up being in a place where your master local branch is actually another branch in your distributed repo. This can be confusing and cause challenges when pushing changes to your remote.</p>
 
-<p>What you might see when you run <code>git remote show origin</code> is something like your Fetch URL and your Push URL are pointing to the same repo, and your local branch is properly configured for git pull, but git push is off.  It'll probably say something like:</p>
+<p>What you might see when you run <code>git remote show origin</code> is something like your Fetch URL and your Push URL are pointing to the same repo, and your local branch is properly configured for git pull, but git push is off.  It&rsquo;ll probably say something like:</p>
 
 <p><code>master pushes to master (local out of date)</code></p>
 
-<p>Now there are ways to configure push and use tracking, but this is how to properly push to a remote branch manually that you're not tracking locally:</p>
+<p>Now there are ways to configure push and use tracking, but this is how to properly push to a remote branch manually that you&rsquo;re not tracking locally:</p>
 
 <p><code>git push origin &lt;local_branch_name&gt;:&lt;remote_branch_name&gt;</code></p>
 
@@ -34,7 +34,7 @@
 
 <p>This pushes your local branch <code>master</code> to the remote branch <code>web_site</code> on the remote repo <code>origin</code>.</p>
 
-<p>And that's it!</p>
+<p>And that&rsquo;s it!</p>
 ]]></content>
   </entry>
   
@@ -45,17 +45,17 @@
     <id>http://geopet.github.com/blog/2012/09/04/some-quick-git-tips</id>
     <content type="html"><![CDATA[<p><img class="center" src="/images/git-prune.jpg" title="[pruning the stale branches]" ></p>
 
-<p>I have multiple places where I work and I use <a href="http://git-scm.com/">Git</a> to support that. The general Git workflow I've adopted is similar to the one <a href="http://scottchacon.com/2011/08/31/github-flow.html">Scott Chacon describes</a>.</p>
+<p>I have multiple places where I work and I use <a href="http://git-scm.com/">Git</a> to support that. The general Git workflow I&rsquo;ve adopted is similar to the one <a href="http://scottchacon.com/2011/08/31/github-flow.html">Scott Chacon describes</a>.</p>
 
-<p>In Scott's post he explains that anything in <code>master</code> is deployable, and any time you want to work on something you branch from <code>master</code> with something descriptively named. This is what I want to talk about now.</p>
+<p>In Scott&rsquo;s post he explains that anything in <code>master</code> is deployable, and any time you want to work on something you branch from <code>master</code> with something descriptively named. This is what I want to talk about now.</p>
 
-<p>I use this process of branching to keep my changes manageable. By naming my branches descriptively I know that if I'm building a new user profiling tool, and changing the css of a navigational piece and updating a SQL query in the same branch, then the commit isn't going to be terribly clean. Plus, now the branch has no meaning to me when I get feedback from a tester. This branch would make even less sense if I had someone else coding with me.</p>
+<p>I use this process of branching to keep my changes manageable. By naming my branches descriptively I know that if I&rsquo;m building a new user profiling tool, and changing the css of a navigational piece and updating a SQL query in the same branch, then the commit isn&rsquo;t going to be terribly clean. Plus, now the branch has no meaning to me when I get feedback from a tester. This branch would make even less sense if I had someone else coding with me.</p>
 
-<p>To keep branches meaningful I make a lot of branches off of <code>master</code>. I've come to the standard practice of pushing pretty much <em>any</em> branch I'm working on, no matter how minor, to the remote. This makes it simple to <code>fetch</code> and <code>merge</code> on my dev server instance instead of scp'ing the work I've done to the server. The process is just feels a little crisper.</p>
+<p>To keep branches meaningful I make a lot of branches off of <code>master</code>. I&rsquo;ve come to the standard practice of pushing pretty much <em>any</em> branch I&rsquo;m working on, no matter how minor, to the remote. This makes it simple to <code>fetch</code> and <code>merge</code> on my dev server instance instead of scp'ing the work I&rsquo;ve done to the server. The process is just feels a little crisper.</p>
 
 <p>After the testers have given the thumbs up on the work and I do my final code review, I merge the branch to master, push it out to production and delete that feature/bugfix branch. All-in-all it is a generally good system.</p>
 
-<p>But what inevitably happens is the dev server has a bunch of branches that are no longer useful and don't have a remote counterpart to them. It gets to be a bit of a mess when you run <code>git branch</code> and see a dozen old branches sitting there.</p>
+<p>But what inevitably happens is the dev server has a bunch of branches that are no longer useful and don&rsquo;t have a remote counterpart to them. It gets to be a bit of a mess when you run <code>git branch</code> and see a dozen old branches sitting there.</p>
 
 <p>To fix this issue I found a great, quick command:</p>
 
@@ -73,7 +73,7 @@
 
 <p>With <code>--dry-run</code> option, report what branches will be pruned, but do not actually prune them.</p></blockquote>
 
-<p><code>prune</code> is one of those commands that you may not use very often, but it is nice to know it's there when you need it.</p>
+<p><code>prune</code> is one of those commands that you may not use very often, but it is nice to know it&rsquo;s there when you need it.</p>
 
 <hr />
 
@@ -81,7 +81,7 @@
 
 <p>I found this particular <a href="http://stackoverflow.com/a/3994587/887078">Stack Overflow</a> answer useful when I was looking for information on how to handle dead remote branches.</p>
 
-<p><em>Image "Four volunteers prune some plants that were growing over the trail." from <a href="http://www.flickr.com/photos/presidiosf/6209563606/">United States Government Work</a></em></p>
+<p><em>Image &ldquo;Four volunteers prune some plants that were growing over the trail.&rdquo; from <a href="http://www.flickr.com/photos/presidiosf/6209563606/">United States Government Work</a></em></p>
 ]]></content>
   </entry>
   

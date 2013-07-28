@@ -4,7 +4,7 @@
   <title><![CDATA[Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2013-02-15T11:43:32-07:00</updated>
+  <updated>2013-07-28T00:12:47-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -20,11 +20,11 @@
     <id>http://geopet.github.com/blog/2013/02/15/manually-pushing-to-a-remote-branch</id>
     <content type="html"><![CDATA[<p>If you have a heavy feature branch you may end up being in a place where your master local branch is actually another branch in your distributed repo. This can be confusing and cause challenges when pushing changes to your remote.</p>
 
-<p>What you might see when you run <code>git remote show origin</code> is something like your Fetch URL and your Push URL are pointing to the same repo, and your local branch is properly configured for git pull, but git push is off.  It&#8217;ll probably say something like:</p>
+<p>What you might see when you run <code>git remote show origin</code> is something like your Fetch URL and your Push URL are pointing to the same repo, and your local branch is properly configured for git pull, but git push is off.  It&rsquo;ll probably say something like:</p>
 
 <p><code>master pushes to master (local out of date)</code></p>
 
-<p>Now there are ways to configure push and use tracking, but this is how to properly push to a remote branch manually that you&#8217;re not tracking locally:</p>
+<p>Now there are ways to configure push and use tracking, but this is how to properly push to a remote branch manually that you&rsquo;re not tracking locally:</p>
 
 <p><code>git push origin &lt;local_branch_name&gt;:&lt;remote_branch_name&gt;</code></p>
 
@@ -34,7 +34,7 @@
 
 <p>This pushes your local branch <code>master</code> to the remote branch <code>web_site</code> on the remote repo <code>origin</code>.</p>
 
-<p>And that&#8217;s it!</p>
+<p>And that&rsquo;s it!</p>
 ]]></content>
   </entry>
   
@@ -45,23 +45,23 @@
     <id>http://geopet.github.com/blog/2013/01/30/fixing-a-slow-localhost-webrick-server</id>
     <content type="html"><![CDATA[<p>For the longest time I could not get Webrick to work for me. It would boot up with <code>rails s</code> but would take several seconds for even the default landing page of a rails app to load. It was terrible.</p>
 
-<p>I resorted to using <a href="http://code.macournoyer.com/thin/">Thin</a> as my default browser by making sure it was in all my Gem files, but I still wanted to figure out why Webrick simply wouldn&#8217;t work for me. (Truth is, Thin is a better web server, but I still wanted to get Webrick to work for me.)</p>
+<p>I resorted to using <a href="http://code.macournoyer.com/thin/">Thin</a> as my default browser by making sure it was in all my Gem files, but I still wanted to figure out why Webrick simply wouldn&rsquo;t work for me. (Truth is, Thin is a better web server, but I still wanted to get Webrick to work for me.)</p>
 
-<p>Searching for &#8220;webrick slow&#8221; brought up a possible solution via <a href="http://stackoverflow.com/a/3465134/887078">Stack Overflow</a>. Basically you change the <code>:DoNotReverseLookup</code> symbol in your global Webrick config from <code>nil</code> to <code>true</code>.</p>
+<p>Searching for &ldquo;webrick slow&rdquo; brought up a possible solution via <a href="http://stackoverflow.com/a/3465134/887078">Stack Overflow</a>. Basically you change the <code>:DoNotReverseLookup</code> symbol in your global Webrick config from <code>nil</code> to <code>true</code>.</p>
 
-<p>If you&#8217;re on OS X Lion you&#8217;ll find the Webrick configuration here:</p>
+<p>If you&rsquo;re on OS X Lion you&rsquo;ll find the Webrick configuration here:</p>
 
 <p><code>~/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/config.rb</code></p>
 
 <p>I found the <code>:DoNotReverseLookup</code> configuration on line 36.</p>
 
-<p>Once I made the change Webrick was screaming fast. I&#8217;m pretty happy about it.</p>
+<p>Once I made the change Webrick was screaming fast. I&rsquo;m pretty happy about it.</p>
 
-<p>I still haven&#8217;t found the definitive reason why this problem is occurring, but at least this change appears to fix things for me.</p>
+<p>I still haven&rsquo;t found the definitive reason why this problem is occurring, but at least this change appears to fix things for me.</p>
 
 <hr />
 
-<p>Please note, depending on the version of Ruby you&#8217;re running <code>ruby-1.9.3-p362</code> could be something different. Just as long as you&#8217;re changing the <code>confg.rb</code> file in the <code>webrick/</code> directory, you should be fine.</p>
+<p>Please note, depending on the version of Ruby you&rsquo;re running <code>ruby-1.9.3-p362</code> could be something different. Just as long as you&rsquo;re changing the <code>confg.rb</code> file in the <code>webrick/</code> directory, you should be fine.</p>
 ]]></content>
   </entry>
   
@@ -70,13 +70,13 @@
     <link href="http://geopet.github.com/blog/2013/01/18/thoughts-on-ego/"/>
     <updated>2013-01-18T10:36:00-07:00</updated>
     <id>http://geopet.github.com/blog/2013/01/18/thoughts-on-ego</id>
-    <content type="html"><![CDATA[<p>To categorically define <em>Ego</em> is out of the scope of this writing. In order to make things easier on myself, and hopefully you, I will attempt to elucidate my meaning through example. But so that we&#8217;re all starting on the same foot, when I say ego I am referring to the informal and negative connotation of the word.</p>
+    <content type="html"><![CDATA[<p>To categorically define <em>Ego</em> is out of the scope of this writing. In order to make things easier on myself, and hopefully you, I will attempt to elucidate my meaning through example. But so that we&rsquo;re all starting on the same foot, when I say ego I am referring to the informal and negative connotation of the word.</p>
 
 <p>Why am I talking about ego?</p>
 
-<p>For months now I have been trying to write about my journey as a newbie in the Ruby programming language. I have more than half a dozen starts to what should be a simple short piece of writing. All I wanted to do was provide some preamble so that I could then post the video I used as an entry into the <a href="http://rubyrogues.com/ruby-nuby-project/">Ruby Nuby</a> contest that the <a href="http://rubyrogues.com/">Ruby Rogues</a> podcast put together in October of last year. For some reason every time I attempted to write this article it came out feeling wrong. I&#8217;m going to try a different take on this subject now.</p>
+<p>For months now I have been trying to write about my journey as a newbie in the Ruby programming language. I have more than half a dozen starts to what should be a simple short piece of writing. All I wanted to do was provide some preamble so that I could then post the video I used as an entry into the <a href="http://rubyrogues.com/ruby-nuby-project/">Ruby Nuby</a> contest that the <a href="http://rubyrogues.com/">Ruby Rogues</a> podcast put together in October of last year. For some reason every time I attempted to write this article it came out feeling wrong. I&rsquo;m going to try a different take on this subject now.</p>
 
-<p>Several months ago I decided that I needed to broaden my professional horizons. I had been singularly focused on a few programming languages for far too long. I knew I needed to break out of that sedentary place and that there was a fundamental element I was missing. The problem: I didn&#8217;t know what that element was.</p>
+<p>Several months ago I decided that I needed to broaden my professional horizons. I had been singularly focused on a few programming languages for far too long. I knew I needed to break out of that sedentary place and that there was a fundamental element I was missing. The problem: I didn&rsquo;t know what that element was.</p>
 
 <p>Now I say that several months ago I decided to do something, but the reality is that I have known for years that I could be doing more. <em>This</em> is where ego comes into play.</p>
 
@@ -84,29 +84,29 @@
 
 <p>Ego prevents us from asking questions. It prevents us from seeking out help. It stops us from acting in an empathetic way. Ego encourages us to be know-it-alls.</p>
 
-<p>The astounding thing about ego is how difficult it is to counteract it. If you call someone out on their ego, what is driving that? There is likely a healthy dose of ego fueling the accusation that someone is filled with hubris. &#8220;This person is interfering with my greatness, I need to tell them to drop their ego!&#8221; At least that&#8217;s what I&#8217;ve tended to hear when someone has talked about another&#8217;s ego with me.</p>
+<p>The astounding thing about ego is how difficult it is to counteract it. If you call someone out on their ego, what is driving that? There is likely a healthy dose of ego fueling the accusation that someone is filled with hubris. &ldquo;This person is interfering with my greatness, I need to tell them to drop their ego!&rdquo; At least that&rsquo;s what I&rsquo;ve tended to hear when someone has talked about another&rsquo;s ego with me.</p>
 
-<p>But for me, I believe ego has significantly impaired my ability to level up or move forward. I never wanted to accept that I was the least informed, or educated, person in the room. Often times I was being paid to be the most knowledgable person only to realize that I was maybe just slightly more experienced in the subject. Often I was either on even footing or worse! In these situations it wasn&#8217;t unusual if I found personal security in grabbing my ego tight and running with it. An opportunity for learning? I think not! I would have been more comfortable either attempting to look contemplative, while really just being confused, or, even worse, I would have attempted to derail conversations to a place where I was more familiar.</p>
+<p>But for me, I believe ego has significantly impaired my ability to level up or move forward. I never wanted to accept that I was the least informed, or educated, person in the room. Often times I was being paid to be the most knowledgable person only to realize that I was maybe just slightly more experienced in the subject. Often I was either on even footing or worse! In these situations it wasn&rsquo;t unusual if I found personal security in grabbing my ego tight and running with it. An opportunity for learning? I think not! I would have been more comfortable either attempting to look contemplative, while really just being confused, or, even worse, I would have attempted to derail conversations to a place where I was more familiar.</p>
 
 <p>Was this always the case for me? No. Of course not. But in hindsight it happen more than it should have.</p>
 
 <p>So why am I writing about this?</p>
 
-<p>Ultimately breaking the ego chain was what I needed to write about when I have been trying to talk about starting fresh with Ruby. Yes, embracing newbiness requires a dismissal of ego. But the direction doesn&#8217;t go newbie to ego. It is the other way around! <em>Ego must go before</em> you can consider being a newbie of anything.</p>
+<p>Ultimately breaking the ego chain was what I needed to write about when I have been trying to talk about starting fresh with Ruby. Yes, embracing newbiness requires a dismissal of ego. But the direction doesn&rsquo;t go newbie to ego. It is the other way around! <em>Ego must go before</em> you can consider being a newbie of anything.</p>
 
 <p>I wish I could say that dumping your ego was easy and that it felt good. Sometimes it does. It certainly depends on the people around you. Having a supportive group does make things simpler.</p>
 
-<p>As a programmer it is tough to dismiss the ego outright. We pride ourselves on reviewing someone&#8217;s code and finding a bug, or figuring out a more elegant way to write the same method or class. Our ego is what drives us to solve problems! If I didn&#8217;t think I couldn&#8217;t do something I hadn&#8217;t done before I would never have made it in this profession at all. This is a time that ego is a benefit. Ego that pushes us, that drives us to become more than we are, that&#8217;s something we can embrace. Looking at it in this sense, it isn&#8217;t incorrect to say that ego is what is driving me to dismiss my ego now. How odd!</p>
+<p>As a programmer it is tough to dismiss the ego outright. We pride ourselves on reviewing someone&rsquo;s code and finding a bug, or figuring out a more elegant way to write the same method or class. Our ego is what drives us to solve problems! If I didn&rsquo;t think I couldn&rsquo;t do something I hadn&rsquo;t done before I would never have made it in this profession at all. This is a time that ego is a benefit. Ego that pushes us, that drives us to become more than we are, that&rsquo;s something we can embrace. Looking at it in this sense, it isn&rsquo;t incorrect to say that ego is what is driving me to dismiss my ego now. How odd!</p>
 
-<p>So in an effort to move past my typical embarrassment of asking questions that clearly show I don&#8217;t understand a subject with any sort of depth, or to try something, with varying degrees of success, just so that I can work on that particular skill, I am making a concerted effort to dismiss my ego. I made the video I&#8217;m embedding below with this in mind as well.</p>
+<p>So in an effort to move past my typical embarrassment of asking questions that clearly show I don&rsquo;t understand a subject with any sort of depth, or to try something, with varying degrees of success, just so that I can work on that particular skill, I am making a concerted effort to dismiss my ego. I made the video I&rsquo;m embedding below with this in mind as well.</p>
 
-<p>I want to continue to live a fulfilling life. In order for me to do that I need to know that I won&#8217;t allow something as insignificant as my ego get in the way of asking a question that could lead to a path of new experiences.</p>
+<p>I want to continue to live a fulfilling life. In order for me to do that I need to know that I won&rsquo;t allow something as insignificant as my ego get in the way of asking a question that could lead to a path of new experiences.</p>
 
 <p>At the end of the day this is all about being a happier person.</p>
 
 <p>Thanks for reading.</p>
 
-<p>And here&#8217;s the video that I&#8217;ve been wanting to post here for months:</p>
+<p>And here&rsquo;s the video that I&rsquo;ve been wanting to post here for months:</p>
 
 <!-- more -->
 
@@ -116,7 +116,7 @@
 <iframe width="420" height="315" src="http://www.youtube.com/embed/8enQ96-xOOw?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
-<p>As a side note, I&#8217;ll be a guest on the Ruby Rogues next week and the show will air probably at the end of the month.</p>
+<p>As a side note, I&rsquo;ll be a guest on the Ruby Rogues next week and the show will air probably at the end of the month.</p>
 ]]></content>
   </entry>
   
@@ -126,40 +126,40 @@
     <updated>2012-11-14T20:25:00-07:00</updated>
     <id>http://geopet.github.com/blog/2012/11/14/vim-precision-editing-video</id>
     <content type="html"><![CDATA[<p><a href="http://www.vim.org/">Vim</a> is my text editor of choice. Drew Neil is an
-amazing Vim evangelist. If you haven&#8217;t, you should go check out
-<a href="http://vimcasts.org/">VimCasts</a>. He also <a href="http://pragprog.com/book/dnvim/practical-vim">has a book</a> that I haven&#8217;t had a
+amazing Vim evangelist. If you haven&rsquo;t, you should go check out
+<a href="http://vimcasts.org/">VimCasts</a>. He also <a href="http://pragprog.com/book/dnvim/practical-vim">has a book</a> that I haven&rsquo;t had a
 chance to dive into yet, but I will be shortly.</p>
 
-<p>If you haven&#8217;t yet, you should check out Drew Neil&#8217;s presentation on
+<p>If you haven&rsquo;t yet, you should check out Drew Neil&rsquo;s presentation on
 Vim.</p>
 
-<p>The first chunk, if you&#8217;re good with Vim, isn&#8217;t anything you don&#8217;t
+<p>The first chunk, if you&rsquo;re good with Vim, isn&rsquo;t anything you don&rsquo;t
 already know. It is mainly Drew trying to convince people that modality
 in a text editor is great. I agree. It is.</p>
 
 <p>But about midway through, Drew busts out some of great power moves.
-Some of them I&#8217;ve not seen before, but I have immediately introduced to
+Some of them I&rsquo;ve not seen before, but I have immediately introduced to
 muscle memory workout.</p>
 
 <p>The three that I picked up from this were:</p>
 
 <ol>
-<li><code>dt.</code> - delete until the dot.</li>
-<li><code>vi[</code> - visually highlight everything between the square bracket.</li>
-<li><code>gf</code> - go to the file under the cursor.</li>
+<li><code>dt.</code> &ndash; delete until the dot.</li>
+<li><code>vi[</code> &ndash; visually highlight everything between the square bracket.</li>
+<li><code>gf</code> &ndash; go to the file under the cursor.</li>
 </ol>
 
 
-<p>Honestly, I don&#8217;t know how I never picked up <code>gf</code> before, but I promise
-it is one that I won&#8217;t forget. The other two I&#8217;m in love with. I used
+<p>Honestly, I don&rsquo;t know how I never picked up <code>gf</code> before, but I promise
+it is one that I won&rsquo;t forget. The other two I&rsquo;m in love with. I used
 <code>dt.</code> while writing this post!</p>
 
-<p>Anyway, here&#8217;s the presentation. Give it a look:</p>
+<p>Anyway, here&rsquo;s the presentation. Give it a look:</p>
 
 <iframe src="http://player.vimeo.com/video/53144573?badge=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
-<p> <p><a href="http://vimeo.com/53144573">Vim - precision editing at the speed of thought</a> from <a href="http://vimeo.com/user4280938">&Oslash;redev Conference</a> on <a href="http://vimeo.com">Vimeo</a>.</p></p>
+<p> <p><a href="http://vimeo.com/53144573">Vim &ndash; precision editing at the speed of thought</a> from <a href="http://vimeo.com/user4280938">&Oslash;redev Conference</a> on <a href="http://vimeo.com">Vimeo</a>.</p></p>
 ]]></content>
   </entry>
   
@@ -170,12 +170,12 @@ it is one that I won&#8217;t forget. The other two I&#8217;m in love with. I use
     <id>http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server</id>
     <content type="html"><![CDATA[<p>Another quick tip for people using <a href="http://octopress.org/">Octopress</a>:</p>
 
-<p>If you&#8217;re running Octopress on Mac OSX you may be running into some real
+<p>If you&rsquo;re running Octopress on Mac OSX you may be running into some real
 performance issues when you run the <code>rake preview</code> command to check your
 posts locally before you run the <code>rake deploy</code> to get things up and
 running live. This is because, for whatever reason, the
 <a href="http://www.ruby-doc.org/stdlib-1.9.3/libdoc/webrick/rdoc/index.html">WEBrick</a> server runs slowly on
-XCode 4.2+. I haven&#8217;t dived deep into finding a solution for this
+XCode 4.2+. I haven&rsquo;t dived deep into finding a solution for this
 because I found a nice fix.</p>
 
 <p>First, run <code>gem install thin</code> from your command line.</p>
@@ -183,14 +183,14 @@ because I found a nice fix.</p>
 <p>This command will install the <a href="http://code.macournoyer.com/thin/">Ruby Thin Server</a>. This server is what I use
 for my Rails testing as well and it works exactly the way I want it to.
 (I have read many recommendations on using <a href="http://pow.cx/">Pow</a> as
-well, but I haven&#8217;t spent the time looking into it so I can&#8217;t personally
+well, but I haven&rsquo;t spent the time looking into it so I can&rsquo;t personally
 recommend it yet.)</p>
 
 <p>The next step is to change your <code>Gemfile</code> located in the top directory
 of your Octopress files.  Simply add <code>gem 'thin'</code> to the development
 group and save the changes.</p>
 
-<p>This is what your <code>Gemfile</code> should look like now if you&#8217;re running
+<p>This is what your <code>Gemfile</code> should look like now if you&rsquo;re running
 Octopress 2.0 without any changes up to this point:</p>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -246,7 +246,7 @@ Octopress 2.0 without any changes up to this point:</p>
     <link href="http://geopet.github.com/blog/2012/10/14/git-tips-tagging/"/>
     <updated>2012-10-14T21:06:00-06:00</updated>
     <id>http://geopet.github.com/blog/2012/10/14/git-tips-tagging</id>
-    <content type="html"><![CDATA[<p>File this under the <em>I&#8217;m always referencing this, so I&#8217;m going to do a
+    <content type="html"><![CDATA[<p>File this under the <em>I&rsquo;m always referencing this, so I&rsquo;m going to do a
 quick post about it</em> category.</p>
 
 <p>Tagging in Git is super powerful and can save your butt. Here are a few
@@ -312,8 +312,8 @@ commands that I use often but never seem to remember.</p>
 
 <p>A couple of nice references on tagging:</p>
 
-<p><a href="http://git-scm.com/book/en/Git-Basics-Tagging">Git Basics - Tagging</a><br/>
-<a href="http://gitready.com/beginner/2009/02/03/tagging.html">Git Ready - Tagging</a></p>
+<p><a href="http://git-scm.com/book/en/Git-Basics-Tagging">Git Basics &ndash; Tagging</a><br/>
+<a href="http://gitready.com/beginner/2009/02/03/tagging.html">Git Ready &ndash; Tagging</a></p>
 ]]></content>
   </entry>
   
@@ -322,14 +322,14 @@ commands that I use often but never seem to remember.</p>
     <link href="http://geopet.github.com/blog/2012/10/02/revenge-of-ruby-hashes/"/>
     <updated>2012-10-02T17:02:00-06:00</updated>
     <id>http://geopet.github.com/blog/2012/10/02/revenge-of-ruby-hashes</id>
-    <content type="html"><![CDATA[<p>Because I can&#8217;t seem to let this go, I continued to research the
+    <content type="html"><![CDATA[<p>Because I can&rsquo;t seem to let this go, I continued to research the
 challenge I was dealing with a <a href="http://blog.geoffpetrie.com/blog/2012/09/25/the-ruby-hashes-case/">few days back</a>
 where I was trying to get the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">cool python trick</a>
 to work with Ruby hashes.</p>
 
 <p>After scrubbing the Ruby documentation a more carefully, it seems that
 Ruby hashes and Python dictionaries are not entirely identical.  Most
-importantly, Ruby hashes don&#8217;t have the same string methods that Python
+importantly, Ruby hashes don&rsquo;t have the same string methods that Python
 dictionaries do. Meaning: Ruby hashes and Python dictionaries, while
 similar, may be more of an apples and oranges sort of comparison.</p>
 
@@ -356,7 +356,7 @@ produce the same output. This is what I came up with:</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>What I&#8217;m doing here is forcing myself to work within the confines of the
+<p>What I&rsquo;m doing here is forcing myself to work within the confines of the
 initial premiss that the values are given to me in a hash. I convert the
 hash to an array and then use the join method on the array to do what I
 want to do to get the output that I want. <em>Semi-colon success achieved!</em></p>
@@ -391,8 +391,8 @@ proposed previously:</p>
 <p>For my money, the new snippet is much more readable and is just a smidge
 more compact. A win on all sides.</p>
 
-<p>I probably won&#8217;t be returning to this subject again in the near term
-(unless I find out I&#8217;m totally wrong here), but expect more Ruby focused
+<p>I probably won&rsquo;t be returning to this subject again in the near term
+(unless I find out I&rsquo;m totally wrong here), but expect more Ruby focused
 conversation coming up regularly here while I work my way through the
 language.</p>
 ]]></content>
@@ -403,7 +403,7 @@ language.</p>
     <link href="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/"/>
     <updated>2012-09-25T23:55:00-06:00</updated>
     <id>http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case</id>
-    <content type="html"><![CDATA[<p>Contrary to the date listed, the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">previous post</a> about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&#8217;ve since been spending more time with Ruby.</p>
+    <content type="html"><![CDATA[<p>Contrary to the date listed, the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">previous post</a> about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&rsquo;ve since been spending more time with Ruby.</p>
 
 <p>After posting that article about how tight the Python code was in order to build a string with just the right number of semicolons, I decided to see if I could do the same thing with Ruby.</p>
 
@@ -421,7 +421,7 @@ hash.each do |key, val|
 end
 </code></pre>
 
-<p>I think I&#8217;m missing something here that would make this code much tighter. This looks very similar to the PHP code that I wrote as the solution in my previous article. There&#8217;s got to be a method that I&#8217;m not using that would allow me to dismiss the <code>delete</code> and the <code>hash.length</code> that I am using.</p>
+<p>I think I&rsquo;m missing something here that would make this code much tighter. This looks very similar to the PHP code that I wrote as the solution in my previous article. There&rsquo;s got to be a method that I&rsquo;m not using that would allow me to dismiss the <code>delete</code> and the <code>hash.length</code> that I am using.</p>
 
 <p>If you have thoughts or suggestions, hit me up on <a href="https://twitter.com/geopet">Twitter</a> and let me know.</p>
 ]]></content>
@@ -432,9 +432,9 @@ end
     <link href="http://geopet.github.com/blog/2012/09/25/python-dictionaries/"/>
     <updated>2012-09-25T20:47:00-06:00</updated>
     <id>http://geopet.github.com/blog/2012/09/25/python-dictionaries</id>
-    <content type="html"><![CDATA[<p>If you read my previous post on <a href="http://blog.geoffpetrie.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/">the challenge of education as a developer</a>, you&#8217;ll know about my interested in the Python language and syntax. I have had a reason to look at Python again recently and it&#8217;s pretty amazing what I had forgotten about the language.</p>
+    <content type="html"><![CDATA[<p>If you read my previous post on <a href="http://blog.geoffpetrie.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/">the challenge of education as a developer</a>, you&rsquo;ll know about my interested in the Python language and syntax. I have had a reason to look at Python again recently and it&rsquo;s pretty amazing what I had forgotten about the language.</p>
 
-<p>Now I&#8217;ll admit that my understanding of object models and design patterns isn&#8217;t the finest. But as I was going through my Python refresher I had a bit of an aha moment.</p>
+<p>Now I&rsquo;ll admit that my understanding of object models and design patterns isn&rsquo;t the finest. But as I was going through my Python refresher I had a bit of an aha moment.</p>
 
 <p>It was this line of code that struck me as pretty significant:</p>
 
@@ -443,9 +443,9 @@ end
 
 <p>This code came from the <a href="http://www.diveintopython.net/native_data_types/summary.html">Dive into Python</a> website.</p>
 
-<p>While it doesn&#8217;t look remarkable on the surface, knowing that <em>everything in Python is an object</em> (like Ruby and Javascript) you&#8217;ll appreciate how cool that line of code is. Specifically the <code>";"</code> piece of it.</p>
+<p>While it doesn&rsquo;t look remarkable on the surface, knowing that <em>everything in Python is an object</em> (like Ruby and Javascript) you&rsquo;ll appreciate how cool that line of code is. Specifically the <code>";"</code> piece of it.</p>
 
-<p>That <code>.join</code> method is called <em>by</em> that semicolon. That&#8217;s pretty cool.</p>
+<p>That <code>.join</code> method is called <em>by</em> that semicolon. That&rsquo;s pretty cool.</p>
 
 <p>To demonstrate the importance of this piece, I decided to see how I could actually produce the same results that line of code does in PHP.</p>
 
@@ -463,7 +463,7 @@ end
 <pre><code>pwd=secret;database=localhost;uid=sa;server=gpetrie
 </code></pre>
 
-<p>So the piece we&#8217;re going to focus on is how that last tuple is printed. You see that? <code>server=gpetrie</code>. There&#8217;s no semicolon at the end of that. That&#8217;s because the semicolon is the object calling the <code>.join</code> method.</p>
+<p>So the piece we&rsquo;re going to focus on is how that last tuple is printed. You see that? <code>server=gpetrie</code>. There&rsquo;s no semicolon at the end of that. That&rsquo;s because the semicolon is the object calling the <code>.join</code> method.</p>
 
 <p>How can I produce this same output using PHP and an associative array?</p>
 
@@ -486,12 +486,12 @@ foreach ($myParams as $k=&gt;$v) {
 print_r($str);
 </code></pre>
 
-<p>We wouldn&#8217;t get what we wanted. We&#8217;d get this:</p>
+<p>We wouldn&rsquo;t get what we wanted. We&rsquo;d get this:</p>
 
 <pre><code>server:gpetrie; database:localhost; uid:sa; pwd:secret; 
 </code></pre>
 
-<p>That semicolon at the end. That&#8217;s the problem.</p>
+<p>That semicolon at the end. That&rsquo;s the problem.</p>
 
 <p>So we try something a little more complex:</p>
 
@@ -511,7 +511,7 @@ for ($i=0; $i&lt;$arrayCount; $i++) {
 print_r($str);
 </code></pre>
 
-<p>But it doesn&#8217;t work either. We get:</p>
+<p>But it doesn&rsquo;t work either. We get:</p>
 
 <pre><code>server:gpetrie; database:localhost; uid:sa; pwd:secret; 
 </code></pre>
@@ -545,7 +545,7 @@ print_r($str);
 
 <p>No semicolon at the end.</p>
 
-<p>Now don&#8217;t misunderstand the point of this. This isn&#8217;t a Python versus PHP thing. This is just to show the interesting power of having everything as an object in Python and how much lighter your code can be because of it. Of course if you have a better solution to this than I do, please let me know. I&#8217;d love to see it.</p>
+<p>Now don&rsquo;t misunderstand the point of this. This isn&rsquo;t a Python versus PHP thing. This is just to show the interesting power of having everything as an object in Python and how much lighter your code can be because of it. Of course if you have a better solution to this than I do, please let me know. I&rsquo;d love to see it.</p>
 ]]></content>
   </entry>
   
@@ -556,17 +556,17 @@ print_r($str);
     <id>http://geopet.github.com/blog/2012/09/04/some-quick-git-tips</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://geopet.github.com/images/git-prune.jpg" title="[pruning the stale branches]" ></p>
 
-<p>I have multiple places where I work and I use <a href="http://git-scm.com/">Git</a> to support that. The general Git workflow I&#8217;ve adopted is similar to the one <a href="http://scottchacon.com/2011/08/31/github-flow.html">Scott Chacon describes</a>.</p>
+<p>I have multiple places where I work and I use <a href="http://git-scm.com/">Git</a> to support that. The general Git workflow I&rsquo;ve adopted is similar to the one <a href="http://scottchacon.com/2011/08/31/github-flow.html">Scott Chacon describes</a>.</p>
 
-<p>In Scott&#8217;s post he explains that anything in <code>master</code> is deployable, and any time you want to work on something you branch from <code>master</code> with something descriptively named. This is what I want to talk about now.</p>
+<p>In Scott&rsquo;s post he explains that anything in <code>master</code> is deployable, and any time you want to work on something you branch from <code>master</code> with something descriptively named. This is what I want to talk about now.</p>
 
-<p>I use this process of branching to keep my changes manageable. By naming my branches descriptively I know that if I&#8217;m building a new user profiling tool, and changing the css of a navigational piece and updating a SQL query in the same branch, then the commit isn&#8217;t going to be terribly clean. Plus, now the branch has no meaning to me when I get feedback from a tester. This branch would make even less sense if I had someone else coding with me.</p>
+<p>I use this process of branching to keep my changes manageable. By naming my branches descriptively I know that if I&rsquo;m building a new user profiling tool, and changing the css of a navigational piece and updating a SQL query in the same branch, then the commit isn&rsquo;t going to be terribly clean. Plus, now the branch has no meaning to me when I get feedback from a tester. This branch would make even less sense if I had someone else coding with me.</p>
 
-<p>To keep branches meaningful I make a lot of branches off of <code>master</code>. I&#8217;ve come to the standard practice of pushing pretty much <em>any</em> branch I&#8217;m working on, no matter how minor, to the remote. This makes it simple to <code>fetch</code> and <code>merge</code> on my dev server instance instead of scp&#8217;ing the work I&#8217;ve done to the server. The process is just feels a little crisper.</p>
+<p>To keep branches meaningful I make a lot of branches off of <code>master</code>. I&rsquo;ve come to the standard practice of pushing pretty much <em>any</em> branch I&rsquo;m working on, no matter how minor, to the remote. This makes it simple to <code>fetch</code> and <code>merge</code> on my dev server instance instead of scp&#8217;ing the work I&rsquo;ve done to the server. The process is just feels a little crisper.</p>
 
 <p>After the testers have given the thumbs up on the work and I do my final code review, I merge the branch to master, push it out to production and delete that feature/bugfix branch. All-in-all it is a generally good system.</p>
 
-<p>But what inevitably happens is the dev server has a bunch of branches that are no longer useful and don&#8217;t have a remote counterpart to them. It gets to be a bit of a mess when you run <code>git branch</code> and see a dozen old branches sitting there.</p>
+<p>But what inevitably happens is the dev server has a bunch of branches that are no longer useful and don&rsquo;t have a remote counterpart to them. It gets to be a bit of a mess when you run <code>git branch</code> and see a dozen old branches sitting there.</p>
 
 <p>To fix this issue I found a great, quick command:</p>
 
@@ -584,7 +584,7 @@ print_r($str);
 
 <p>With <code>--dry-run</code> option, report what branches will be pruned, but do not actually prune them.</p></blockquote>
 
-<p><code>prune</code> is one of those commands that you may not use very often, but it is nice to know it&#8217;s there when you need it.</p>
+<p><code>prune</code> is one of those commands that you may not use very often, but it is nice to know it&rsquo;s there when you need it.</p>
 
 <hr />
 
@@ -592,7 +592,7 @@ print_r($str);
 
 <p>I found this particular <a href="http://stackoverflow.com/a/3994587/887078">Stack Overflow</a> answer useful when I was looking for information on how to handle dead remote branches.</p>
 
-<p><em>Image &#8220;Four volunteers prune some plants that were growing over the trail.&#8221; from <a href="http://www.flickr.com/photos/presidiosf/6209563606/">United States Government Work</a></em></p>
+<p><em>Image &ldquo;Four volunteers prune some plants that were growing over the trail.&rdquo; from <a href="http://www.flickr.com/photos/presidiosf/6209563606/">United States Government Work</a></em></p>
 ]]></content>
   </entry>
   
@@ -609,28 +609,28 @@ print_r($str);
 
 <p><strong>Preface:</strong></p>
 
-<p>As a little background, I wrote the post below about a week or two ago. I&#8217;ve been sitting on it since.</p>
+<p>As a little background, I wrote the post below about a week or two ago. I&rsquo;ve been sitting on it since.</p>
 
 <p>The gist of the post is about my frustration in trying to get better or even keep up with skills and tools. I was blaming my deadlines and commitments for getting in the way.</p>
 
 <p>While I was writing this post I came to the realization that only <em>I</em> could really make a difference in the jammed feeling I had. Deadlines will never go away. Commitments will never end. If I really wanted to pick up and understand something, then <em>I</em> had to make that happen for myself. No one else would do that for me.</p>
 
-<p>So in the past couple of weeks I started to look at <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a> and then I rebuilt my <a href="http://geoffpetrie.com">personal site</a> on it. (Bootstrap is amazing. I can&#8217;t recommend it more highly.) I took a couple of hours and got <a href="http://octopress.org/">Octopress</a> in place and moved my more substantial writing from my old <a href="http://faceofgeoff.com">Tumblr</a> and put it in place <em>right</em> here. Additionally, I have started to take a more serious look at Python again. I also started to build and put up on GitHub a little <a href="http://dayoneapp.com/">Day One</a> journal service pack that I&#8217;m having a ball building. Finally, I&#8217;m also seriously looking at <a href="https://developer.mozilla.org/en-US/docs/HTML/Canvas">Canvas</a> and I am trying to figure out a way to prototype a Canvas web app that uses <a href="https://developer.mozilla.org/en-US/docs/WebSockets">WebSockets</a>.</p>
+<p>So in the past couple of weeks I started to look at <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a> and then I rebuilt my <a href="http://geoffpetrie.com">personal site</a> on it. (Bootstrap is amazing. I can&rsquo;t recommend it more highly.) I took a couple of hours and got <a href="http://octopress.org/">Octopress</a> in place and moved my more substantial writing from my old <a href="http://faceofgeoff.com">Tumblr</a> and put it in place <em>right</em> here. Additionally, I have started to take a more serious look at Python again. I also started to build and put up on GitHub a little <a href="http://dayoneapp.com/">Day One</a> journal service pack that I&rsquo;m having a ball building. Finally, I&rsquo;m also seriously looking at <a href="https://developer.mozilla.org/en-US/docs/HTML/Canvas">Canvas</a> and I am trying to figure out a way to prototype a Canvas web app that uses <a href="https://developer.mozilla.org/en-US/docs/WebSockets">WebSockets</a>.</p>
 
-<p>This effort has significantly improved my spirit. I&#8217;m feeling creative and rejuvenated. While the deadlines haven&#8217;t gone away, I feel like I&#8217;m not deadline bound in my day any more. There are tons of new project possibilities out there now. It&#8217;s invigorating.</p>
+<p>This effort has significantly improved my spirit. I&rsquo;m feeling creative and rejuvenated. While the deadlines haven&rsquo;t gone away, I feel like I&rsquo;m not deadline bound in my day any more. There are tons of new project possibilities out there now. It&rsquo;s invigorating.</p>
 
-<p>I had considered dumping this post entirely, but I thought it might be worth posting just to see where my head was at when I wrote this a few weeks back. I know I&#8217;m not the only person who gets in these sorts of ruts. Maybe this will resonate with someone else and they&#8217;ll be able to pull themselves into their creative zone like I seem to be doing now.</p>
+<p>I had considered dumping this post entirely, but I thought it might be worth posting just to see where my head was at when I wrote this a few weeks back. I know I&rsquo;m not the only person who gets in these sorts of ruts. Maybe this will resonate with someone else and they&rsquo;ll be able to pull themselves into their creative zone like I seem to be doing now.</p>
 
 <!-- more -->
 
 
 <h3>TL; DR</h3>
 
-<p>I have a long list of things I want to learn or get better at but I&#8217;m worried about taking time away from my current deadlines and obligations to really learn this stuff well. I know I&#8217;m not alone here, but I don&#8217;t have a good solution to this. The real take-away for me has been to accept that while thrashing and coming up with a solution for the moment may potentially take less time initially, the better, and less overall time intensive solution, is to take more time on the front end to really learn the tool and solution you want to implement.</p>
+<p>I have a long list of things I want to learn or get better at but I&rsquo;m worried about taking time away from my current deadlines and obligations to really learn this stuff well. I know I&rsquo;m not alone here, but I don&rsquo;t have a good solution to this. The real take-away for me has been to accept that while thrashing and coming up with a solution for the moment may potentially take less time initially, the better, and less overall time intensive solution, is to take more time on the front end to really learn the tool and solution you want to implement.</p>
 
 <h3>Full Text</h3>
 
-<p>I&#8217;m frustrated. Here&#8217;s why:</p>
+<p>I&rsquo;m frustrated. Here&rsquo;s why:</p>
 
 <p>This is an abbreviated list of stuff I currently want to learn or get deeper into:</p>
 
@@ -640,66 +640,66 @@ print_r($str);
 
 <ol>
 <li>As I said, this is an <em>abbreviated</em> list.</li>
-<li>I know a some of this stuff already. Some of it I know quite well, actually. I&#8217;ll touch on this point in a bit.</li>
-<li>This is <em>only</em> my development interests. This doesn&#8217;t cover the dozens of other hobbies I have as well.</li>
+<li>I know a some of this stuff already. Some of it I know quite well, actually. I&rsquo;ll touch on this point in a bit.</li>
+<li>This is <em>only</em> my development interests. This doesn&rsquo;t cover the dozens of other hobbies I have as well.</li>
 </ol>
 
 
-<p>So this is my dilemma: There is so much stuff to learn and so many things I <em>want</em> to learn so that I can maintain a positive forward direction in my development skill set, but I&#8217;m finding myself increasingly jammed for time. This jammed for time has less to do with needing better time management skills, and more to do with the fact that deadlines (some reasonable, others not so much) are giving me a feeling that there is no opportunity to stop and properly capture a skill.</p>
+<p>So this is my dilemma: There is so much stuff to learn and so many things I <em>want</em> to learn so that I can maintain a positive forward direction in my development skill set, but I&rsquo;m finding myself increasingly jammed for time. This jammed for time has less to do with needing better time management skills, and more to do with the fact that deadlines (some reasonable, others not so much) are giving me a feeling that there is no opportunity to stop and properly capture a skill.</p>
 
 <p>So what do you do?</p>
 
-<p>In the time you make for yourself you read blogs, and stack overflow, and documentation, and you network, and you read Twitter. But you have to limit the amount of time you do spend on those resources because while you&#8217;re doing that, there is a little voice in the back of your head that is screaming at you to be <em>doing</em> something.</p>
+<p>In the time you make for yourself you read blogs, and stack overflow, and documentation, and you network, and you read Twitter. But you have to limit the amount of time you do spend on those resources because while you&rsquo;re doing that, there is a little voice in the back of your head that is screaming at you to be <em>doing</em> something.</p>
 
-<p>&#8220;<strong>CODE, &lt; &lt; EXPLETIVE > >!</strong>&#8221; is what mine usually says.</p>
+<p>&ldquo;<strong>CODE, &lt; &lt; EXPLETIVE > >!</strong>&rdquo; is what mine usually says.</p>
 
-<p>&#8220;<strong>SPEND TIME WITH YOUR FAMILY</strong>&#8221; is another good one that comes up when it is 6:30 on a Friday evening.</p>
+<p>&ldquo;<strong>SPEND TIME WITH YOUR FAMILY</strong>&rdquo; is another good one that comes up when it is 6:30 on a Friday evening.</p>
 
-<p>What&#8217;s worse, is that while you&#8217;re reading about these awesome things that these people have <em>already</em> done, or about the solution so elegant that it brings a tear to your eye, you&#8217;re wondering about how the hell they found the time to work out such an awesome solution. How did they get so far ahead of their field that you&#8217;re reading about their work when you should be the one talking about a cool solution to some challenge?</p>
+<p>What&rsquo;s worse, is that while you&rsquo;re reading about these awesome things that these people have <em>already</em> done, or about the solution so elegant that it brings a tear to your eye, you&rsquo;re wondering about how the hell they found the time to work out such an awesome solution. How did they get so far ahead of their field that you&rsquo;re reading about their work when you should be the one talking about a cool solution to some challenge?</p>
 
-<p>So you stop reading about this amazing shit and get back to &#8220;work.&#8221;</p>
+<p>So you stop reading about this amazing shit and get back to &ldquo;work.&rdquo;</p>
 
-<p>If you&#8217;re unlucky<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a>, then you have a supervisor (a manager, director, whatever) who doesn&#8217;t really get what you do for a living. They count work by bug fixes or new features produced in the week.</p>
+<p>If you&rsquo;re unlucky<a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">[1]</a>, then you have a supervisor (a manager, director, whatever) who doesn&rsquo;t really get what you do for a living. They count work by bug fixes or new features produced in the week.</p>
 
-<p>The better situation is that your supervisor isn&#8217;t so much fixated on the bug fixes and so-called features produced, but they are focused on the deadline. This can make sense. An example would be that you really do need to clean up that thing that broke IE8 so that you can release code on production. I get that and that doesn&#8217;t make them a bad boss, it just means they hold themselves accountable to making a deadline<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a>.</p>
+<p>The better situation is that your supervisor isn&rsquo;t so much fixated on the bug fixes and so-called features produced, but they are focused on the deadline. This can make sense. An example would be that you really do need to clean up that thing that broke IE8 so that you can release code on production. I get that and that doesn&rsquo;t make them a bad boss, it just means they hold themselves accountable to making a deadline<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a>.</p>
 
-<p>If you&#8217;re lucky, you have a supervisor who understands what it means to be a developer. Perhaps they&#8217;re one as well. Maybe they&#8217;re competent enough to bounce ideas off of and get better direction. They understand that research and learning is part of the job.</p>
+<p>If you&rsquo;re lucky, you have a supervisor who understands what it means to be a developer. Perhaps they&rsquo;re one as well. Maybe they&rsquo;re competent enough to bounce ideas off of and get better direction. They understand that research and learning is part of the job.</p>
 
 <p>If you have it made, you have a boss who understands that <strong>learning <em>is</em> the job!</strong> The code comes second. They definitely care about your product, but they absolutely understand the necessity of learning. They view that the success of the product comes from your own quality of education.</p>
 
-<p>I feel that most of us don&#8217;t have that &#8220;made in the shade&#8221; situation. I believe that most of us have way too much stuff to do, way too many deadlines and feel way too stressed to even consider finding the time to check out that cool new thing, let alone spending time to work with it and understand it.</p>
+<p>I feel that most of us don&rsquo;t have that &ldquo;made in the shade&rdquo; situation. I believe that most of us have way too much stuff to do, way too many deadlines and feel way too stressed to even consider finding the time to check out that cool new thing, let alone spending time to work with it and understand it.</p>
 
-<p>So what you do is you stick with the toolset you&#8217;ve cobbled together over the years and hope that it&#8217;ll be enough to get you through this current project. If it isn&#8217;t then you try to find a quick solution to the challenge you&#8217;re working on and find a way to implement that.</p>
+<p>So what you do is you stick with the toolset you&rsquo;ve cobbled together over the years and hope that it&rsquo;ll be enough to get you through this current project. If it isn&rsquo;t then you try to find a quick solution to the challenge you&rsquo;re working on and find a way to implement that.</p>
 
-<p>And this is the crazy part. <em>This</em> becomes the education process. You bump into a problem you don&#8217;t know how to solve in your current project and solve it due to desperation and <em>hope</em> that something sticks. And, really, you better hope something does. Because in three weeks to two months from now you&#8217;re going to need to revisit this quick fix solution you came up with and if nothing has stuck you&#8217;re going to need to relearn that solution all over again. Maybe this time it&#8217;ll stick better. Maybe not.</p>
+<p>And this is the crazy part. <em>This</em> becomes the education process. You bump into a problem you don&rsquo;t know how to solve in your current project and solve it due to desperation and <em>hope</em> that something sticks. And, really, you better hope something does. Because in three weeks to two months from now you&rsquo;re going to need to revisit this quick fix solution you came up with and if nothing has stuck you&rsquo;re going to need to relearn that solution all over again. Maybe this time it&rsquo;ll stick better. Maybe not.</p>
 
 <p>Let me describe my typical scenario:</p>
 
-<p>I&#8217;m working on something and I know there must be a better way to do it. If I had time to research how to do it, I would know how to implement that better change. The problem is that I don&#8217;t have the luxury of that time while I&#8217;m working on this problem. But I&#8217;m almost certain that if I spent the time studying and understanding the solution, the time I spent on this problem would diminish as well and I would have this cool new skill in my toolkit. But <em>there&#8217;s</em> the rub. The work voice in the back of my head is asking me whether it would be a commensurate exchange on the time. Meaning: Will the time that I spend on learning this new thing be less than or equal to the time I would spend thrashing on this problem and coming up with the surface level understanding of a solution? I almost never feel like I can risk the better of the two options.</p>
+<p>I&rsquo;m working on something and I know there must be a better way to do it. If I had time to research how to do it, I would know how to implement that better change. The problem is that I don&rsquo;t have the luxury of that time while I&rsquo;m working on this problem. But I&rsquo;m almost certain that if I spent the time studying and understanding the solution, the time I spent on this problem would diminish as well and I would have this cool new skill in my toolkit. But <em>there&rsquo;s</em> the rub. The work voice in the back of my head is asking me whether it would be a commensurate exchange on the time. Meaning: Will the time that I spend on learning this new thing be less than or equal to the time I would spend thrashing on this problem and coming up with the surface level understanding of a solution? I almost never feel like I can risk the better of the two options.</p>
 
 <p>This sucks<a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">[3]</a>. And it is always wrong<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a></p>
 
-<p>Of course, when you take the lesser approach, this isn&#8217;t a real education process. When I do this, I just won&#8217;t fully comprehend what the solution entails. I <em>have</em> to understand it enough to be able to implement it, but beyond that I&#8217;m pretty much on to the next thing that&#8217;s on my list as soon as I deem it working. Like I say, it <em>sucks</em>.<a href="#fn:5" id="fnref:5" title="see footnote" class="footnote">[5]</a></p>
+<p>Of course, when you take the lesser approach, this isn&rsquo;t a real education process. When I do this, I just won&rsquo;t fully comprehend what the solution entails. I <em>have</em> to understand it enough to be able to implement it, but beyond that I&rsquo;m pretty much on to the next thing that&rsquo;s on my list as soon as I deem it working. Like I say, it <em>sucks</em>.<a href="#fn:5" id="fnref:5" title="see footnote" class="footnote">[5]</a></p>
 
-<p>And this is where the second point from above comes into place. A lot of the stuff that&#8217;s on my list of things to learn are things I already have some or, in some cases, a lot of experience in, I just don&#8217;t feel like I have as deep of an understanding as I want, or it is a subject that I <em>really</em> want to be more proficient in.</p>
+<p>And this is where the second point from above comes into place. A lot of the stuff that&rsquo;s on my list of things to learn are things I already have some or, in some cases, a lot of experience in, I just don&rsquo;t feel like I have as deep of an understanding as I want, or it is a subject that I <em>really</em> want to be more proficient in.</p>
 
-<p>I&#8217;ll use an easy example: <em>Vim</em>. God, I <em>love</em> using Vim. I think it is by far the best editor I have ever used. But when I got started on it, I spent a couple of weeks reading and practicing the first few chapters of O&#8217;Reilly&#8217;s <em>Learning Vi and Vim</em> and watching videos on <a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/">Derek Wyatt&#8217;s Blog</a> and really dove into Vim. I even wrote a Vim cheat sheet for myself.</p>
+<p>I&rsquo;ll use an easy example: <em>Vim</em>. God, I <em>love</em> using Vim. I think it is by far the best editor I have ever used. But when I got started on it, I spent a couple of weeks reading and practicing the first few chapters of O&#8217;Reilly&rsquo;s <em>Learning Vi and Vim</em> and watching videos on <a href="http://www.derekwyatt.org/vim/vim-tutorial-videos/">Derek Wyatt&rsquo;s Blog</a> and really dove into Vim. I even wrote a Vim cheat sheet for myself.</p>
 
-<p>But now, after Vim has been a part of my daily work for hours and hours, I&#8217;ve lost a lot of that thoughtfulness that went into it before. Sure my muscle memory is ridiculous when it comes to its use, but several times each day I bump into something while using it where I <em>know</em> there is a better way to do it but I feel that I don&#8217;t have time to research and learn it so I push on.</p>
+<p>But now, after Vim has been a part of my daily work for hours and hours, I&rsquo;ve lost a lot of that thoughtfulness that went into it before. Sure my muscle memory is ridiculous when it comes to its use, but several times each day I bump into something while using it where I <em>know</em> there is a better way to do it but I feel that I don&rsquo;t have time to research and learn it so I push on.</p>
 
-<p>The <em>insane</em> thing for me about getting a better understanding of Vim is that it absolutely <em>will</em> have a time payoff benefit. Vim may be my <em>most</em> important tool. It&#8217;s how I do anything with code. The more I know about how to make Vim bend to my will, the more efficient I will become. Why haven&#8217;t I spent the time on this?</p>
+<p>The <em>insane</em> thing for me about getting a better understanding of Vim is that it absolutely <em>will</em> have a time payoff benefit. Vim may be my <em>most</em> important tool. It&rsquo;s how I do anything with code. The more I know about how to make Vim bend to my will, the more efficient I will become. Why haven&rsquo;t I spent the time on this?</p>
 
 <p>Now eventually, the learning voice does overwhelm the work voice because it just starts screaming at me.</p>
 
-<p>&#8220;<strong>STUDY, STUPID!</strong>&#8221; is usually what it sounds like.</p>
+<p>&ldquo;<strong>STUDY, STUPID!</strong>&rdquo; is usually what it sounds like.</p>
 
-<p>So then I break away from my coding routine and take some time to look at something. But it isn&#8217;t long before the voice of getting back to work is screaming at me again and there&#8217;s just no way I have had a chance to get any real depth. The cycle is appalling.</p>
+<p>So then I break away from my coding routine and take some time to look at something. But it isn&rsquo;t long before the voice of getting back to work is screaming at me again and there&rsquo;s just no way I have had a chance to get any real depth. The cycle is appalling.</p>
 
-<p>I don&#8217;t have a clear solution here, unfortunately. This is reason the title states that this is about the <em>problems</em> of education. The way I figure, I have to find a way to silence the &#8220;work&#8221; voice by proving that the &#8220;study&#8221; voice makes me a better worker, even if the time spent studying doesn&#8217;t come out as a one to one correlation to the time spent thrashing.</p>
+<p>I don&rsquo;t have a clear solution here, unfortunately. This is reason the title states that this is about the <em>problems</em> of education. The way I figure, I have to find a way to silence the &ldquo;work&rdquo; voice by proving that the &ldquo;study&rdquo; voice makes me a better worker, even if the time spent studying doesn&rsquo;t come out as a one to one correlation to the time spent thrashing.</p>
 
 <p><strong>UPDATE:</strong></p>
 
-<p>So as the bit before the cut mentions, for the moment I <em>have</em> found a way to get past this. Interestingly, it wasn&#8217;t by silencing the work voice, it was by changing that voice&#8217;s message.</p>
+<p>So as the bit before the cut mentions, for the moment I <em>have</em> found a way to get past this. Interestingly, it wasn&rsquo;t by silencing the work voice, it was by changing that voice&rsquo;s message.</p>
 
 <div class="footnotes">
 <hr />
@@ -729,7 +729,7 @@ print_r($str);
 </div>
 
 
-<p><em>Image &#8220;N.Y. schools opening&#8221; from the <a href="http://www.flickr.com/photos/library_of_congress/4176254887/">Library of Congress Flickr Page</a></em></p>
+<p><em>Image &ldquo;N.Y. schools opening&rdquo; from the <a href="http://www.flickr.com/photos/library_of_congress/4176254887/">Library of Congress Flickr Page</a></em></p>
 ]]></content>
   </entry>
   
@@ -738,11 +738,11 @@ print_r($str);
     <link href="http://geopet.github.com/blog/2012/08/22/adding-a-cname-to-your-octopress-blog/"/>
     <updated>2012-08-22T16:42:00-06:00</updated>
     <id>http://geopet.github.com/blog/2012/08/22/adding-a-cname-to-your-octopress-blog</id>
-    <content type="html"><![CDATA[<p>This option isn&#8217;t terribly well explained in the <a href="http://octopress.org/docs/deploying/github/">Octopress documentation</a>, and slightly confusing within the <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">Github</a>.</p>
+    <content type="html"><![CDATA[<p>This option isn&rsquo;t terribly well explained in the <a href="http://octopress.org/docs/deploying/github/">Octopress documentation</a>, and slightly confusing within the <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">Github</a>.</p>
 
 <p>So that I could get <em>blog.geoffpetrie.com</em> to work as my url to my Octopress blog hosted by Github at <em>geopet.github.com</em>, I needed to go to my current hosting service. In my case this is currently <a href="http://www.dreamhost.com/r.cgi?1197623">Dreamhost</a>.</p>
 
-<p>Since I wasn&#8217;t changing my top-level domain (TLD), I wanted to keep <em>geoffpetrie.com</em> pointed at my hosting service, I wanted to add a subdomain, i.e., <em>blog</em> to my domain name server (DNS) run by Dreamhost.</p>
+<p>Since I wasn&rsquo;t changing my top-level domain (TLD), I wanted to keep <em>geoffpetrie.com</em> pointed at my hosting service, I wanted to add a subdomain, i.e., <em>blog</em> to my domain name server (DNS) run by Dreamhost.</p>
 
 <p>I went into the DNS configuration in the Dreamhost cpanel and added <em>blog</em> as the <strong>name/record</strong>, <em>CNAME</em> as the <strong>type</strong> and <em>geopet.github.com</em> as the <strong>value</strong>.</p>
 
@@ -752,11 +752,11 @@ print_r($str);
 
 <p><code>echo 'blog.geoffpetrie.com' &gt;&gt; source/CNAME</code></p>
 
-<p>Of course you&#8217;re going to use your own subdomain instead of <em>blog.geoffpetrie.com</em>. This command will create the CNAME file in your source directory with the url that you want to direct people to.</p>
+<p>Of course you&rsquo;re going to use your own subdomain instead of <em>blog.geoffpetrie.com</em>. This command will create the CNAME file in your source directory with the url that you want to direct people to.</p>
 
-<p>After this all that&#8217;s needed is <code>rake generate</code> and <code>rake deploy</code>. (You may as well commit to your source branch after this.)</p>
+<p>After this all that&rsquo;s needed is <code>rake generate</code> and <code>rake deploy</code>. (You may as well commit to your source branch after this.)</p>
 
-<p>Wait a couple of minutes for things to work their way through DNS and Github&#8217;s world and you&#8217;ll be looking at your Octopress blog on your own domain.</p>
+<p>Wait a couple of minutes for things to work their way through DNS and Github&rsquo;s world and you&rsquo;ll be looking at your Octopress blog on your own domain.</p>
 ]]></content>
   </entry>
   
@@ -767,9 +767,9 @@ print_r($str);
     <id>http://geopet.github.com/blog/2012/08/21/starting-again-with-octopress</id>
     <content type="html"><![CDATA[<p>Moving my <a href="http://faceofgeoff.com">Tumblr</a> to <a href="https://github.com/imathis/octopress">Octopress</a> seems to be a bit more of a chore than I had initially expected. My journey into <a href="https://github.com/mojombo/jekyll">Jekyll</a> turned out to be something that required more time that I could commit at this very moment, so I decided to take a quicker path to getting a better blogging workflow into my life by implementing some really exceptional work done <a href="http://brandonmathis.com/">Brandon Mathis</a> in Octopress as recommended by my friend <a href="http://brianarn.github.com/">Brian Arnold</a>.</p>
 
-<p>Still, this is a new application that I haven&#8217;t had a chance to really kick the tires on. I tried to grab the less family specific pieces from the Tumblr I kept, and the more bloggy pieces from there. There is more work to be done on that front. For one, I need to get some of the original images from there for the technical pieces that I took screen captures of. In the mean time I&#8217;ll see if I can get URLs back to the original Tumblr pieces if there is any interest in that at all.</p>
+<p>Still, this is a new application that I haven&rsquo;t had a chance to really kick the tires on. I tried to grab the less family specific pieces from the Tumblr I kept, and the more bloggy pieces from there. There is more work to be done on that front. For one, I need to get some of the original images from there for the technical pieces that I took screen captures of. In the mean time I&rsquo;ll see if I can get URLs back to the original Tumblr pieces if there is any interest in that at all.</p>
 
-<p>While I would love to spend time tweaking this install of Octopress, I suspect that I&#8217;ll spend the time I do have writing rather than tweaking for the moment. Forward progression is key for me right now, even though this is something I should dive deeper into.</p>
+<p>While I would love to spend time tweaking this install of Octopress, I suspect that I&rsquo;ll spend the time I do have writing rather than tweaking for the moment. Forward progression is key for me right now, even though this is something I should dive deeper into.</p>
 
 <p>If I ignore what I said above and fall into the abyss, I will post the tricks I find along the way.</p>
 ]]></content>
@@ -782,19 +782,19 @@ print_r($str);
     <id>http://geopet.github.com/blog/2012/08/14/on-sparrow-and-google</id>
     <content type="html"><![CDATA[<p>So at the end of last month (July 20, 2012) there was a disturbance in the indie developer force when the great iOS/OS X gmail skin/email client Sparrow was acquired by Google.</p>
 
-<p>I&#8217;ll provide the text of their announcement at the end of this which you can (at the time of this writing) find <a href="http://sprw.me/">on their site</a>. The gist of the press release was that they&#8217;d been bought by Google, that they&#8217;d do one more bug fix and then they&#8217;d stop working on the Apple products and start working on other Gmail stuff for Google. As a side note, it was amusing to see the long list of &#8220;advisors&#8221; and investors that they thanked as well.</p>
+<p>I&rsquo;ll provide the text of their announcement at the end of this which you can (at the time of this writing) find <a href="http://sprw.me/">on their site</a>. The gist of the press release was that they&rsquo;d been bought by Google, that they&rsquo;d do one more bug fix and then they&rsquo;d stop working on the Apple products and start working on other Gmail stuff for Google. As a side note, it was amusing to see the long list of &ldquo;advisors&rdquo; and investors that they thanked as well.</p>
 
 <p>Of course my initial reaction was disappointment. The iOS app they built was light-years ahead of the native Apple client and I found that the desktop client was a nice departure from OSX Mail. I was also excited when I saw they were heading toward a Sparrow iPad app. But, you know, Google apparently offered them all jobs and <a href="http://www.theverge.com/2012/7/20/3172365/sources-google-sparrow-25-million-gmail-client">something around $25 million</a> for them to stop working on their product.</p>
 
-<p>A large part of the chatter regarding this buyout was the argument that it is <em>really</em> hard to make it as an independent developer. There was also talk about how $25M really isn&#8217;t that much money when all is said and done. And how this was something along the lines of a talent acquisition. I would agree with all of this.</p>
+<p>A large part of the chatter regarding this buyout was the argument that it is <em>really</em> hard to make it as an independent developer. There was also talk about how $25M really isn&rsquo;t that much money when all is said and done. And how this was something along the lines of a talent acquisition. I would agree with all of this.</p>
 
-<p>But after the dust has settled what we still have is this great small software group that was given enough to stop building for Apple. And this got me thinking, and you&#8217;ll probably think I&#8217;m crazy, but I started to wonder if this could be a new business model for Google?</p>
+<p>But after the dust has settled what we still have is this great small software group that was given enough to stop building for Apple. And this got me thinking, and you&rsquo;ll probably think I&rsquo;m crazy, but I started to wonder if this could be a new business model for Google?</p>
 
-<p>And before you call bullshit on me, just consider it for a moment. Google is lousy at UI. Just look at how they screwed up Gmail and Reader. Sparrow is beautiful. It’s one of the reasons I enjoyed using it so much. Google is also working their asses off to make Android a legit contender to iOS. Some will say that Android is already competitive with iOS. I&#8217;m not going to waste my time with this argument. Furthermore, Google’s Android OS has a huge piracy issue on their hands right now, so many devs aren&#8217;t interested in spending their time to watch their work be stolen by douchebags who won&#8217;t drop $3.99 for their year and a half of work.</p>
+<p>And before you call bullshit on me, just consider it for a moment. Google is lousy at UI. Just look at how they screwed up Gmail and Reader. Sparrow is beautiful. It’s one of the reasons I enjoyed using it so much. Google is also working their asses off to make Android a legit contender to iOS. Some will say that Android is already competitive with iOS. I&rsquo;m not going to waste my time with this argument. Furthermore, Google’s Android OS has a huge piracy issue on their hands right now, so many devs aren&rsquo;t interested in spending their time to watch their work be stolen by douchebags who won&rsquo;t drop $3.99 for their year and a half of work.</p>
 
-<p>So if you were one of the most wealthy companies on the planet and you were losing out due to lack of developer interest and a general lack of impacting talent in the UI department, why wouldn&#8217;t you bring excellent UI and mobile app developers in house to make kick ass products for your own OS? Why wouldn&#8217;t you start to cherry pick some of the exceptional talent that is out in the iOS space?</p>
+<p>So if you were one of the most wealthy companies on the planet and you were losing out due to lack of developer interest and a general lack of impacting talent in the UI department, why wouldn&rsquo;t you bring excellent UI and mobile app developers in house to make kick ass products for your own OS? Why wouldn&rsquo;t you start to cherry pick some of the exceptional talent that is out in the iOS space?</p>
 
-<p>I think it is possible that this is the beginning of a few other talent grabs by Google. I wouldn&#8217;t be shocked if we saw the end of <a href="http://reederapp.com/">Reeder</a> and possibly <a href="http://vemedio.com/products/instacast">Instacast</a> (although I prefer <a href="http://www.downcastapp.com/">Downcast</a> for podcast players but Instacast seems to get the lion&#8217;s share of mentions), and I  hope that the <a href="http://tapbots.com/">Tapbot</a> folk or the <a href="http://dayoneapp.com/">Day One</a> guys don&#8217;t get caught in this as well. But by taking on this model, Google gets rid of the lousy Android piracy issue by giving these developers a massive hiring bonus and it gives them a regular paycheck for as long as they want to be Google employees. They never have to sell another app in a market again, but they get to keep building for the platform they love. I wouldn&#8217;t blame anyone for accepting something like that. Plus, if Google makes this a culture thing, who&#8217;s to say what else may change because of it?</p>
+<p>I think it is possible that this is the beginning of a few other talent grabs by Google. I wouldn&rsquo;t be shocked if we saw the end of <a href="http://reederapp.com/">Reeder</a> and possibly <a href="http://vemedio.com/products/instacast">Instacast</a> (although I prefer <a href="http://www.downcastapp.com/">Downcast</a> for podcast players but Instacast seems to get the lion&rsquo;s share of mentions), and I  hope that the <a href="http://tapbots.com/">Tapbot</a> folk or the <a href="http://dayoneapp.com/">Day One</a> guys don&rsquo;t get caught in this as well. But by taking on this model, Google gets rid of the lousy Android piracy issue by giving these developers a massive hiring bonus and it gives them a regular paycheck for as long as they want to be Google employees. They never have to sell another app in a market again, but they get to keep building for the platform they love. I wouldn&rsquo;t blame anyone for accepting something like that. Plus, if Google makes this a culture thing, who&rsquo;s to say what else may change because of it?</p>
 
 <p>If this really becomes a thing, it will be interesting to see what Apple does as a response.</p>
 
@@ -802,15 +802,15 @@ print_r($str);
 
 <p><strong>Sparrow Press Release</strong></p>
 
-<blockquote><p>We&#8217;re excited to announce that Sparrow has been acquired by Google!</p>
+<blockquote><p>We&rsquo;re excited to announce that Sparrow has been acquired by Google!</p>
 
 <p>We care a lot about how people communicate, and we did our best to provide you with the most intuitive and pleasurable mailing experience.</p>
 
-<p>Now we&#8217;re joining the Gmail team to accomplish a bigger vision — one that we think we can better achieve with Google.</p>
+<p>Now we&rsquo;re joining the Gmail team to accomplish a bigger vision — one that we think we can better achieve with Google.</p>
 
 <p>We’d like to extend a special thanks to all of our users who have supported us, advised us, given us priceless feedback and allowed us to build a better mail application. While we’ll be working on new things at Google, we will continue to make Sparrow available and provide support for our users.</p>
 
-<p>We had an amazing ride and can&#8217;t thank you enough.</p>
+<p>We had an amazing ride and can&rsquo;t thank you enough.</p>
 
 <p>Full speed ahead!</p>
 
@@ -833,11 +833,11 @@ Sparrow</p>
 
 <p>There are problems with the medium of podcasting, but there are two that stand out for me. The first is production value. The second is time.</p>
 
-<p>In the case of the production value, some podcasters simply don&#8217;t have the money to invest in a <a href="http://hivelogic.com/articles/podcasting-equipment-software-guide-2011/">proper setup</a>. This can mean that the show is either hard to listen to, or in some cases almost impossible. Post production work can only fix so many issues with the initial recording.</p>
+<p>In the case of the production value, some podcasters simply don&rsquo;t have the money to invest in a <a href="http://hivelogic.com/articles/podcasting-equipment-software-guide-2011/">proper setup</a>. This can mean that the show is either hard to listen to, or in some cases almost impossible. Post production work can only fix so many issues with the initial recording.</p>
 
-<p>In the case of time, some podcasting producers seem to think that time doesn&#8217;t matter. If they have two hours to interview someone then the completed show should be released at two hours. Sometimes this works, but often it doesn&#8217;t. I&#8217;ve found that some podcasting producers are afraid of killing their babies. In the case of podcasting the baby is often the random ramblings of an overly long conversation. When this happens enough times I end up listening to the next few shows at two-time speed. If that still doesn&#8217;t remedy the tedium for the show then I just stop listening to it. Sometimes I come back, sometimes I don&#8217;t. I can be fickle, but I&#8217;m also fair.</p>
+<p>In the case of time, some podcasting producers seem to think that time doesn&rsquo;t matter. If they have two hours to interview someone then the completed show should be released at two hours. Sometimes this works, but often it doesn&rsquo;t. I&rsquo;ve found that some podcasting producers are afraid of killing their babies. In the case of podcasting the baby is often the random ramblings of an overly long conversation. When this happens enough times I end up listening to the next few shows at two-time speed. If that still doesn&rsquo;t remedy the tedium for the show then I just stop listening to it. Sometimes I come back, sometimes I don&rsquo;t. I can be fickle, but I&rsquo;m also fair.</p>
 
-<p>But enough about my love and issues with podcasts. Let&#8217;s talk about <a href="http://boingboing.net/category/podcasts">Gweek</a>.</p>
+<p>But enough about my love and issues with podcasts. Let&rsquo;s talk about <a href="http://boingboing.net/category/podcasts">Gweek</a>.</p>
 
 <p><em>This is my favorite podcast.</em></p>
 
@@ -845,19 +845,19 @@ Sparrow</p>
 
 <p><strong>This is my favorite podcast.</strong></p>
 
-<p>I&#8217;ve been a big <a href="http://boingboing.net/">Boing Boing</a> fan for years. I have recently found a way to make Boing Boing a part of my weekly routine again, after a long period of time where I just caught it as I could, but I&#8217;ll discuss this more in another post. The reason I mention Boing Boing is because Gweek is hosted by Mark Frauenfelder, the co-founder and an editor of Boing Boing (along with being the editor of the awesome <a href="http://makezine.com/">Make Magazine</a> &#8211; that I was just given as a Christmas gift from my parents). It is usually co-hosted by the oft-late (because of <a href="http://www.amazon.com/exec/obidos/ASIN/B004HYK956/boingboing">Skyrim</a>) Rob Beschizza, Managing Editor of Boing Boing, and Ruben Bolling, the mastermind behind <a href="http://gocomics.typepad.com/tomthedancingbugblog/">Tom the Dancing Bug</a>.</p>
+<p>I&rsquo;ve been a big <a href="http://boingboing.net/">Boing Boing</a> fan for years. I have recently found a way to make Boing Boing a part of my weekly routine again, after a long period of time where I just caught it as I could, but I&rsquo;ll discuss this more in another post. The reason I mention Boing Boing is because Gweek is hosted by Mark Frauenfelder, the co-founder and an editor of Boing Boing (along with being the editor of the awesome <a href="http://makezine.com/">Make Magazine</a> &mdash; that I was just given as a Christmas gift from my parents). It is usually co-hosted by the oft-late (because of <a href="http://www.amazon.com/exec/obidos/ASIN/B004HYK956/boingboing">Skyrim</a>) Rob Beschizza, Managing Editor of Boing Boing, and Ruben Bolling, the mastermind behind <a href="http://gocomics.typepad.com/tomthedancingbugblog/">Tom the Dancing Bug</a>.</p>
 
 <p>Before I became a regular listener, each time Gweek was mentioned on Boing Boing I always said that I should at least check out an episode. Finally I did. It was <a href="http://boingboing.net/2011/11/14/gweek-podcast-episode-026-a-h.html">episode 26</a>. The reason I decided on this one was because it mentioned in the show notes about how Mark had an addiction to Dungeon Raid. I suffer from the same affliction, so I had to hear about how he avoided the intervention that I would typically require.</p>
 
-<p>The show begins, &#8220;Gweek is where the editors and friends of Boing Boing talk about comic books, science fiction and fantasy, video games, board games, tools, gadgets, apps and other neat stuff.&#8221; Everything that I like!</p>
+<p>The show begins, &ldquo;Gweek is where the editors and friends of Boing Boing talk about comic books, science fiction and fantasy, video games, board games, tools, gadgets, apps and other neat stuff.&rdquo; Everything that I like!</p>
 
 <p>When I had finished listening, it was clear that I had found a show that I would need to make room for on my <del>dance card</del> playlists.</p>
 
-<p>Joel Johnston was a guest/co-host of the show. I&#8217;ve been an admirer of Mark, Rob and him for some time. Joel did not disappoint and the conversation was filled with humor and insight. It was great. I was especially pleased about the discussion of <a href="http://www.minecraft.net/">Minecraft</a>, a game that I have recently started playing and enjoyed, the <a href="http://www.amazon.com/exec/obidos/ASIN/B004VQENY8/boingboing">Skylanders game</a>, that I had heard of but knew almost nothing about, the book <a href="http://www.amazon.com/exec/obidos/ASIN/0143119826/boingboing">The Postmortal</a>, that I immediately added to my Amazon wish list, and, of course, the iOS game <a href="http://itunes.apple.com/us/app/dungeon-raid/id403090531?mt=8">Dungeon Raid</a>.</p>
+<p>Joel Johnston was a guest/co-host of the show. I&rsquo;ve been an admirer of Mark, Rob and him for some time. Joel did not disappoint and the conversation was filled with humor and insight. It was great. I was especially pleased about the discussion of <a href="http://www.minecraft.net/">Minecraft</a>, a game that I have recently started playing and enjoyed, the <a href="http://www.amazon.com/exec/obidos/ASIN/B004VQENY8/boingboing">Skylanders game</a>, that I had heard of but knew almost nothing about, the book <a href="http://www.amazon.com/exec/obidos/ASIN/0143119826/boingboing">The Postmortal</a>, that I immediately added to my Amazon wish list, and, of course, the iOS game <a href="http://itunes.apple.com/us/app/dungeon-raid/id403090531?mt=8">Dungeon Raid</a>.</p>
 
-<p>It was the next day that the next episode with <a href="http://boingboing.net/2011/11/21/gweek-episode-028-we-are-all.html">Seth Godin</a> came out. I got to listen to some of it as I went for a short run. Seth as a guest was super insightful and a great conversationalist. I got to learn more about his work on <a href="http://www.thedominoproject.com/">The Domino Project</a>. I am late to this game, but I found it a fascinating experiment. Mark also gave us a heads-up on <a href="http://blog.makezine.com/tag/collinslab">Collin&#8217;s Lab</a>. After watching one of his short seven minute videos I know more about electronics schematics than I ever have before. I also added <a href="http://www.amazon.com/exec/obidos/ASIN/1565235592/boingboing">Handmade Music Factory</a> to my Amazon wish list. This stuff is so cool.</p>
+<p>It was the next day that the next episode with <a href="http://boingboing.net/2011/11/21/gweek-episode-028-we-are-all.html">Seth Godin</a> came out. I got to listen to some of it as I went for a short run. Seth as a guest was super insightful and a great conversationalist. I got to learn more about his work on <a href="http://www.thedominoproject.com/">The Domino Project</a>. I am late to this game, but I found it a fascinating experiment. Mark also gave us a heads-up on <a href="http://blog.makezine.com/tag/collinslab">Collin&rsquo;s Lab</a>. After watching one of his short seven minute videos I know more about electronics schematics than I ever have before. I also added <a href="http://www.amazon.com/exec/obidos/ASIN/1565235592/boingboing">Handmade Music Factory</a> to my Amazon wish list. This stuff is so cool.</p>
 
-<p>And I couldn&#8217;t wait another week to hear the next one, so I started to go back to the earlier episodes. They&#8217;re all this good.</p>
+<p>And I couldn&rsquo;t wait another week to hear the next one, so I started to go back to the earlier episodes. They&rsquo;re all this good.</p>
 
 <p>I listened to the episode with <a href="http://boingboing.net/2011/10/31/127095.html">John Hodgman</a>, and while I disagreed with the opinions regarding the DC Reboot (I actually am excited about being able to get into comic story lines that make sense), I am now reading <a href="https://comics.comixology.com/#/view/1/Atomic-Robo-1-of-6-">Atomic Robo</a> because of the conversation. It is <em>really</em> good. John continued the string of great guests.</p>
 
@@ -865,13 +865,13 @@ Sparrow</p>
 
 <p>And the episode with <a href="http://boingboing.net/2011/11/07/gweek-podcast-025-michael-kupp.html">Michael Kupperman</a> led to my education on the comic strip <a href="http://www.amazon.com/exec/obidos/ASIN/B0054U5862/boingboing">Cul de Sac</a>, <a href="http://www.darkhorse.com/Comics/16-912/Orchid-1-Massimo-Carnevale-cover">Orchid</a> and <a href="http://thelastmanalive.tripod.com/home.html">The Last Man Alive</a>.</p>
 
-<p>But the last two episodes, the one with Jon Ronson, author of <em>The Men Who Stare at Goats</em>, and the other with Maggie Koerth-Baker, the Boing Boing Science Editor, have just been off the charts good. Jon and Maggie were endlessly entertaining and interesting. By the end of Jon&#8217;s episode I had already purchased his <a href="http://www.amazon.com/exec/obidos/ASIN/B005ZOCFNQ/boingboing">ebook</a>, which was great, and started to wonder who around me was a psychopath. By the end of Maggie&#8217;s episode, I had a new web comic to start reading (<a href="http://oglaf.com/">Oglaf</a>, which is absolutely fantastic and <em>totally</em> NSFW), I couldn&#8217;t wait for <a href="http://www.amazon.com/exec/obidos/ASIN/0470876255/boingboing">Maggie&#8217;s new book</a> to be released, and I wished I had the time to play Skyrim.</p>
+<p>But the last two episodes, the one with Jon Ronson, author of <em>The Men Who Stare at Goats</em>, and the other with Maggie Koerth-Baker, the Boing Boing Science Editor, have just been off the charts good. Jon and Maggie were endlessly entertaining and interesting. By the end of Jon&rsquo;s episode I had already purchased his <a href="http://www.amazon.com/exec/obidos/ASIN/B005ZOCFNQ/boingboing">ebook</a>, which was great, and started to wonder who around me was a psychopath. By the end of Maggie&rsquo;s episode, I had a new web comic to start reading (<a href="http://oglaf.com/">Oglaf</a>, which is absolutely fantastic and <em>totally</em> NSFW), I couldn&rsquo;t wait for <a href="http://www.amazon.com/exec/obidos/ASIN/0470876255/boingboing">Maggie&rsquo;s new book</a> to be released, and I wished I had the time to play Skyrim.</p>
 
-<p>I&#8217;m now back as far as <a href="http://boingboing.net/2011/10/18/gweek-022-the-fishbone-documen.html">episode 22</a>, and I like this show so much that I plan on going through the rest of the catalog.</p>
+<p>I&rsquo;m now back as far as <a href="http://boingboing.net/2011/10/18/gweek-022-the-fishbone-documen.html">episode 22</a>, and I like this show so much that I plan on going through the rest of the catalog.</p>
 
-<p>But let&#8217;s run full circle here. My two big complaints about podcasts are production value and time. Well Mark Frauenfelder keeps the time perfect. I don&#8217;t think there&#8217;s been a show that&#8217;s gone much beyond an hour. I <em>really</em> appreciate that. The production value leaves something to be desired. Mark occasionally remarks that his USB mic needs to be unplugged and replugged, and there are some occasional challenges with static and background noise. But the quality of the conversation is so excellent that these details become insignificant. I would listen to this show while they sat on a steam powered train.</p>
+<p>But let&rsquo;s run full circle here. My two big complaints about podcasts are production value and time. Well Mark Frauenfelder keeps the time perfect. I don&rsquo;t think there&rsquo;s been a show that&rsquo;s gone much beyond an hour. I <em>really</em> appreciate that. The production value leaves something to be desired. Mark occasionally remarks that his USB mic needs to be unplugged and replugged, and there are some occasional challenges with static and background noise. But the quality of the conversation is so excellent that these details become insignificant. I would listen to this show while they sat on a steam powered train.</p>
 
-<p>So if you&#8217;re looking for a podcast that is filled with geeky, neat and thoughtful conversation, along with great recommendations of terrific media, you <em>must</em> listen to <a href="http://boingboing.net/category/podcasts/">Gweek</a>. I can&#8217;t get enough.</p>
+<p>So if you&rsquo;re looking for a podcast that is filled with geeky, neat and thoughtful conversation, along with great recommendations of terrific media, you <em>must</em> listen to <a href="http://boingboing.net/category/podcasts/">Gweek</a>. I can&rsquo;t get enough.</p>
 
 <h2>TL;DR</h2>
 
@@ -883,15 +883,15 @@ Sparrow</p>
 
 <h2>Follow Up</h2>
 
-<p>I&#8217;m currently listening to <a href="http://boingboing.net/2011/12/12/gweek-030-supergods-mutants.html">Gweek 30</a>. Guest <a href="http://sketchyrobots.com/">Barry McWilliams</a> is terrific. I love hearing about the artist process and this show definitely gets into that.</p>
+<p>I&rsquo;m currently listening to <a href="http://boingboing.net/2011/12/12/gweek-030-supergods-mutants.html">Gweek 30</a>. Guest <a href="http://sketchyrobots.com/">Barry McWilliams</a> is terrific. I love hearing about the artist process and this show definitely gets into that.</p>
 
 <p>Also, <a href="http://www.amazon.com/exec/obidos/ASIN/160699347X/boingboing">Dungeon Quest, Book One</a> has already been added to my Amazon Wish List.</p>
 
-<p>I&#8217;ll probably end up finding a way to finish up the episode tonight after my oldest goes to sleep.</p>
+<p>I&rsquo;ll probably end up finding a way to finish up the episode tonight after my oldest goes to sleep.</p>
 
 <h2>Follow Up Two</h2>
 
-<p>This has really tickled me. I wrote a short note to Mark Frauenfelder about how much I like the show and he posted it on <a href="http://boingboing.net/2011/12/12/email-from-a-gweek-reader.html">Boing Boing</a>. I think that&#8217;s pretty cool.</p>
+<p>This has really tickled me. I wrote a short note to Mark Frauenfelder about how much I like the show and he posted it on <a href="http://boingboing.net/2011/12/12/email-from-a-gweek-reader.html">Boing Boing</a>. I think that&rsquo;s pretty cool.</p>
 ]]></content>
   </entry>
   
@@ -904,7 +904,7 @@ Sparrow</p>
 
 <p>If you use your Apple ID on multiple devices to buy apps (say, if you have one central account for your, your spouse’s, and your children’s purchases), it’s best not to convert it into an iCloud account. Although your installed iCloud account is, by default, the one you’ll use to purchase music and apps with, you can still manually sign in and out of the App and iTunes Stores on your device. Instead, you should create an entirely separate account to use with iCloud.</p></blockquote>
 
-<p>Awesome tip from Macworld&#8217;s <a href="http://www.macworld.com/article/162963/2011/10/meet_icloud_apples_new_sync_service.html">Getting started with iCloud, Apple&#8217;s new sync service</a> article.</p>
+<p>Awesome tip from Macworld&rsquo;s <a href="http://www.macworld.com/article/162963/2011/10/meet_icloud_apples_new_sync_service.html">Getting started with iCloud, Apple&rsquo;s new sync service</a> article.</p>
 ]]></content>
   </entry>
   
@@ -915,19 +915,19 @@ Sparrow</p>
     <id>http://geopet.github.com/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control</id>
     <content type="html"><![CDATA[<h2>Introduction</h2>
 
-<p>I&#8217;m going to get a pretty nerdy here for a moment.</p>
+<p>I&rsquo;m going to get a pretty nerdy here for a moment.</p>
 
-<p>So I dove in and I&#8217;m now using
+<p>So I dove in and I&rsquo;m now using
 <a href="http://brettterpstra.com/project/nvalt/">nvALT</a>,
 <a href="http://www.secondgearsoftware.com/elements/">Elements</a> and
 <a href="http://git-scm.com/">Git</a> for my note taking needs. Aside from a few
-minor hiccups, which I&#8217;ll address in a later post, this is really
+minor hiccups, which I&rsquo;ll address in a later post, this is really
 working nicely.</p>
 
 <p>The one thing that I needed when I added nvALT and Elements to my note
 taking workflow was the ability to easily continue version control with
 Git. Before taking on this new process I was using Git in my notes
-directory and I wasn&#8217;t about to lose that option now.</p>
+directory and I wasn&rsquo;t about to lose that option now.</p>
 
 <p>But the ease which nvALT allows me to create new text files, and with
 nvALT built to work better with <a href="http://brettterpstra.com/break-up-your-text-documents/">smaller
@@ -935,7 +935,7 @@ files</a>, I need
 some way to get my version control under control.<a href="#fn:1"
 id="fnref:1" title="see footnote" class="footnote">[1]</a></p>
 
-<p>Here&#8217;s what my workflow was:</p>
+<p>Here&rsquo;s what my workflow was:</p>
 
 <ol>
 <li>Work, notes, work, notes.</li>
@@ -947,13 +947,13 @@ id="fnref:1" title="see footnote" class="footnote">[1]</a></p>
 </ol>
 
 
-<p>It wasn&#8217;t really precision based. Plus it had the added detriment of
+<p>It wasn&rsquo;t really precision based. Plus it had the added detriment of
 taking me out of what I was doing to commit my notes.</p>
 
 <p>What I did<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a> was create a Bash script and then used Automator to create a
 Service for it that I also applied a keyboard shortcut to.</p>
 
-<p>If you&#8217;re still with me, here&#8217;s how I did it:</p>
+<p>If you&rsquo;re still with me, here&rsquo;s how I did it:</p>
 
 <h2>The Reveal</h2>
 
@@ -964,7 +964,7 @@ seems, Elements like to work. With some light taxonomy (ala <a href="http://macp
 and Mac Power
 Users</a>)
 I have a reasonably good system in place. All my notes are in a
-<a href="http://db.tt/eOrvceA">Dropbox</a> subdirectory called &#8220;notes.&#8221;</p>
+<a href="http://db.tt/eOrvceA">Dropbox</a> subdirectory called &ldquo;notes.&rdquo;</p>
 
 <p>To get this to work I created a Bash script named <code>git_notes.sh</code> and put
 this in it:</p>
@@ -977,7 +977,7 @@ git commit -m 'nvALT Service Commit'
 echo "* "`date`" nvALT Commit" &gt;&gt; /Users/username/Dropbox/notes/noteCommits`date "+%Y%m%d"`.md
 </code></pre>
 
-<p>Now, you&#8217;ll see that this is redundant and probably a lot silly, but
+<p>Now, you&rsquo;ll see that this is redundant and probably a lot silly, but
 this is what it does.</p>
 
 <ol>
@@ -987,8 +987,8 @@ this is what it does.</p>
 log file.</li>
 <li>The last line is where it gets a little silly, it appends to another
 file in the same Dropbox subdirectory with a message that also gives a
-human readable date/time. Why am I doing this? I don&#8217;t know, maybe
-someday I&#8217;ll set up something to parse it to get some analytics of when
+human readable date/time. Why am I doing this? I don&rsquo;t know, maybe
+someday I&rsquo;ll set up something to parse it to get some analytics of when
 I do most of my commits for my notes file.</li>
 </ol>
 
@@ -996,37 +996,37 @@ I do most of my commits for my notes file.</li>
 <p>But now that we have our Bash script. The rest is <em>trivial</em>.</p>
 
 <p>First, we open <a href="http://support.apple.com/kb/ht2488">Automator</a> and
-select &#8220;Service&#8221; as our document type under the &#8220;Choose a type for your
-document:&#8221;</p>
+select &ldquo;Service&rdquo; as our document type under the &ldquo;Choose a type for your
+document:&rdquo;</p>
 
 <p><img class="center" src="http://geopet.github.com/images/creating-a-service-01.png"></p>
 
-<p>Next, we&#8217;re going to change the &#8220;Service receives&#8221; from the default
-&#8220;text&#8221; to &#8220;no input&#8221;. Leave the &#8220;in&#8221; &#8220;any application&#8221; as it is.</p>
+<p>Next, we&rsquo;re going to change the &ldquo;Service receives&rdquo; from the default
+&ldquo;text&rdquo; to &ldquo;no input&rdquo;. Leave the &ldquo;in&rdquo; &ldquo;any application&rdquo; as it is.</p>
 
 <p><img class="center" src="http://geopet.github.com/images/creating-a-service-02.png"></p>
 
-<p>Penultimately, we click &#8220;Utilities&#8221; under the left-side &#8220;Library&#8221; dropdown and
-then drag the &#8220;Run Shell Script&#8221; from the middle column over to the
+<p>Penultimately, we click &ldquo;Utilities&rdquo; under the left-side &ldquo;Library&rdquo; dropdown and
+then drag the &ldquo;Run Shell Script&rdquo; from the middle column over to the
 right side.</p>
 
 <p><img class="center" src="http://geopet.github.com/images/creating-a-service-03.png"></p>
 
-<p>Lastly, we enter in the location of the script in the workflow. It&#8217;s a
+<p>Lastly, we enter in the location of the script in the workflow. It&rsquo;s a
 good idea to use the absolute pathname here. In my case it was
 <code>/Users/username/Dropbox/notes/git_notes.sh</code>.</p>
 
-<p>Once you save you&#8217;ll have a Service that will be available from any
+<p>Once you save you&rsquo;ll have a Service that will be available from any
 of your application menus. Click on the Service and it will do a Git
 commit of all the changes to that notes directory as well as update the
-faux log file we&#8217;ve created for the day.</p>
+faux log file we&rsquo;ve created for the day.</p>
 
 <p><img class="center" src="http://geopet.github.com/images/creating-a-service-04.png"></p>
 
-<p>But I don&#8217;t like to use the mouse/trackpad that much. So the final touch
+<p>But I don&rsquo;t like to use the mouse/trackpad that much. So the final touch
 to this is to create a keyboard shortcut in your System Preferences. Go
-to <code>Applications &gt; System Preferences &gt; Keyboard</code>. Then choose &#8220;Keyboard
-Shortcuts&#8221; and select &#8220;Services&#8221; from the left side. Your new Service
+to <code>Applications &gt; System Preferences &gt; Keyboard</code>. Then choose &ldquo;Keyboard
+Shortcuts&rdquo; and select &ldquo;Services&rdquo; from the left side. Your new Service
 should be at the end of the Services listings. Just click the blank
 space at the far end of the window and you should get a text input
 field. You can use anything you want for your shortcut, but I chose
@@ -1038,12 +1038,12 @@ keyboard conflict.</p>
 <h2>Conclusion</h2>
 
 <p>So there you have it. A quick and dirty way to make sure that the notes
-you&#8217;re producing will be version controlled through Git. As a final
-remark, I&#8217;ll say that having version control has already paid off for
+you&rsquo;re producing will be version controlled through Git. As a final
+remark, I&rsquo;ll say that having version control has already paid off for
 me.</p>
 
 <p>I use multiple computers and I made the <em>huge</em> mistake of accidentally
-deleting a bunch of files when a prompt popped up and I didn&#8217;t read
+deleting a bunch of files when a prompt popped up and I didn&rsquo;t read
 exactly what it said. All of a sudden 20-some-odd notes of mine were
 <em>gone</em>. But version control to the rescue! I <em>knew</em> I had just committed
 to my repo before I had deleted the files and I was able to pull them
@@ -1057,21 +1057,21 @@ great and a perfect reason why doing something like this makes sense.</p>
 <p>I should add that the use of a common/standard commit message is bad
 practice. The reason I do this, instead of throwing a prompt so that I
 can enter in a more detailed message, is that this is supposed to create
-a workflow that won&#8217;t interrupt what you&#8217;re in the middle of but give
-you the peace of mind that you&#8217;ve got things in a version controlled
+a workflow that won&rsquo;t interrupt what you&rsquo;re in the middle of but give
+you the peace of mind that you&rsquo;ve got things in a version controlled
 environment. This <em>does not</em> prevent you from going to your notes
 directory and doing a proper Git commit with a detailed message on what
-you&#8217;ve done since your last commit. In fact, at the end of this
-paragraph I&#8217;ll be committing properly to say that this draft is
-finished. And when I finish my review of the draft I&#8217;ll commit again,
-and message that it is ready for posting. After that, I&#8217;ll probably do a
+you&rsquo;ve done since your last commit. In fact, at the end of this
+paragraph I&rsquo;ll be committing properly to say that this draft is
+finished. And when I finish my review of the draft I&rsquo;ll commit again,
+and message that it is ready for posting. After that, I&rsquo;ll probably do a
 name change to the file (this is the taxonomy thing I mentioned before)
 and then do another <em>proper</em> commit.</p>
 
 <p>One last point: You may have noticed that you can easily change the Bash
 script to point to any directory you want. Once you have the Service in
 place, you can edit your <code>.sh</code> file whenever you please and have a
-temporary keyboard shortcut for Git repo commits. I think that&#8217;s kinda
+temporary keyboard shortcut for Git repo commits. I think that&rsquo;s kinda
 cool.</p>
 
 <div class="footnotes">
@@ -1126,12 +1126,12 @@ worry about any files going away without my knowing. <a href="#fnref:4" title="r
     <id>http://geopet.github.com/blog/2011/09/20/nvalt-quick-tip</id>
     <content type="html"><![CDATA[<h2>Making Markdown Readable and Your Default File Type</h2>
 
-<p>So normally I don&#8217;t write tips on productivity, but lately I have been
+<p>So normally I don&rsquo;t write tips on productivity, but lately I have been
 focusing more and more on workflow and I decided to start diving deeper
-into things like Brett Terpstra&#8217;s
-<a href="http://brettterpstra.com/project/nvalt/">nvALT</a>, Smile&#8217;s
+into things like Brett Terpstra&rsquo;s
+<a href="http://brettterpstra.com/project/nvalt/">nvALT</a>, Smile&rsquo;s
 <a href="http://www.smilesoftware.com/TextExpander/">TextExpander</a>, and Second
-Gear&#8217;s <a href="http://www.secondgearsoftware.com/elements/">Elements</a> (ala <a href="http://macpowerusers.com/">Mac
+Gear&rsquo;s <a href="http://www.secondgearsoftware.com/elements/">Elements</a> (ala <a href="http://macpowerusers.com/">Mac
 Power Users</a>, <a href="http://5by5.tv/b2w">Back to
 Work</a> and <a href="http://www.merlinmann.com/">Merlin
 Mann</a>). This means you may see so more stuff
@@ -1140,24 +1140,24 @@ from me regarding cool tools like these.</p>
 <p>But this is a quick tip. So here it is:</p>
 
 <p>When I installed nvALT there were two pieces that threw me right away.
-First, even after going into the preferences and changing &#8220;Read notes
-from folder&#8221; to the folder that had all my Markdown notes it didn&#8217;t
+First, even after going into the preferences and changing &ldquo;Read notes
+from folder&rdquo; to the folder that had all my Markdown notes it didn&rsquo;t
 register any of them in the search.  The reason? I needed to change the
-&#8220;Store and read notes on disk as&#8221; drop down from &#8220;Single Database&#8221; to
-&#8220;Plain Text Files&#8221; and then I needed to add the file extension &#8220;md&#8221; to
-the &#8220;Recognize individual files with attributes:&#8221; extensions. Check out
-the screen capture below if this isn&#8217;t quite making sense. (Also note
-that there is a &#8220;+&#8221; in that preference window, next to the &#8220;-&#8221; symbol,
-but it isn&#8217;t showing right now in Lion.<a href="Many">^pe</a>)</p>
+&ldquo;Store and read notes on disk as&rdquo; drop down from &ldquo;Single Database&rdquo; to
+&ldquo;Plain Text Files&rdquo; and then I needed to add the file extension &ldquo;md&rdquo; to
+the &ldquo;Recognize individual files with attributes:&rdquo; extensions. Check out
+the screen capture below if this isn&rsquo;t quite making sense. (Also note
+that there is a &ldquo;+&rdquo; in that preference window, next to the &ldquo;&ndash;&rdquo; symbol,
+but it isn&rsquo;t showing right now in Lion.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>)</p>
 
 <p><img src="../images/nvALT-quick-tip-01.png" alt="" /></p>
 
 <p>The second item that started to bug me was that any new note/file that I
 created was being created with the <code>.txt</code> extension instead of the <code>.md</code>
-extension that I work in all the time now. Frankly, if I couldn&#8217;t fix
+extension that I work in all the time now. Frankly, if I couldn&rsquo;t fix
 this issue, I would have probably abandoned nvALT almost right away.
-Fortunately, I found that by selecting &#8220;md&#8221; in the &#8220;Recognize individual
-files with attributes:&#8221; list and then hitting the check mark, it bolded
+Fortunately, I found that by selecting &ldquo;md&rdquo; in the &ldquo;Recognize individual
+files with attributes:&rdquo; list and then hitting the check mark, it bolded
 it and my tests have showed that all my new files being made by nvALT
 are now <code>.md</code> files.</p>
 
@@ -1167,12 +1167,20 @@ system.</p>
 <p>If, by some freakish chance Brett Terpstra checks out this post, one
 feature request that I would make right now is to allow for the use of
 his <a href="http://markedapp.com/">Marked</a> app for the preview instead of only
-having the built in, but excellent, nvALT HTML preview. There&#8217;s a good
-chance that it is already a feature and I&#8217;m not aware of it. I&#8217;m loving
-Marked, and if you&#8217;re a Markdown person and not using it yet, you should
+having the built in, but excellent, nvALT HTML preview. There&rsquo;s a good
+chance that it is already a feature and I&rsquo;m not aware of it. I&rsquo;m loving
+Marked, and if you&rsquo;re a Markdown person and not using it yet, you should
 definitely check it out.</p>
 
 <p><em>I originally posted this on my Tumblr <a href="http://faceofgeoff.com/post/9665888623/nvalt-quick-tip-making-markdown-readable-and-your">The Face of Geoff</a></em></p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Many thanks to Eddie Smith at <a href="http://www.practicallyefficient.com/2011/08/02/1l-byword-nvalt-simplenote/">Practically Efficient</a> for that helpful one-liner!<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
 ]]></content>
   </entry>
   
@@ -1185,9 +1193,9 @@ definitely check it out.</p>
 
 <p><img src="../images/little-details-01.png" alt="" /></p>
 
-<p>Of course I reloaded the page several times, and still the page looked the same. Now maybe I expect too much, but if you&#8217;re going to promote something then the promo should look good. The styling for the &#8220;Tabs, Meet Groups&#8221; promotion stands out for all the wrong reasons. The padding, the lack of easily findable links, and what is with the way &#8220;Name&#8221; and &#8220;Drag&#8221; are just hanging there?</p>
+<p>Of course I reloaded the page several times, and still the page looked the same. Now maybe I expect too much, but if you&rsquo;re going to promote something then the promo should look good. The styling for the &ldquo;Tabs, Meet Groups&rdquo; promotion stands out for all the wrong reasons. The padding, the lack of easily findable links, and what is with the way &ldquo;Name&rdquo; and &ldquo;Drag&rdquo; are just hanging there?</p>
 
-<p>I&#8217;m sure there is a simple explanation for this. It&#8217;s likely a css file that&#8217;s missing in a specific directory. But if you&#8217;re going to push this page after making me do an update, I&#8217;d make sure that it was 100%. Especially when you&#8217;re promoting something to make you stand out against other great browsers like <a href="http://www.apple.com/safari/">Safari</a> and <a href="http://www.google.com/chrome">Chrome</a>.</p>
+<p>I&rsquo;m sure there is a simple explanation for this. It&rsquo;s likely a css file that&rsquo;s missing in a specific directory. But if you&rsquo;re going to push this page after making me do an update, I&rsquo;d make sure that it was 100%. Especially when you&rsquo;re promoting something to make you stand out against other great browsers like <a href="http://www.apple.com/safari/">Safari</a> and <a href="http://www.google.com/chrome">Chrome</a>.</p>
 
 <p><em>I originally posted this on my Tumblr <a href="http://faceofgeoff.com/post/9942913231/little-details">The Face of Geoff</a></em></p>
 ]]></content>

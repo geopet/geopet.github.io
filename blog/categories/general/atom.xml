@@ -4,7 +4,7 @@
   <title><![CDATA[Category: general | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/general/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2013-02-15T11:43:32-07:00</updated>
+  <updated>2013-07-28T00:12:47-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -18,11 +18,11 @@
     <link href="http://geopet.github.com/blog/2012/08/22/adding-a-cname-to-your-octopress-blog/"/>
     <updated>2012-08-22T16:42:00-06:00</updated>
     <id>http://geopet.github.com/blog/2012/08/22/adding-a-cname-to-your-octopress-blog</id>
-    <content type="html"><![CDATA[<p>This option isn't terribly well explained in the <a href="http://octopress.org/docs/deploying/github/">Octopress documentation</a>, and slightly confusing within the <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">Github</a>.</p>
+    <content type="html"><![CDATA[<p>This option isn&rsquo;t terribly well explained in the <a href="http://octopress.org/docs/deploying/github/">Octopress documentation</a>, and slightly confusing within the <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">Github</a>.</p>
 
 <p>So that I could get <em>blog.geoffpetrie.com</em> to work as my url to my Octopress blog hosted by Github at <em>geopet.github.com</em>, I needed to go to my current hosting service. In my case this is currently <a href="http://www.dreamhost.com/r.cgi?1197623">Dreamhost</a>.</p>
 
-<p>Since I wasn't changing my top-level domain (TLD), I wanted to keep <em>geoffpetrie.com</em> pointed at my hosting service, I wanted to add a subdomain, i.e., <em>blog</em> to my domain name server (DNS) run by Dreamhost.</p>
+<p>Since I wasn&rsquo;t changing my top-level domain (TLD), I wanted to keep <em>geoffpetrie.com</em> pointed at my hosting service, I wanted to add a subdomain, i.e., <em>blog</em> to my domain name server (DNS) run by Dreamhost.</p>
 
 <p>I went into the DNS configuration in the Dreamhost cpanel and added <em>blog</em> as the <strong>name/record</strong>, <em>CNAME</em> as the <strong>type</strong> and <em>geopet.github.com</em> as the <strong>value</strong>.</p>
 
@@ -32,11 +32,11 @@
 
 <p><code>echo 'blog.geoffpetrie.com' &gt;&gt; source/CNAME</code></p>
 
-<p>Of course you're going to use your own subdomain instead of <em>blog.geoffpetrie.com</em>. This command will create the CNAME file in your source directory with the url that you want to direct people to.</p>
+<p>Of course you&rsquo;re going to use your own subdomain instead of <em>blog.geoffpetrie.com</em>. This command will create the CNAME file in your source directory with the url that you want to direct people to.</p>
 
-<p>After this all that's needed is <code>rake generate</code> and <code>rake deploy</code>. (You may as well commit to your source branch after this.)</p>
+<p>After this all that&rsquo;s needed is <code>rake generate</code> and <code>rake deploy</code>. (You may as well commit to your source branch after this.)</p>
 
-<p>Wait a couple of minutes for things to work their way through DNS and Github's world and you'll be looking at your Octopress blog on your own domain.</p>
+<p>Wait a couple of minutes for things to work their way through DNS and Github&rsquo;s world and you&rsquo;ll be looking at your Octopress blog on your own domain.</p>
 ]]></content>
   </entry>
   
@@ -47,9 +47,9 @@
     <id>http://geopet.github.com/blog/2012/08/21/starting-again-with-octopress</id>
     <content type="html"><![CDATA[<p>Moving my <a href="http://faceofgeoff.com">Tumblr</a> to <a href="https://github.com/imathis/octopress">Octopress</a> seems to be a bit more of a chore than I had initially expected. My journey into <a href="https://github.com/mojombo/jekyll">Jekyll</a> turned out to be something that required more time that I could commit at this very moment, so I decided to take a quicker path to getting a better blogging workflow into my life by implementing some really exceptional work done <a href="http://brandonmathis.com/">Brandon Mathis</a> in Octopress as recommended by my friend <a href="http://brianarn.github.com/">Brian Arnold</a>.</p>
 
-<p>Still, this is a new application that I haven't had a chance to really kick the tires on. I tried to grab the less family specific pieces from the Tumblr I kept, and the more bloggy pieces from there. There is more work to be done on that front. For one, I need to get some of the original images from there for the technical pieces that I took screen captures of. In the mean time I'll see if I can get URLs back to the original Tumblr pieces if there is any interest in that at all.</p>
+<p>Still, this is a new application that I haven&rsquo;t had a chance to really kick the tires on. I tried to grab the less family specific pieces from the Tumblr I kept, and the more bloggy pieces from there. There is more work to be done on that front. For one, I need to get some of the original images from there for the technical pieces that I took screen captures of. In the mean time I&rsquo;ll see if I can get URLs back to the original Tumblr pieces if there is any interest in that at all.</p>
 
-<p>While I would love to spend time tweaking this install of Octopress, I suspect that I'll spend the time I do have writing rather than tweaking for the moment. Forward progression is key for me right now, even though this is something I should dive deeper into.</p>
+<p>While I would love to spend time tweaking this install of Octopress, I suspect that I&rsquo;ll spend the time I do have writing rather than tweaking for the moment. Forward progression is key for me right now, even though this is something I should dive deeper into.</p>
 
 <p>If I ignore what I said above and fall into the abyss, I will post the tricks I find along the way.</p>
 ]]></content>

@@ -9,7 +9,7 @@
   <meta name="author" content="Geoff Petrie">
 
   
-  <meta name="description" content="If you read my previous post on the challenge of education as a developer, you&#8217;ll know about my interested in the Python language and syntax. I &hellip;">
+  <meta name="description" content="If you read my previous post on the challenge of education as a developer, you&rsquo;ll know about my interested in the Python language and syntax. I &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,13 +18,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://geopet.github.com/blog/2012/09/25/python-dictionaries/">
+  <link rel="canonical" href="http://geopet.github.com/blog/2012/09/25/python-dictionaries">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Thoughts of Geoff" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -103,9 +104,9 @@
   </header>
 
 
-<div class="entry-content"><p>If you read my previous post on <a href="http://blog.geoffpetrie.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/">the challenge of education as a developer</a>, you&#8217;ll know about my interested in the Python language and syntax. I have had a reason to look at Python again recently and it&#8217;s pretty amazing what I had forgotten about the language.</p>
+<div class="entry-content"><p>If you read my previous post on <a href="http://blog.geoffpetrie.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/">the challenge of education as a developer</a>, you&rsquo;ll know about my interested in the Python language and syntax. I have had a reason to look at Python again recently and it&rsquo;s pretty amazing what I had forgotten about the language.</p>
 
-<p>Now I&#8217;ll admit that my understanding of object models and design patterns isn&#8217;t the finest. But as I was going through my Python refresher I had a bit of an aha moment.</p>
+<p>Now I&rsquo;ll admit that my understanding of object models and design patterns isn&rsquo;t the finest. But as I was going through my Python refresher I had a bit of an aha moment.</p>
 
 <p>It was this line of code that struck me as pretty significant:</p>
 
@@ -114,9 +115,9 @@
 
 <p>This code came from the <a href="http://www.diveintopython.net/native_data_types/summary.html">Dive into Python</a> website.</p>
 
-<p>While it doesn&#8217;t look remarkable on the surface, knowing that <em>everything in Python is an object</em> (like Ruby and Javascript) you&#8217;ll appreciate how cool that line of code is. Specifically the <code>";"</code> piece of it.</p>
+<p>While it doesn&rsquo;t look remarkable on the surface, knowing that <em>everything in Python is an object</em> (like Ruby and Javascript) you&rsquo;ll appreciate how cool that line of code is. Specifically the <code>";"</code> piece of it.</p>
 
-<p>That <code>.join</code> method is called <em>by</em> that semicolon. That&#8217;s pretty cool.</p>
+<p>That <code>.join</code> method is called <em>by</em> that semicolon. That&rsquo;s pretty cool.</p>
 
 <p>To demonstrate the importance of this piece, I decided to see how I could actually produce the same results that line of code does in PHP.</p>
 
@@ -134,7 +135,7 @@
 <pre><code>pwd=secret;database=localhost;uid=sa;server=gpetrie
 </code></pre>
 
-<p>So the piece we&#8217;re going to focus on is how that last tuple is printed. You see that? <code>server=gpetrie</code>. There&#8217;s no semicolon at the end of that. That&#8217;s because the semicolon is the object calling the <code>.join</code> method.</p>
+<p>So the piece we&rsquo;re going to focus on is how that last tuple is printed. You see that? <code>server=gpetrie</code>. There&rsquo;s no semicolon at the end of that. That&rsquo;s because the semicolon is the object calling the <code>.join</code> method.</p>
 
 <p>How can I produce this same output using PHP and an associative array?</p>
 
@@ -157,12 +158,12 @@ foreach ($myParams as $k=&gt;$v) {
 print_r($str);
 </code></pre>
 
-<p>We wouldn&#8217;t get what we wanted. We&#8217;d get this:</p>
+<p>We wouldn&rsquo;t get what we wanted. We&rsquo;d get this:</p>
 
 <pre><code>server:gpetrie; database:localhost; uid:sa; pwd:secret; 
 </code></pre>
 
-<p>That semicolon at the end. That&#8217;s the problem.</p>
+<p>That semicolon at the end. That&rsquo;s the problem.</p>
 
 <p>So we try something a little more complex:</p>
 
@@ -182,7 +183,7 @@ for ($i=0; $i&lt;$arrayCount; $i++) {
 print_r($str);
 </code></pre>
 
-<p>But it doesn&#8217;t work either. We get:</p>
+<p>But it doesn&rsquo;t work either. We get:</p>
 
 <pre><code>server:gpetrie; database:localhost; uid:sa; pwd:secret; 
 </code></pre>
@@ -216,7 +217,7 @@ print_r($str);
 
 <p>No semicolon at the end.</p>
 
-<p>Now don&#8217;t misunderstand the point of this. This isn&#8217;t a Python versus PHP thing. This is just to show the interesting power of having everything as an object in Python and how much lighter your code can be because of it. Of course if you have a better solution to this than I do, please let me know. I&#8217;d love to see it.</p>
+<p>Now don&rsquo;t misunderstand the point of this. This isn&rsquo;t a Python versus PHP thing. This is just to show the interesting power of having everything as an object in Python and how much lighter your code can be because of it. Of course if you have a better solution to this than I do, please let me know. I&rsquo;d love to see it.</p>
 </div>
 
 
@@ -253,7 +254,7 @@ print_r($str);
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2012/09/25/python-dictionaries/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2012/09/25/python-dictionaries/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2012/09/25/python-dictionaries/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2012/09/25/python-dictionaries/" >Tweet</a>
   
   
   
@@ -277,7 +278,7 @@ print_r($str);
   
     <section>
   <h1>About Me</h1>
-  <p>I'm a software developer and a technical manager. I like <em>a lot</em> of different things. This space is for me to have a place to write about those things.</p>
+  <p>I am a web programmer and a technical manager. I like <em>a lot</em> of different things. This space is for me to have a place to write about those things.</p>
   <p>You can find out more about me by going to <a href="http://geoffpetrie.com">geoffpetrie.com</a></p>
 </section>
 <section>
@@ -333,7 +334,7 @@ print_r($str);
   <a href="https://github.com/geopet">@geopet</a> on GitHub
   
   <script type="text/javascript">
-    $.domReady(function(){
+    $(document).ready(function(){
         if (!window.jXHR){
             var jxhr = document.createElement('script');
             jxhr.type = 'text/javascript';
@@ -352,9 +353,6 @@ print_r($str);
   </script>
   <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
-
-
-
 
 
   
@@ -382,7 +380,7 @@ print_r($str);
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

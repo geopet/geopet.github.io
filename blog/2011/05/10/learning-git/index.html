@@ -10,7 +10,7 @@
 
   
   <meta name="description" content="Introduction For the record, much of this is unabashedly lifted from Pro Git book I
-can&#8217;t even remotely suggest that this content is original &hellip;">
+can&rsquo;t even remotely suggest that this content is original &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,13 +19,14 @@ can&#8217;t even remotely suggest that this content is original &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://geopet.github.com/blog/2011/05/10/learning-git/">
+  <link rel="canonical" href="http://geopet.github.com/blog/2011/05/10/learning-git">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Thoughts of Geoff" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -107,28 +108,28 @@ can&#8217;t even remotely suggest that this content is original &hellip;">
 <div class="entry-content"><h2>Introduction</h2>
 
 <p>For the record, much of this is unabashedly lifted from <em>Pro Git</em> book I
-can&#8217;t even remotely suggest that this content is original to me. Sure,
-I&#8217;ve added my own two cents now and then, but do yourselves a favor and
+can&rsquo;t even remotely suggest that this content is original to me. Sure,
+I&rsquo;ve added my own two cents now and then, but do yourselves a favor and
 read the first three chapters of <a href="http://progit.org/book">Pro Git</a>. In
-fact, if any of this doesn&#8217;t make sense, it is probably because I
-haven&#8217;t correctly paraphrased <em>Pro Git</em> and you should just consult the
+fact, if any of this doesn&rsquo;t make sense, it is probably because I
+haven&rsquo;t correctly paraphrased <em>Pro Git</em> and you should just consult the
 book in that case.</p>
 
-<p>One thing you&#8217;ll definitively need to use Git locally is Git running on
+<p>One thing you&rsquo;ll definitively need to use Git locally is Git running on
 your computer. There are lots of tutorials and ways to do it, I think
 <a href="http://progit.org/book/ch1-4.html">this tutorial</a> will work or you can
 <a href="http://git-scm.com/">just go to the source</a> and download the latest
 stable release of Git.</p>
 
-<p>The other item that you&#8217;ll likely find useful in using Git as well as
+<p>The other item that you&rsquo;ll likely find useful in using Git as well as
 for many other things, is a <a href="http://db.tt/eOrvceA">Dropbox account</a>. By
 using Git in a Dropbox managed folder you get your own local repository
 in the cloud. The Basic account type is free and comes with 2GB of
-storage. That&#8217;s probably plenty if you plan to mainly do textish style
-file management. If it isn&#8217;t enough space, hey, just get a paid account.
+storage. That&rsquo;s probably plenty if you plan to mainly do textish style
+file management. If it isn&rsquo;t enough space, hey, just get a paid account.
 The service is awesome. The link that I give for the Dropbox account is
 a referral link for me. It just me an extra 250MB of storage to my
-account if you use it. If you&#8217;d rather not use that link then try
+account if you use it. If you&rsquo;d rather not use that link then try
 <a href="http://www.dropbox.com">http://www.dropbox.com</a>. I picked up this tip when I attended a
 Webuquerque called <em>Getting With Git</em> that was presented by <a href="http://www.randomthink.net/">Brian
 Arnold</a>.</p>
@@ -195,7 +196,7 @@ you ran the <code>git init</code> command in, all the .docx (Word) files and a t
 file called <code>awesome_documentation.txt</code>. Then you committed those
 documents to your local repository with the <code>git commit</code> command.</p>
 
-<p>Congratulations, you&#8217;re now version controlling your work.</p>
+<p>Congratulations, you&rsquo;re now version controlling your work.</p>
 
 <p>Another command you should know:</p>
 
@@ -204,20 +205,20 @@ documents to your local repository with the <code>git commit</code> command.</p>
 
 <p>This will let you know whether you have a file(s) in the staging area
 and ready to check in or something that has been tracked, has been
-changed, but isn&#8217;t in the staging area or you have untracked files in
+changed, but isn&rsquo;t in the staging area or you have untracked files in
 the directory you ran <code>$ git init</code>.</p>
 
 <pre><code>$ git diff
 </code></pre>
 
-<p>This command will show what you&#8217;ve changed but haven&#8217;t staged yet.</p>
+<p>This command will show what you&rsquo;ve changed but haven&rsquo;t staged yet.</p>
 
 <pre><code>$ git commit
 </code></pre>
 
 <p><code>git commit</code> commits your changes to your local repo. In this case it
 will also launch your editor of choice where you will enter in a note
-regarding the changes to the document you&#8217;ve made. When you save and
+regarding the changes to the document you&rsquo;ve made. When you save and
 quit the editor your commit will be completed. To avoid launching your
 editor add the <code>-m</code> flag:</p>
 
@@ -239,7 +240,7 @@ $ git rm file.txt
 
 <p>Removes <code>file.txt</code> from your repo but <em>not</em> from your working directory.
 (Good for when you may have accidentally added a bunch of files in your
-repo that you didn&#8217;t want to track, like complied files or admin text
+repo that you didn&rsquo;t want to track, like complied files or admin text
 files that you meant to put in your <code>.gitignore</code>.</p>
 
 <pre><code>$ git mv file_from file_to
@@ -250,7 +251,7 @@ your next commit it renames it in your repo <em>and</em> your working
 directory. So sexy. (My other favorite Git command is <code>$ git checkout -b
 new_branch</code>, which I will get to in a moment.)</p>
 
-<p>Here&#8217;s how you can find out the changes that have taken place in your
+<p>Here&rsquo;s how you can find out the changes that have taken place in your
 repo:</p>
 
 <pre><code>$ git log
@@ -296,7 +297,7 @@ $ git commit --amend
 <pre><code>$ git reset HEAD file_I_do_not_want.py
 </code></pre>
 
-<p>If you don&#8217;t want to keep the changes to the file you have in the
+<p>If you don&rsquo;t want to keep the changes to the file you have in the
 staging area you can just revert the file back to the way it was in the
 previous commit. <em>Be careful</em> this is not something you can undo:</p>
 
@@ -305,7 +306,7 @@ previous commit. <em>Be careful</em> this is not something you can undo:</p>
 
 <h2>Tags</h2>
 
-<p>Oh man. Now we&#8217;re moving forward. Let&#8217;s chat about <em>tagging</em>. Tagging is a
+<p>Oh man. Now we&rsquo;re moving forward. Let&rsquo;s chat about <em>tagging</em>. Tagging is a
 great place to mark a specific point in your version history as
 important. This is perfect for a release point, i.e., v1.0.</p>
 
@@ -322,7 +323,7 @@ v1.1
 <pre><code>$ git tag -a v1.4 -m 'my version 1.4 is the best thing ever.'
 </code></pre>
 
-<p>Here&#8217;s how you see the data:</p>
+<p>Here&rsquo;s how you see the data:</p>
 
 <pre><code>$ git show v1.4
 </code></pre>
@@ -339,30 +340,30 @@ $ git tag -a v1.1.0 9a4ccbe
 
 <p>Note you take the first part of that crazy list of numbers and letters
 (the checksum) and add it to the end so that Git can identify which
-commit you want to tag. God, isn&#8217;t that simplicity awesome?</p>
+commit you want to tag. God, isn&rsquo;t that simplicity awesome?</p>
 
 <h2>Branching</h2>
 
-<p>Now, let&#8217;s talk about <em>branching</em>.</p>
+<p>Now, let&rsquo;s talk about <em>branching</em>.</p>
 
 <p>For a more detailed discussion into branching, take a look at the
 branching chapter in the <a href="http://progit.org/book/ch3-1.html">Git Pro
-book</a>. For this discussion, I&#8217;m going
+book</a>. For this discussion, I&rsquo;m going
 to show you the basic commands and what they do.</p>
 
 <pre><code>$ git branch
 </code></pre>
 
 <p>Lists the branches already in your repository. Keep in mind that the
-branch you&#8217;ll likely find yourself in at first is your &#8220;master&#8221; branch.
-This isn&#8217;t necessarily the one you&#8217;ll be spending the most of your time
+branch you&rsquo;ll likely find yourself in at first is your &ldquo;master&rdquo; branch.
+This isn&rsquo;t necessarily the one you&rsquo;ll be spending the most of your time
 in, but it is the default.</p>
 
 <pre><code>$ git branch name_of_new_branch
 </code></pre>
 
 <p>This creates a new branch, eg, <code>$ git branch testing</code> will create the
-branch &#8220;testing.&#8221;</p>
+branch &ldquo;testing.&rdquo;</p>
 
 <pre><code>$ git checkout testing
 </code></pre>
@@ -381,7 +382,7 @@ handy.</em></p>
 </code></pre>
 
 <p>This command allows you to merge into your current branch another
-branch&#8217;s work.</p>
+branch&rsquo;s work.</p>
 
 <pre><code>$ git branch -d &lt;branch name&gt;
 </code></pre>
@@ -389,7 +390,7 @@ branch&#8217;s work.</p>
 <p>The -d flag allows you to delete a branch.</p>
 
 <p>Things get a little complex when you attempt to merge files that have
-been changed in the same place in different branches. You&#8217;ll likely get
+been changed in the same place in different branches. You&rsquo;ll likely get
 something like this:</p>
 
 <pre><code>$ git merge doc_test
@@ -398,7 +399,7 @@ CONFLICT (content): Merge conflict in newtest.markdown
 Automatic merge failed; fix conflicts and then commit the result.
 </code></pre>
 
-<p>Here you&#8217;ll want to run <code>$ git status</code> to find out what issue is. You&#8217;ll
+<p>Here you&rsquo;ll want to run <code>$ git status</code> to find out what issue is. You&rsquo;ll
 see something like this:</p>
 
 <pre><code>$ git status
@@ -424,13 +425,13 @@ are actually in play here.</p>
 <p>The mergetool will launch an appropriate visual merging tool that will
 walk you through the conflicts.</p>
 
-<p>One piece that I didn&#8217;t cover earlier is how to revert back to a
+<p>One piece that I didn&rsquo;t cover earlier is how to revert back to a
 different version of a file. To do this it requires a few different
 commands.</p>
 
-<p>First we want to check out the logs to see what changes we&#8217;ve committed.
+<p>First we want to check out the logs to see what changes we&rsquo;ve committed.
 After that we can use <code>diff</code> to see the difference in the files. Once
-we&#8217;re sure we are reverting to the correct version we use the <code>checkout</code>
+we&rsquo;re sure we are reverting to the correct version we use the <code>checkout</code>
 command.</p>
 
 <pre><code>$ git log
@@ -478,32 +479,32 @@ index 31f9fb0..d6d71fd 100644
 +you're trying to choose specific commits.
 </code></pre>
 
-<p>Now we have our diff in the file we&#8217;re interested in reverting back.</p>
+<p>Now we have our diff in the file we&rsquo;re interested in reverting back.</p>
 
 <pre><code>$ git checkout 5407fc34f57f6dc6517a38194efa1a589f9a09ad git_info.md
 </code></pre>
 
 <p>This brings the git info.md file into our current working directory from
 here we can now make changes to that file or commit immediately. The
-beauty? If we&#8217;re unhappy with this, we can just revert back to the
+beauty? If we&rsquo;re unhappy with this, we can just revert back to the
 previous commit through the same process.</p>
 
-<p>A word of warning: You <strong>can</strong> lose data this way. Anything you&#8217;ve
-committed to your repository you won&#8217;t lose, but if you&#8217;re working on a
-file and then decide to mess with its version without committing, you&#8217;ll
-lose the work you&#8217;ve done. Good rule of thumb with version control: Just
+<p>A word of warning: You <strong>can</strong> lose data this way. Anything you&rsquo;ve
+committed to your repository you won&rsquo;t lose, but if you&rsquo;re working on a
+file and then decide to mess with its version without committing, you&rsquo;ll
+lose the work you&rsquo;ve done. Good rule of thumb with version control: Just
 commit your work.</p>
 
 <p>This concludes the basics of how to get started with git. Something that
-I haven&#8217;t covered here is how to manage a repository that is remote like
+I haven&rsquo;t covered here is how to manage a repository that is remote like
 on GitHub or some other server. I may get to this later, but that is
 definitely outside the scope of this document.</p>
 
-<p>If you find something here that doesn&#8217;t make sense or you believe is incorrect, please feel free to let me know.</p>
+<p>If you find something here that doesn&rsquo;t make sense or you believe is incorrect, please feel free to let me know.</p>
 
 <h2>Command list:</h2>
 
-<p>I&#8217;m going to list a few commands here that you can use as a quick
+<p>I&rsquo;m going to list a few commands here that you can use as a quick
 reference. You may find this link to <a href="http://git-scm.com/documentation">Git
 Documentation</a> more useful. Scroll to
 the bottom of that link for the command list.</p>
@@ -536,7 +537,7 @@ $ git checkout &lt;SHA-1&gt; &lt;file name&gt;
 </code></pre>
 
 <p>Provides an abbreviated SHA-1 of your git log, a nice thing to have when
-you&#8217;re trying to choose specific commits.</p>
+you&rsquo;re trying to choose specific commits.</p>
 </div>
 
 
@@ -573,7 +574,7 @@ you&#8217;re trying to choose specific commits.</p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2011/05/10/learning-git/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2011/05/10/learning-git/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.com/blog/2011/05/10/learning-git/" data-via="geopet" data-counturl="http://geopet.github.com/blog/2011/05/10/learning-git/" >Tweet</a>
   
   
   
@@ -597,7 +598,7 @@ you&#8217;re trying to choose specific commits.</p>
   
     <section>
   <h1>About Me</h1>
-  <p>I'm a software developer and a technical manager. I like <em>a lot</em> of different things. This space is for me to have a place to write about those things.</p>
+  <p>I am a web programmer and a technical manager. I like <em>a lot</em> of different things. This space is for me to have a place to write about those things.</p>
   <p>You can find out more about me by going to <a href="http://geoffpetrie.com">geoffpetrie.com</a></p>
 </section>
 <section>
@@ -653,7 +654,7 @@ you&#8217;re trying to choose specific commits.</p>
   <a href="https://github.com/geopet">@geopet</a> on GitHub
   
   <script type="text/javascript">
-    $.domReady(function(){
+    $(document).ready(function(){
         if (!window.jXHR){
             var jxhr = document.createElement('script');
             jxhr.type = 'text/javascript';
@@ -672,9 +673,6 @@ you&#8217;re trying to choose specific commits.</p>
   </script>
   <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
-
-
-
 
 
   
@@ -702,7 +700,7 @@ you&#8217;re trying to choose specific commits.</p>
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

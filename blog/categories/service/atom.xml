@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Service | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/service/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2013-02-15T11:43:32-07:00</updated>
+  <updated>2013-07-28T00:12:47-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -20,19 +20,19 @@
     <id>http://geopet.github.com/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control</id>
     <content type="html"><![CDATA[<h2>Introduction</h2>
 
-<p>I'm going to get a pretty nerdy here for a moment.</p>
+<p>I&rsquo;m going to get a pretty nerdy here for a moment.</p>
 
-<p>So I dove in and I'm now using
+<p>So I dove in and I&rsquo;m now using
 <a href="http://brettterpstra.com/project/nvalt/">nvALT</a>,
 <a href="http://www.secondgearsoftware.com/elements/">Elements</a> and
 <a href="http://git-scm.com/">Git</a> for my note taking needs. Aside from a few
-minor hiccups, which I'll address in a later post, this is really
+minor hiccups, which I&rsquo;ll address in a later post, this is really
 working nicely.</p>
 
 <p>The one thing that I needed when I added nvALT and Elements to my note
 taking workflow was the ability to easily continue version control with
 Git. Before taking on this new process I was using Git in my notes
-directory and I wasn't about to lose that option now.</p>
+directory and I wasn&rsquo;t about to lose that option now.</p>
 
 <p>But the ease which nvALT allows me to create new text files, and with
 nvALT built to work better with <a href="http://brettterpstra.com/break-up-your-text-documents/">smaller
@@ -40,7 +40,7 @@ files</a>, I need
 some way to get my version control under control.<a href="#fn:1"
 id="fnref:1" title="see footnote" class="footnote">[1]</a></p>
 
-<p>Here's what my workflow was:</p>
+<p>Here&rsquo;s what my workflow was:</p>
 
 <ol>
 <li>Work, notes, work, notes.</li>
@@ -52,13 +52,13 @@ id="fnref:1" title="see footnote" class="footnote">[1]</a></p>
 </ol>
 
 
-<p>It wasn't really precision based. Plus it had the added detriment of
+<p>It wasn&rsquo;t really precision based. Plus it had the added detriment of
 taking me out of what I was doing to commit my notes.</p>
 
 <p>What I did<a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">[2]</a> was create a Bash script and then used Automator to create a
 Service for it that I also applied a keyboard shortcut to.</p>
 
-<p>If you're still with me, here's how I did it:</p>
+<p>If you&rsquo;re still with me, here&rsquo;s how I did it:</p>
 
 <h2>The Reveal</h2>
 
@@ -69,7 +69,7 @@ seems, Elements like to work. With some light taxonomy (ala <a href="http://macp
 and Mac Power
 Users</a>)
 I have a reasonably good system in place. All my notes are in a
-<a href="http://db.tt/eOrvceA">Dropbox</a> subdirectory called "notes."</p>
+<a href="http://db.tt/eOrvceA">Dropbox</a> subdirectory called &ldquo;notes.&rdquo;</p>
 
 <p>To get this to work I created a Bash script named <code>git_notes.sh</code> and put
 this in it:</p>
@@ -82,7 +82,7 @@ git commit -m 'nvALT Service Commit'
 echo "* "`date`" nvALT Commit" &gt;&gt; /Users/username/Dropbox/notes/noteCommits`date "+%Y%m%d"`.md
 </code></pre>
 
-<p>Now, you'll see that this is redundant and probably a lot silly, but
+<p>Now, you&rsquo;ll see that this is redundant and probably a lot silly, but
 this is what it does.</p>
 
 <ol>
@@ -92,8 +92,8 @@ this is what it does.</p>
 log file.</li>
 <li>The last line is where it gets a little silly, it appends to another
 file in the same Dropbox subdirectory with a message that also gives a
-human readable date/time. Why am I doing this? I don't know, maybe
-someday I'll set up something to parse it to get some analytics of when
+human readable date/time. Why am I doing this? I don&rsquo;t know, maybe
+someday I&rsquo;ll set up something to parse it to get some analytics of when
 I do most of my commits for my notes file.</li>
 </ol>
 
@@ -101,37 +101,37 @@ I do most of my commits for my notes file.</li>
 <p>But now that we have our Bash script. The rest is <em>trivial</em>.</p>
 
 <p>First, we open <a href="http://support.apple.com/kb/ht2488">Automator</a> and
-select "Service" as our document type under the "Choose a type for your
-document:"</p>
+select &ldquo;Service&rdquo; as our document type under the &ldquo;Choose a type for your
+document:&rdquo;</p>
 
 <p><img class="center" src="/images/creating-a-service-01.png"></p>
 
-<p>Next, we're going to change the "Service receives" from the default
-"text" to "no input". Leave the "in" "any application" as it is.</p>
+<p>Next, we&rsquo;re going to change the &ldquo;Service receives&rdquo; from the default
+&ldquo;text&rdquo; to &ldquo;no input&rdquo;. Leave the &ldquo;in&rdquo; &ldquo;any application&rdquo; as it is.</p>
 
 <p><img class="center" src="/images/creating-a-service-02.png"></p>
 
-<p>Penultimately, we click "Utilities" under the left-side "Library" dropdown and
-then drag the "Run Shell Script" from the middle column over to the
+<p>Penultimately, we click &ldquo;Utilities&rdquo; under the left-side &ldquo;Library&rdquo; dropdown and
+then drag the &ldquo;Run Shell Script&rdquo; from the middle column over to the
 right side.</p>
 
 <p><img class="center" src="/images/creating-a-service-03.png"></p>
 
-<p>Lastly, we enter in the location of the script in the workflow. It's a
+<p>Lastly, we enter in the location of the script in the workflow. It&rsquo;s a
 good idea to use the absolute pathname here. In my case it was
 <code>/Users/username/Dropbox/notes/git_notes.sh</code>.</p>
 
-<p>Once you save you'll have a Service that will be available from any
+<p>Once you save you&rsquo;ll have a Service that will be available from any
 of your application menus. Click on the Service and it will do a Git
 commit of all the changes to that notes directory as well as update the
-faux log file we've created for the day.</p>
+faux log file we&rsquo;ve created for the day.</p>
 
 <p><img class="center" src="/images/creating-a-service-04.png"></p>
 
-<p>But I don't like to use the mouse/trackpad that much. So the final touch
+<p>But I don&rsquo;t like to use the mouse/trackpad that much. So the final touch
 to this is to create a keyboard shortcut in your System Preferences. Go
-to <code>Applications &gt; System Preferences &gt; Keyboard</code>. Then choose "Keyboard
-Shortcuts" and select "Services" from the left side. Your new Service
+to <code>Applications &gt; System Preferences &gt; Keyboard</code>. Then choose &ldquo;Keyboard
+Shortcuts&rdquo; and select &ldquo;Services&rdquo; from the left side. Your new Service
 should be at the end of the Services listings. Just click the blank
 space at the far end of the window and you should get a text input
 field. You can use anything you want for your shortcut, but I chose
@@ -143,12 +143,12 @@ keyboard conflict.</p>
 <h2>Conclusion</h2>
 
 <p>So there you have it. A quick and dirty way to make sure that the notes
-you're producing will be version controlled through Git. As a final
-remark, I'll say that having version control has already paid off for
+you&rsquo;re producing will be version controlled through Git. As a final
+remark, I&rsquo;ll say that having version control has already paid off for
 me.</p>
 
 <p>I use multiple computers and I made the <em>huge</em> mistake of accidentally
-deleting a bunch of files when a prompt popped up and I didn't read
+deleting a bunch of files when a prompt popped up and I didn&rsquo;t read
 exactly what it said. All of a sudden 20-some-odd notes of mine were
 <em>gone</em>. But version control to the rescue! I <em>knew</em> I had just committed
 to my repo before I had deleted the files and I was able to pull them
@@ -162,21 +162,21 @@ great and a perfect reason why doing something like this makes sense.</p>
 <p>I should add that the use of a common/standard commit message is bad
 practice. The reason I do this, instead of throwing a prompt so that I
 can enter in a more detailed message, is that this is supposed to create
-a workflow that won't interrupt what you're in the middle of but give
-you the peace of mind that you've got things in a version controlled
+a workflow that won&rsquo;t interrupt what you&rsquo;re in the middle of but give
+you the peace of mind that you&rsquo;ve got things in a version controlled
 environment. This <em>does not</em> prevent you from going to your notes
 directory and doing a proper Git commit with a detailed message on what
-you've done since your last commit. In fact, at the end of this
-paragraph I'll be committing properly to say that this draft is
-finished. And when I finish my review of the draft I'll commit again,
-and message that it is ready for posting. After that, I'll probably do a
+you&rsquo;ve done since your last commit. In fact, at the end of this
+paragraph I&rsquo;ll be committing properly to say that this draft is
+finished. And when I finish my review of the draft I&rsquo;ll commit again,
+and message that it is ready for posting. After that, I&rsquo;ll probably do a
 name change to the file (this is the taxonomy thing I mentioned before)
 and then do another <em>proper</em> commit.</p>
 
 <p>One last point: You may have noticed that you can easily change the Bash
 script to point to any directory you want. Once you have the Service in
 place, you can edit your <code>.sh</code> file whenever you please and have a
-temporary keyboard shortcut for Git repo commits. I think that's kinda
+temporary keyboard shortcut for Git repo commits. I think that&rsquo;s kinda
 cool.</p>
 
 <div class="footnotes">

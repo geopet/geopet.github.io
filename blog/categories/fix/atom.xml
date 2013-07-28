@@ -4,7 +4,7 @@
   <title><![CDATA[Category: fix | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/fix/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2013-02-15T11:43:32-07:00</updated>
+  <updated>2013-07-28T00:12:47-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -20,23 +20,23 @@
     <id>http://geopet.github.com/blog/2013/01/30/fixing-a-slow-localhost-webrick-server</id>
     <content type="html"><![CDATA[<p>For the longest time I could not get Webrick to work for me. It would boot up with <code>rails s</code> but would take several seconds for even the default landing page of a rails app to load. It was terrible.</p>
 
-<p>I resorted to using <a href="http://code.macournoyer.com/thin/">Thin</a> as my default browser by making sure it was in all my Gem files, but I still wanted to figure out why Webrick simply wouldn't work for me. (Truth is, Thin is a better web server, but I still wanted to get Webrick to work for me.)</p>
+<p>I resorted to using <a href="http://code.macournoyer.com/thin/">Thin</a> as my default browser by making sure it was in all my Gem files, but I still wanted to figure out why Webrick simply wouldn&rsquo;t work for me. (Truth is, Thin is a better web server, but I still wanted to get Webrick to work for me.)</p>
 
-<p>Searching for "webrick slow" brought up a possible solution via <a href="http://stackoverflow.com/a/3465134/887078">Stack Overflow</a>. Basically you change the <code>:DoNotReverseLookup</code> symbol in your global Webrick config from <code>nil</code> to <code>true</code>.</p>
+<p>Searching for &ldquo;webrick slow&rdquo; brought up a possible solution via <a href="http://stackoverflow.com/a/3465134/887078">Stack Overflow</a>. Basically you change the <code>:DoNotReverseLookup</code> symbol in your global Webrick config from <code>nil</code> to <code>true</code>.</p>
 
-<p>If you're on OS X Lion you'll find the Webrick configuration here:</p>
+<p>If you&rsquo;re on OS X Lion you&rsquo;ll find the Webrick configuration here:</p>
 
 <p><code>~/.rvm/rubies/ruby-1.9.3-p362/lib/ruby/1.9.1/webrick/config.rb</code></p>
 
 <p>I found the <code>:DoNotReverseLookup</code> configuration on line 36.</p>
 
-<p>Once I made the change Webrick was screaming fast. I'm pretty happy about it.</p>
+<p>Once I made the change Webrick was screaming fast. I&rsquo;m pretty happy about it.</p>
 
-<p>I still haven't found the definitive reason why this problem is occurring, but at least this change appears to fix things for me.</p>
+<p>I still haven&rsquo;t found the definitive reason why this problem is occurring, but at least this change appears to fix things for me.</p>
 
 <hr />
 
-<p>Please note, depending on the version of Ruby you're running <code>ruby-1.9.3-p362</code> could be something different. Just as long as you're changing the <code>confg.rb</code> file in the <code>webrick/</code> directory, you should be fine.</p>
+<p>Please note, depending on the version of Ruby you&rsquo;re running <code>ruby-1.9.3-p362</code> could be something different. Just as long as you&rsquo;re changing the <code>confg.rb</code> file in the <code>webrick/</code> directory, you should be fine.</p>
 ]]></content>
   </entry>
   

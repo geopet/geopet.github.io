@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Python | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2013-02-15T11:43:32-07:00</updated>
+  <updated>2013-07-28T00:12:47-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -18,9 +18,9 @@
     <link href="http://geopet.github.com/blog/2012/09/25/python-dictionaries/"/>
     <updated>2012-09-25T20:47:00-06:00</updated>
     <id>http://geopet.github.com/blog/2012/09/25/python-dictionaries</id>
-    <content type="html"><![CDATA[<p>If you read my previous post on <a href="http://blog.geoffpetrie.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/">the challenge of education as a developer</a>, you'll know about my interested in the Python language and syntax. I have had a reason to look at Python again recently and it's pretty amazing what I had forgotten about the language.</p>
+    <content type="html"><![CDATA[<p>If you read my previous post on <a href="http://blog.geoffpetrie.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/">the challenge of education as a developer</a>, you&rsquo;ll know about my interested in the Python language and syntax. I have had a reason to look at Python again recently and it&rsquo;s pretty amazing what I had forgotten about the language.</p>
 
-<p>Now I'll admit that my understanding of object models and design patterns isn't the finest. But as I was going through my Python refresher I had a bit of an aha moment.</p>
+<p>Now I&rsquo;ll admit that my understanding of object models and design patterns isn&rsquo;t the finest. But as I was going through my Python refresher I had a bit of an aha moment.</p>
 
 <p>It was this line of code that struck me as pretty significant:</p>
 
@@ -29,9 +29,9 @@
 
 <p>This code came from the <a href="http://www.diveintopython.net/native_data_types/summary.html">Dive into Python</a> website.</p>
 
-<p>While it doesn't look remarkable on the surface, knowing that <em>everything in Python is an object</em> (like Ruby and Javascript) you'll appreciate how cool that line of code is. Specifically the <code>";"</code> piece of it.</p>
+<p>While it doesn&rsquo;t look remarkable on the surface, knowing that <em>everything in Python is an object</em> (like Ruby and Javascript) you&rsquo;ll appreciate how cool that line of code is. Specifically the <code>";"</code> piece of it.</p>
 
-<p>That <code>.join</code> method is called <em>by</em> that semicolon. That's pretty cool.</p>
+<p>That <code>.join</code> method is called <em>by</em> that semicolon. That&rsquo;s pretty cool.</p>
 
 <p>To demonstrate the importance of this piece, I decided to see how I could actually produce the same results that line of code does in PHP.</p>
 
@@ -49,7 +49,7 @@
 <pre><code>pwd=secret;database=localhost;uid=sa;server=gpetrie
 </code></pre>
 
-<p>So the piece we're going to focus on is how that last tuple is printed. You see that? <code>server=gpetrie</code>. There's no semicolon at the end of that. That's because the semicolon is the object calling the <code>.join</code> method.</p>
+<p>So the piece we&rsquo;re going to focus on is how that last tuple is printed. You see that? <code>server=gpetrie</code>. There&rsquo;s no semicolon at the end of that. That&rsquo;s because the semicolon is the object calling the <code>.join</code> method.</p>
 
 <p>How can I produce this same output using PHP and an associative array?</p>
 
@@ -72,12 +72,12 @@ foreach ($myParams as $k=&gt;$v) {
 print_r($str);
 </code></pre>
 
-<p>We wouldn't get what we wanted. We'd get this:</p>
+<p>We wouldn&rsquo;t get what we wanted. We&rsquo;d get this:</p>
 
 <pre><code>server:gpetrie; database:localhost; uid:sa; pwd:secret; 
 </code></pre>
 
-<p>That semicolon at the end. That's the problem.</p>
+<p>That semicolon at the end. That&rsquo;s the problem.</p>
 
 <p>So we try something a little more complex:</p>
 
@@ -97,7 +97,7 @@ for ($i=0; $i&lt;$arrayCount; $i++) {
 print_r($str);
 </code></pre>
 
-<p>But it doesn't work either. We get:</p>
+<p>But it doesn&rsquo;t work either. We get:</p>
 
 <pre><code>server:gpetrie; database:localhost; uid:sa; pwd:secret; 
 </code></pre>
@@ -131,7 +131,7 @@ print_r($str);
 
 <p>No semicolon at the end.</p>
 
-<p>Now don't misunderstand the point of this. This isn't a Python versus PHP thing. This is just to show the interesting power of having everything as an object in Python and how much lighter your code can be because of it. Of course if you have a better solution to this than I do, please let me know. I'd love to see it.</p>
+<p>Now don&rsquo;t misunderstand the point of this. This isn&rsquo;t a Python versus PHP thing. This is just to show the interesting power of having everything as an object in Python and how much lighter your code can be because of it. Of course if you have a better solution to this than I do, please let me know. I&rsquo;d love to see it.</p>
 ]]></content>
   </entry>
   

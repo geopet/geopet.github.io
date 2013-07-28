@@ -4,7 +4,7 @@
   <title><![CDATA[Category: vim | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/vim/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2013-02-15T11:43:32-07:00</updated>
+  <updated>2013-07-28T00:12:47-06:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -19,40 +19,40 @@
     <updated>2012-11-14T20:25:00-07:00</updated>
     <id>http://geopet.github.com/blog/2012/11/14/vim-precision-editing-video</id>
     <content type="html"><![CDATA[<p><a href="http://www.vim.org/">Vim</a> is my text editor of choice. Drew Neil is an
-amazing Vim evangelist. If you haven't, you should go check out
-<a href="http://vimcasts.org/">VimCasts</a>. He also <a href="http://pragprog.com/book/dnvim/practical-vim">has a book</a> that I haven't had a
+amazing Vim evangelist. If you haven&rsquo;t, you should go check out
+<a href="http://vimcasts.org/">VimCasts</a>. He also <a href="http://pragprog.com/book/dnvim/practical-vim">has a book</a> that I haven&rsquo;t had a
 chance to dive into yet, but I will be shortly.</p>
 
-<p>If you haven't yet, you should check out Drew Neil's presentation on
+<p>If you haven&rsquo;t yet, you should check out Drew Neil&rsquo;s presentation on
 Vim.</p>
 
-<p>The first chunk, if you're good with Vim, isn't anything you don't
+<p>The first chunk, if you&rsquo;re good with Vim, isn&rsquo;t anything you don&rsquo;t
 already know. It is mainly Drew trying to convince people that modality
 in a text editor is great. I agree. It is.</p>
 
 <p>But about midway through, Drew busts out some of great power moves.
-Some of them I've not seen before, but I have immediately introduced to
+Some of them I&rsquo;ve not seen before, but I have immediately introduced to
 muscle memory workout.</p>
 
 <p>The three that I picked up from this were:</p>
 
 <ol>
-<li><code>dt.</code> - delete until the dot.</li>
-<li><code>vi[</code> - visually highlight everything between the square bracket.</li>
-<li><code>gf</code> - go to the file under the cursor.</li>
+<li><code>dt.</code> &ndash; delete until the dot.</li>
+<li><code>vi[</code> &ndash; visually highlight everything between the square bracket.</li>
+<li><code>gf</code> &ndash; go to the file under the cursor.</li>
 </ol>
 
 
-<p>Honestly, I don't know how I never picked up <code>gf</code> before, but I promise
-it is one that I won't forget. The other two I'm in love with. I used
+<p>Honestly, I don&rsquo;t know how I never picked up <code>gf</code> before, but I promise
+it is one that I won&rsquo;t forget. The other two I&rsquo;m in love with. I used
 <code>dt.</code> while writing this post!</p>
 
-<p>Anyway, here's the presentation. Give it a look:</p>
+<p>Anyway, here&rsquo;s the presentation. Give it a look:</p>
 
 <iframe src="http://player.vimeo.com/video/53144573?badge=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
-<p> <p><a href="http://vimeo.com/53144573">Vim - precision editing at the speed of thought</a> from <a href="http://vimeo.com/user4280938">&Oslash;redev Conference</a> on <a href="http://vimeo.com">Vimeo</a>.</p></p>
+<p> <p><a href="http://vimeo.com/53144573">Vim &ndash; precision editing at the speed of thought</a> from <a href="http://vimeo.com/user4280938">&Oslash;redev Conference</a> on <a href="http://vimeo.com">Vimeo</a>.</p></p>
 ]]></content>
   </entry>
   
