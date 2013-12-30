@@ -1,0 +1,11 @@
+---
+layout: post
+title: Test Post
+date: 2013-12-30 12:23:23 -0700
+comments: false
+categories: test
+---
+
+This is just a simple test post to be sure that I have everything that I need in place to get my Octopress back up and running after ten months of stagnation. Good times!
+
+If all goes well I'll be able to delete this bad boy and get something in place here soon that will actually do what I want.
