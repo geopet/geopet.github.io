@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: test | Thoughts of Geoff]]></title>
+  <link href="http://geopet.github.io/blog/categories/test/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T15:08:14-07:00</updated>
+  <id>http://geopet.github.io/</id>
+  <author>
+    <name><![CDATA[Geoff Petrie]]></name>
+    <email><![CDATA[g.petrie@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[I'm testing here]]></title>
+    <link href="http://geopet.github.io/blog/2013/12/30/im-testing-here/"/>
+    <updated>2013-12-30T15:05:38-07:00</updated>
+    <id>http://geopet.github.io/blog/2013/12/30/im-testing-here</id>
+    <content type="html"><![CDATA[<p>This is just to make sure that everything is doing what I want it to do after updating some remotes and changing the name of the github project from com to io.</p>
+]]></content>
+  </entry>
+  
+</feed>
