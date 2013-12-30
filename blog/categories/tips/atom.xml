@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tips | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/blog/categories/tips/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2013-07-28T00:12:47-06:00</updated>
+  <updated>2013-12-30T11:38:18-07:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -43,7 +43,7 @@ group and save the changes.</p>
 <p>This is what your <code>Gemfile</code> should look like now if you&rsquo;re running
 Octopress 2.0 without any changes up to this point:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>

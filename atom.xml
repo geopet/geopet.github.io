@@ -4,7 +4,7 @@
   <title><![CDATA[Thoughts of Geoff]]></title>
   <link href="http://geopet.github.com/atom.xml" rel="self"/>
   <link href="http://geopet.github.com/"/>
-  <updated>2013-07-28T00:12:47-06:00</updated>
+  <updated>2013-12-30T11:38:18-07:00</updated>
   <id>http://geopet.github.com/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -193,7 +193,7 @@ group and save the changes.</p>
 <p>This is what your <code>Gemfile</code> should look like now if you&rsquo;re running
 Octopress 2.0 without any changes up to this point:</p>
 
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -337,7 +337,7 @@ similar, may be more of an apples and oranges sort of comparison.</p>
 produce the same output. This is what I came up with:</p>
 
 <figure class='code'><figcaption><span>The New Semi-Colon Goodness semicolon2.rb </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -365,7 +365,7 @@ want to do to get the output that I want. <em>Semi-colon success achieved!</em><
 proposed previously:</p>
 
 <figure class='code'><figcaption><span>The Old Semi-Colon Badness semicolon.rb </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -734,7 +734,7 @@ print_r($str);
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Adding a CNAME to your Octopress Blog]]></title>
+    <title type="html"><![CDATA[Adding a CNAME to Your Octopress Blog]]></title>
     <link href="http://geopet.github.com/blog/2012/08/22/adding-a-cname-to-your-octopress-blog/"/>
     <updated>2012-08-22T16:42:00-06:00</updated>
     <id>http://geopet.github.com/blog/2012/08/22/adding-a-cname-to-your-octopress-blog</id>
