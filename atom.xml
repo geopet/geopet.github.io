@@ -4,7 +4,7 @@
   <title><![CDATA[Thoughts of Geoff]]></title>
   <link href="http://geopet.github.io/atom.xml" rel="self"/>
   <link href="http://geopet.github.io/"/>
-  <updated>2013-12-30T12:39:40-07:00</updated>
+  <updated>2013-12-30T12:44:19-07:00</updated>
   <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -12,19 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Test Post]]></title>
-    <link href="http://geopet.github.io/blog/2013/12/30/test-post/"/>
-    <updated>2013-12-30T12:23:23-07:00</updated>
-    <id>http://geopet.github.io/blog/2013/12/30/test-post</id>
-    <content type="html"><![CDATA[<p>This is just a simple test post to be sure that I have everything that I need in place to get my Octopress back up and running after ten months of stagnation. Good times!</p>
-
-<p>If all goes well I&rsquo;ll be able to delete this bad boy and get something in place here soon that will actually do what I want.</p>
-
-<p>Some more testing here.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Manually Pushing to a Remote Git Branch]]></title>
@@ -1194,6 +1181,23 @@ definitely check it out.</p>
 </ol>
 </div>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Little Details]]></title>
+    <link href="http://geopet.github.io/blog/2011/09/07/little-details/"/>
+    <updated>2011-09-07T08:00:00-06:00</updated>
+    <id>http://geopet.github.io/blog/2011/09/07/little-details</id>
+    <content type="html"><![CDATA[<p>So <a href="http://www.mozilla.org/firefox/">Firefox</a> needed to do an update today. 6.0.2, I think. When I did the update the obligatory additional page was added to my tabs showing me that I was now fully updated. I was struck by the page, though:</p>
+
+<p><img src="../images/little-details-01.png" alt="" /></p>
+
+<p>Of course I reloaded the page several times, and still the page looked the same. Now maybe I expect too much, but if you&rsquo;re going to promote something then the promo should look good. The styling for the &ldquo;Tabs, Meet Groups&rdquo; promotion stands out for all the wrong reasons. The padding, the lack of easily findable links, and what is with the way &ldquo;Name&rdquo; and &ldquo;Drag&rdquo; are just hanging there?</p>
+
+<p>I&rsquo;m sure there is a simple explanation for this. It&rsquo;s likely a css file that&rsquo;s missing in a specific directory. But if you&rsquo;re going to push this page after making me do an update, I&rsquo;d make sure that it was 100%. Especially when you&rsquo;re promoting something to make you stand out against other great browsers like <a href="http://www.apple.com/safari/">Safari</a> and <a href="http://www.google.com/chrome">Chrome</a>.</p>
+
+<p><em>I originally posted this on my Tumblr <a href="http://faceofgeoff.com/post/9942913231/little-details">The Face of Geoff</a></em></p>
 ]]></content>
   </entry>
   

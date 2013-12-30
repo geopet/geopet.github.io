@@ -9,7 +9,7 @@
   <meta name="author" content="Geoff Petrie">
 
   
-  <meta name="description" content="I have multiple places where I work and I use Git to support that. The general Git workflow I&rsquo;ve adopted is similar to the one Scott Chacon &hellip;">
+  <meta name="description" content="or, How the Learning Voice Needs to Roundhouse Kick the Work Voice in the Face Preface: As a little background, I wrote the post below about a week &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,80 +78,6 @@
     <div id="content">
       <div class="blog-index">
   
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/09/04/some-quick-git-tips/">Git Tip: Use Prune to Update Local Repo Branches</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-09-04T21:46:00-06:00" pubdate data-updated="true">Sep 4<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img class="center" src="/images/git-prune.jpg" title="[pruning the stale branches]" ></p>
-
-<p>I have multiple places where I work and I use <a href="http://git-scm.com/">Git</a> to support that. The general Git workflow I&rsquo;ve adopted is similar to the one <a href="http://scottchacon.com/2011/08/31/github-flow.html">Scott Chacon describes</a>.</p>
-
-<p>In Scott&rsquo;s post he explains that anything in <code>master</code> is deployable, and any time you want to work on something you branch from <code>master</code> with something descriptively named. This is what I want to talk about now.</p>
-
-<p>I use this process of branching to keep my changes manageable. By naming my branches descriptively I know that if I&rsquo;m building a new user profiling tool, and changing the css of a navigational piece and updating a SQL query in the same branch, then the commit isn&rsquo;t going to be terribly clean. Plus, now the branch has no meaning to me when I get feedback from a tester. This branch would make even less sense if I had someone else coding with me.</p>
-
-<p>To keep branches meaningful I make a lot of branches off of <code>master</code>. I&rsquo;ve come to the standard practice of pushing pretty much <em>any</em> branch I&rsquo;m working on, no matter how minor, to the remote. This makes it simple to <code>fetch</code> and <code>merge</code> on my dev server instance instead of scp&#8217;ing the work I&rsquo;ve done to the server. The process is just feels a little crisper.</p>
-
-<p>After the testers have given the thumbs up on the work and I do my final code review, I merge the branch to master, push it out to production and delete that feature/bugfix branch. All-in-all it is a generally good system.</p>
-
-<p>But what inevitably happens is the dev server has a bunch of branches that are no longer useful and don&rsquo;t have a remote counterpart to them. It gets to be a bit of a mess when you run <code>git branch</code> and see a dozen old branches sitting there.</p>
-
-<p>To fix this issue I found a great, quick command:</p>
-
-<p><code>git remote prune origin</code></p>
-
-<p>Where <code>origin</code> is the name of the remote.</p>
-
-<p><a href="http://www.kernel.org/pub/software/scm/git/docs/git-remote.html">From the manual</a>:</p>
-
-<blockquote><p><strong>prune</strong></p>
-
-<p><code>git remote prune [-n | --dry-run] &lt;name&gt;</code></p>
-
-<p>Deletes all stale remote-tracking branches under <code>&lt;name&gt;</code>. These stale branches have already been removed from the remote repository referenced by <code>&lt;name&gt;</code>, but are still locally available in <code>"remotes/&lt;name&gt;"</code>.</p>
-
-<p>With <code>--dry-run</code> option, report what branches will be pruned, but do not actually prune them.</p></blockquote>
-
-<p><code>prune</code> is one of those commands that you may not use very often, but it is nice to know it&rsquo;s there when you need it.</p>
-
-<hr />
-
-<p><strong>Endnote:</strong></p>
-
-<p>I found this particular <a href="http://stackoverflow.com/a/3994587/887078">Stack Overflow</a> answer useful when I was looking for information on how to handle dead remote branches.</p>
-
-<p><em>Image &ldquo;Four volunteers prune some plants that were growing over the trail.&rdquo; from <a href="http://www.flickr.com/photos/presidiosf/6209563606/">United States Government Work</a></em></p>
-</div>
-  
-  
-
-
-    </article>
   
   
     <article>
@@ -879,6 +805,50 @@ definitely check it out.</p>
 
     </article>
   
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/09/07/little-details/">Little Details</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-09-07T08:00:00-06:00" pubdate data-updated="true">Sep 7<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>So <a href="http://www.mozilla.org/firefox/">Firefox</a> needed to do an update today. 6.0.2, I think. When I did the update the obligatory additional page was added to my tabs showing me that I was now fully updated. I was struck by the page, though:</p>
+
+<p><img src="../images/little-details-01.png" alt="" /></p>
+
+<p>Of course I reloaded the page several times, and still the page looked the same. Now maybe I expect too much, but if you&rsquo;re going to promote something then the promo should look good. The styling for the &ldquo;Tabs, Meet Groups&rdquo; promotion stands out for all the wrong reasons. The padding, the lack of easily findable links, and what is with the way &ldquo;Name&rdquo; and &ldquo;Drag&rdquo; are just hanging there?</p>
+
+<p>I&rsquo;m sure there is a simple explanation for this. It&rsquo;s likely a css file that&rsquo;s missing in a specific directory. But if you&rsquo;re going to push this page after making me do an update, I&rsquo;d make sure that it was 100%. Especially when you&rsquo;re promoting something to make you stand out against other great browsers like <a href="http://www.apple.com/safari/">Safari</a> and <a href="http://www.google.com/chrome">Chrome</a>.</p>
+
+<p><em>I originally posted this on my Tumblr <a href="http://faceofgeoff.com/post/9942913231/little-details">The Face of Geoff</a></em></p>
+</div>
+  
+  
+
+
+    </article>
+  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/3/">&larr; Older</a>
@@ -901,10 +871,6 @@ definitely check it out.</p>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/12/30/test-post/">Test Post</a>
-      </li>
-    
-      <li class="post">
         <a href="/blog/2013/02/15/manually-pushing-to-a-remote-branch/">Manually Pushing to a Remote Git Branch</a>
       </li>
     
@@ -918,6 +884,10 @@ definitely check it out.</p>
     
       <li class="post">
         <a href="/blog/2012/11/14/vim-precision-editing-video/">Vim - Precision Editing Video</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/10/14/octopress-change-the-default-preview-server/">Octopress: Change the Default Preview Server</a>
       </li>
     
   </ul>
