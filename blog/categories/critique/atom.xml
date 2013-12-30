@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: critique | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/critique/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/critique/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Little Details]]></title>
-    <link href="http://geopet.github.com/blog/2011/09/07/little-details/"/>
+    <link href="http://geopet.github.io/blog/2011/09/07/little-details/"/>
     <updated>2011-09-07T08:00:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2011/09/07/little-details</id>
+    <id>http://geopet.github.io/blog/2011/09/07/little-details</id>
     <content type="html"><![CDATA[<p>So <a href="http://www.mozilla.org/firefox/">Firefox</a> needed to do an update today. 6.0.2, I think. When I did the update the obligatory additional page was added to my tabs showing me that I was now fully updated. I was struck by the page, though:</p>
 
 <p><img src="../images/little-details-01.png" alt="" /></p>

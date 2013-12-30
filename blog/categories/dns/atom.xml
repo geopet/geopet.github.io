@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: dns | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/dns/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/dns/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Adding a CNAME to your Octopress Blog]]></title>
-    <link href="http://geopet.github.com/blog/2012/08/22/adding-a-cname-to-your-octopress-blog/"/>
+    <link href="http://geopet.github.io/blog/2012/08/22/adding-a-cname-to-your-octopress-blog/"/>
     <updated>2012-08-22T16:42:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/08/22/adding-a-cname-to-your-octopress-blog</id>
+    <id>http://geopet.github.io/blog/2012/08/22/adding-a-cname-to-your-octopress-blog</id>
     <content type="html"><![CDATA[<p>This option isn&rsquo;t terribly well explained in the <a href="http://octopress.org/docs/deploying/github/">Octopress documentation</a>, and slightly confusing within the <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">Github</a>.</p>
 
 <p>So that I could get <em>blog.geoffpetrie.com</em> to work as my url to my Octopress blog hosted by Github at <em>geopet.github.com</em>, I needed to go to my current hosting service. In my case this is currently <a href="http://www.dreamhost.com/r.cgi?1197623">Dreamhost</a>.</p>

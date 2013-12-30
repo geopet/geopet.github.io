@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ruby | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/ruby/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Fixing a Slow Localhost Webrick Server]]></title>
-    <link href="http://geopet.github.com/blog/2013/01/30/fixing-a-slow-localhost-webrick-server/"/>
+    <link href="http://geopet.github.io/blog/2013/01/30/fixing-a-slow-localhost-webrick-server/"/>
     <updated>2013-01-30T23:16:00-07:00</updated>
-    <id>http://geopet.github.com/blog/2013/01/30/fixing-a-slow-localhost-webrick-server</id>
+    <id>http://geopet.github.io/blog/2013/01/30/fixing-a-slow-localhost-webrick-server</id>
     <content type="html"><![CDATA[<p>For the longest time I could not get Webrick to work for me. It would boot up with <code>rails s</code> but would take several seconds for even the default landing page of a rails app to load. It was terrible.</p>
 
 <p>I resorted to using <a href="http://code.macournoyer.com/thin/">Thin</a> as my default browser by making sure it was in all my Gem files, but I still wanted to figure out why Webrick simply wouldn&rsquo;t work for me. (Truth is, Thin is a better web server, but I still wanted to get Webrick to work for me.)</p>
@@ -42,9 +42,9 @@
   
   <entry>
     <title type="html"><![CDATA[Some Thoughts on Ego]]></title>
-    <link href="http://geopet.github.com/blog/2013/01/18/thoughts-on-ego/"/>
+    <link href="http://geopet.github.io/blog/2013/01/18/thoughts-on-ego/"/>
     <updated>2013-01-18T10:36:00-07:00</updated>
-    <id>http://geopet.github.com/blog/2013/01/18/thoughts-on-ego</id>
+    <id>http://geopet.github.io/blog/2013/01/18/thoughts-on-ego</id>
     <content type="html"><![CDATA[<p>To categorically define <em>Ego</em> is out of the scope of this writing. In order to make things easier on myself, and hopefully you, I will attempt to elucidate my meaning through example. But so that we&rsquo;re all starting on the same foot, when I say ego I am referring to the informal and negative connotation of the word.</p>
 
 <p>Why am I talking about ego?</p>

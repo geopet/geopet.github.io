@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: education | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/education/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/education/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[On the Problems of Education in a Developer's World]]></title>
-    <link href="http://geopet.github.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/"/>
+    <link href="http://geopet.github.io/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/"/>
     <updated>2012-08-29T11:31:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world</id>
+    <id>http://geopet.github.io/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world</id>
     <content type="html"><![CDATA[<p>or,</p>
 
 <h2>How the Learning Voice Needs to Roundhouse Kick the Work Voice in the Face</h2>

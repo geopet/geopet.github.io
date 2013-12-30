@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Dictionaries | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/dictionaries/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/dictionaries/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Python Dictionaries, PHP Associative Arrays and Python Objects]]></title>
-    <link href="http://geopet.github.com/blog/2012/09/25/python-dictionaries/"/>
+    <link href="http://geopet.github.io/blog/2012/09/25/python-dictionaries/"/>
     <updated>2012-09-25T20:47:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/09/25/python-dictionaries</id>
+    <id>http://geopet.github.io/blog/2012/09/25/python-dictionaries</id>
     <content type="html"><![CDATA[<p>If you read my previous post on <a href="http://blog.geoffpetrie.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/">the challenge of education as a developer</a>, you&rsquo;ll know about my interested in the Python language and syntax. I have had a reason to look at Python again recently and it&rsquo;s pretty amazing what I had forgotten about the language.</p>
 
 <p>Now I&rsquo;ll admit that my understanding of object models and design patterns isn&rsquo;t the finest. But as I was going through my Python refresher I had a bit of an aha moment.</p>

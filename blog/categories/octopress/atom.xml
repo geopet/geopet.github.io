@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Octopress | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/octopress/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress: Change the Default Preview Server]]></title>
-    <link href="http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server/"/>
+    <link href="http://geopet.github.io/blog/2012/10/14/octopress-change-the-default-preview-server/"/>
     <updated>2012-10-14T21:27:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server</id>
+    <id>http://geopet.github.io/blog/2012/10/14/octopress-change-the-default-preview-server</id>
     <content type="html"><![CDATA[<p>Another quick tip for people using <a href="http://octopress.org/">Octopress</a>:</p>
 
 <p>If you&rsquo;re running Octopress on Mac OSX you may be running into some real

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: video | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/video/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/video/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Vim - Precision Editing Video]]></title>
-    <link href="http://geopet.github.com/blog/2012/11/14/vim-precision-editing-video/"/>
+    <link href="http://geopet.github.io/blog/2012/11/14/vim-precision-editing-video/"/>
     <updated>2012-11-14T20:25:00-07:00</updated>
-    <id>http://geopet.github.com/blog/2012/11/14/vim-precision-editing-video</id>
+    <id>http://geopet.github.io/blog/2012/11/14/vim-precision-editing-video</id>
     <content type="html"><![CDATA[<p><a href="http://www.vim.org/">Vim</a> is my text editor of choice. Drew Neil is an
 amazing Vim evangelist. If you haven&rsquo;t, you should go check out
 <a href="http://vimcasts.org/">VimCasts</a>. He also <a href="http://pragprog.com/book/dnvim/practical-vim">has a book</a> that I haven&rsquo;t had a

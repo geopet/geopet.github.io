@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: OOP | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/oop/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/oop/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Object Quote]]></title>
-    <link href="http://geopet.github.com/blog/2011/04/03/object-quote/"/>
+    <link href="http://geopet.github.io/blog/2011/04/03/object-quote/"/>
     <updated>2011-04-03T10:00:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2011/04/03/object-quote</id>
+    <id>http://geopet.github.io/blog/2011/04/03/object-quote</id>
     <content type="html"><![CDATA[<blockquote><p>An object is a container of properties, where a property has a name and a value.</p></blockquote>
 
 <p>Douglas Crockford, <em>JavaScript: The Good Parts</em></p>

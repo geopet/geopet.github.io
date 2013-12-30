@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Hashes | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/hashes/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/hashes/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Revenge of Ruby Hashes]]></title>
-    <link href="http://geopet.github.com/blog/2012/10/02/revenge-of-ruby-hashes/"/>
+    <link href="http://geopet.github.io/blog/2012/10/02/revenge-of-ruby-hashes/"/>
     <updated>2012-10-02T17:02:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/10/02/revenge-of-ruby-hashes</id>
+    <id>http://geopet.github.io/blog/2012/10/02/revenge-of-ruby-hashes</id>
     <content type="html"><![CDATA[<p>Because I can&rsquo;t seem to let this go, I continued to research the
 challenge I was dealing with a <a href="http://blog.geoffpetrie.com/blog/2012/09/25/the-ruby-hashes-case/">few days back</a>
 where I was trying to get the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">cool python trick</a>
@@ -106,9 +106,9 @@ language.</p>
   
   <entry>
     <title type="html"><![CDATA[The Ruby Hashes Case]]></title>
-    <link href="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/"/>
+    <link href="http://geopet.github.io/blog/2012/09/25/the-ruby-hashes-case/"/>
     <updated>2012-09-25T23:55:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case</id>
+    <id>http://geopet.github.io/blog/2012/09/25/the-ruby-hashes-case</id>
     <content type="html"><![CDATA[<p>Contrary to the date listed, the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">previous post</a> about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&rsquo;ve since been spending more time with Ruby.</p>
 
 <p>After posting that article about how tight the Python code was in order to build a string with just the right number of semicolons, I decided to see if I could do the same thing with Ruby.</p>

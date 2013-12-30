@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Tagging | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/tagging/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/tagging/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Git Tips: Tagging]]></title>
-    <link href="http://geopet.github.com/blog/2012/10/14/git-tips-tagging/"/>
+    <link href="http://geopet.github.io/blog/2012/10/14/git-tips-tagging/"/>
     <updated>2012-10-14T21:06:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/10/14/git-tips-tagging</id>
+    <id>http://geopet.github.io/blog/2012/10/14/git-tips-tagging</id>
     <content type="html"><![CDATA[<p>File this under the <em>I&rsquo;m always referencing this, so I&rsquo;m going to do a
 quick post about it</em> category.</p>
 

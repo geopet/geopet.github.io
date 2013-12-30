@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: test | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/test/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/test/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Test Post]]></title>
-    <link href="http://geopet.github.com/blog/2013/12/30/test-post/"/>
+    <link href="http://geopet.github.io/blog/2013/12/30/test-post/"/>
     <updated>2013-12-30T12:23:23-07:00</updated>
-    <id>http://geopet.github.com/blog/2013/12/30/test-post</id>
+    <id>http://geopet.github.io/blog/2013/12/30/test-post</id>
     <content type="html"><![CDATA[<p>This is just a simple test post to be sure that I have everything that I need in place to get my Octopress back up and running after ten months of stagnation. Good times!</p>
 
 <p>If all goes well I&rsquo;ll be able to delete this bad boy and get something in place here soon that will actually do what I want.</p>

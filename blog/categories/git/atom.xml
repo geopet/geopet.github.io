@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: git | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/git/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/git/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Manually Pushing to a Remote Git Branch]]></title>
-    <link href="http://geopet.github.com/blog/2013/02/15/manually-pushing-to-a-remote-branch/"/>
+    <link href="http://geopet.github.io/blog/2013/02/15/manually-pushing-to-a-remote-branch/"/>
     <updated>2013-02-15T11:40:00-07:00</updated>
-    <id>http://geopet.github.com/blog/2013/02/15/manually-pushing-to-a-remote-branch</id>
+    <id>http://geopet.github.io/blog/2013/02/15/manually-pushing-to-a-remote-branch</id>
     <content type="html"><![CDATA[<p>If you have a heavy feature branch you may end up being in a place where your master local branch is actually another branch in your distributed repo. This can be confusing and cause challenges when pushing changes to your remote.</p>
 
 <p>What you might see when you run <code>git remote show origin</code> is something like your Fetch URL and your Push URL are pointing to the same repo, and your local branch is properly configured for git pull, but git push is off.  It&rsquo;ll probably say something like:</p>
@@ -40,9 +40,9 @@
   
   <entry>
     <title type="html"><![CDATA[Git Tip: Use Prune to Update Local Repo Branches]]></title>
-    <link href="http://geopet.github.com/blog/2012/09/04/some-quick-git-tips/"/>
+    <link href="http://geopet.github.io/blog/2012/09/04/some-quick-git-tips/"/>
     <updated>2012-09-04T21:46:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/09/04/some-quick-git-tips</id>
+    <id>http://geopet.github.io/blog/2012/09/04/some-quick-git-tips</id>
     <content type="html"><![CDATA[<p><img class="center" src="/images/git-prune.jpg" title="[pruning the stale branches]" ></p>
 
 <p>I have multiple places where I work and I use <a href="http://git-scm.com/">Git</a> to support that. The general Git workflow I&rsquo;ve adopted is similar to the one <a href="http://scottchacon.com/2011/08/31/github-flow.html">Scott Chacon describes</a>.</p>

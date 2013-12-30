@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: linux | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/linux/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Helpful Linux Commands]]></title>
-    <link href="http://geopet.github.com/blog/2011/04/05/helpful-linux-commands/"/>
+    <link href="http://geopet.github.io/blog/2011/04/05/helpful-linux-commands/"/>
     <updated>2011-04-05T14:30:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2011/04/05/helpful-linux-commands</id>
+    <id>http://geopet.github.io/blog/2011/04/05/helpful-linux-commands</id>
     <content type="html"><![CDATA[<p>I was asked to give a bunch of detail on a server that I use so that I could request permission to participate in migrating some of the web work I do onto a new CMS. The requests seemed fine, but the form provided no way of easily estimating the file numbers they requested. I used these linux commands to find the details I needed:</p>
 
 <p><code>find . -type f -name '*.php' | wc -l</code> gave me the number of files I had in the directory with .php file extensions.</p>

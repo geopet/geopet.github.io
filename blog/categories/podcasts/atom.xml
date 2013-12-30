@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: podcasts | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/podcasts/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/podcasts/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Why I Love Gweek]]></title>
-    <link href="http://geopet.github.com/blog/2011/12/14/why-i-love-gweek/"/>
+    <link href="http://geopet.github.io/blog/2011/12/14/why-i-love-gweek/"/>
     <updated>2011-12-14T08:00:00-07:00</updated>
-    <id>http://geopet.github.com/blog/2011/12/14/why-i-love-gweek</id>
+    <id>http://geopet.github.io/blog/2011/12/14/why-i-love-gweek</id>
     <content type="html"><![CDATA[<p><img src="http://boingboing.net/images/gweek-logo-300x250.png" align="left" hspace="5" vspace="5">I am a podcast listener. I listen to them on my commute, when I exercise, when I walk from place to place and when I craft. Essentially I try to find reasons to do things that allow me to listen to podcasts. Now because I actually <em>listen</em> to podcasts I have a hard time listening to them while I program or write. This makes me sad sometimes, but I survive.</p>
 
 <p>Because I love podcasts so much, and the time available to me to listen to them is so little, the shows I listen to are at a minimum. This mean that if I add a show I typically need to drop a show.</p>

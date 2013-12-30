@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Test Post]]></title>
-    <link href="http://geopet.github.com/blog/2013/12/30/test-post/"/>
+    <link href="http://geopet.github.io/blog/2013/12/30/test-post/"/>
     <updated>2013-12-30T12:23:23-07:00</updated>
-    <id>http://geopet.github.com/blog/2013/12/30/test-post</id>
+    <id>http://geopet.github.io/blog/2013/12/30/test-post</id>
     <content type="html"><![CDATA[<p>This is just a simple test post to be sure that I have everything that I need in place to get my Octopress back up and running after ten months of stagnation. Good times!</p>
 
 <p>If all goes well I&rsquo;ll be able to delete this bad boy and get something in place here soon that will actually do what I want.</p>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[Manually Pushing to a Remote Git Branch]]></title>
-    <link href="http://geopet.github.com/blog/2013/02/15/manually-pushing-to-a-remote-branch/"/>
+    <link href="http://geopet.github.io/blog/2013/02/15/manually-pushing-to-a-remote-branch/"/>
     <updated>2013-02-15T11:40:00-07:00</updated>
-    <id>http://geopet.github.com/blog/2013/02/15/manually-pushing-to-a-remote-branch</id>
+    <id>http://geopet.github.io/blog/2013/02/15/manually-pushing-to-a-remote-branch</id>
     <content type="html"><![CDATA[<p>If you have a heavy feature branch you may end up being in a place where your master local branch is actually another branch in your distributed repo. This can be confusing and cause challenges when pushing changes to your remote.</p>
 
 <p>What you might see when you run <code>git remote show origin</code> is something like your Fetch URL and your Push URL are pointing to the same repo, and your local branch is properly configured for git pull, but git push is off.  It&rsquo;ll probably say something like:</p>
@@ -51,9 +51,9 @@
   
   <entry>
     <title type="html"><![CDATA[Fixing a Slow Localhost Webrick Server]]></title>
-    <link href="http://geopet.github.com/blog/2013/01/30/fixing-a-slow-localhost-webrick-server/"/>
+    <link href="http://geopet.github.io/blog/2013/01/30/fixing-a-slow-localhost-webrick-server/"/>
     <updated>2013-01-30T23:16:00-07:00</updated>
-    <id>http://geopet.github.com/blog/2013/01/30/fixing-a-slow-localhost-webrick-server</id>
+    <id>http://geopet.github.io/blog/2013/01/30/fixing-a-slow-localhost-webrick-server</id>
     <content type="html"><![CDATA[<p>For the longest time I could not get Webrick to work for me. It would boot up with <code>rails s</code> but would take several seconds for even the default landing page of a rails app to load. It was terrible.</p>
 
 <p>I resorted to using <a href="http://code.macournoyer.com/thin/">Thin</a> as my default browser by making sure it was in all my Gem files, but I still wanted to figure out why Webrick simply wouldn&rsquo;t work for me. (Truth is, Thin is a better web server, but I still wanted to get Webrick to work for me.)</p>
@@ -78,9 +78,9 @@
   
   <entry>
     <title type="html"><![CDATA[Some Thoughts on Ego]]></title>
-    <link href="http://geopet.github.com/blog/2013/01/18/thoughts-on-ego/"/>
+    <link href="http://geopet.github.io/blog/2013/01/18/thoughts-on-ego/"/>
     <updated>2013-01-18T10:36:00-07:00</updated>
-    <id>http://geopet.github.com/blog/2013/01/18/thoughts-on-ego</id>
+    <id>http://geopet.github.io/blog/2013/01/18/thoughts-on-ego</id>
     <content type="html"><![CDATA[<p>To categorically define <em>Ego</em> is out of the scope of this writing. In order to make things easier on myself, and hopefully you, I will attempt to elucidate my meaning through example. But so that we&rsquo;re all starting on the same foot, when I say ego I am referring to the informal and negative connotation of the word.</p>
 
 <p>Why am I talking about ego?</p>
@@ -133,9 +133,9 @@
   
   <entry>
     <title type="html"><![CDATA[Vim - Precision Editing Video]]></title>
-    <link href="http://geopet.github.com/blog/2012/11/14/vim-precision-editing-video/"/>
+    <link href="http://geopet.github.io/blog/2012/11/14/vim-precision-editing-video/"/>
     <updated>2012-11-14T20:25:00-07:00</updated>
-    <id>http://geopet.github.com/blog/2012/11/14/vim-precision-editing-video</id>
+    <id>http://geopet.github.io/blog/2012/11/14/vim-precision-editing-video</id>
     <content type="html"><![CDATA[<p><a href="http://www.vim.org/">Vim</a> is my text editor of choice. Drew Neil is an
 amazing Vim evangelist. If you haven&rsquo;t, you should go check out
 <a href="http://vimcasts.org/">VimCasts</a>. He also <a href="http://pragprog.com/book/dnvim/practical-vim">has a book</a> that I haven&rsquo;t had a
@@ -176,9 +176,9 @@ it is one that I won&rsquo;t forget. The other two I&rsquo;m in love with. I use
   
   <entry>
     <title type="html"><![CDATA[Octopress: Change the Default Preview Server]]></title>
-    <link href="http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server/"/>
+    <link href="http://geopet.github.io/blog/2012/10/14/octopress-change-the-default-preview-server/"/>
     <updated>2012-10-14T21:27:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/10/14/octopress-change-the-default-preview-server</id>
+    <id>http://geopet.github.io/blog/2012/10/14/octopress-change-the-default-preview-server</id>
     <content type="html"><![CDATA[<p>Another quick tip for people using <a href="http://octopress.org/">Octopress</a>:</p>
 
 <p>If you&rsquo;re running Octopress on Mac OSX you may be running into some real
@@ -254,9 +254,9 @@ Octopress 2.0 without any changes up to this point:</p>
   
   <entry>
     <title type="html"><![CDATA[Git Tips: Tagging]]></title>
-    <link href="http://geopet.github.com/blog/2012/10/14/git-tips-tagging/"/>
+    <link href="http://geopet.github.io/blog/2012/10/14/git-tips-tagging/"/>
     <updated>2012-10-14T21:06:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/10/14/git-tips-tagging</id>
+    <id>http://geopet.github.io/blog/2012/10/14/git-tips-tagging</id>
     <content type="html"><![CDATA[<p>File this under the <em>I&rsquo;m always referencing this, so I&rsquo;m going to do a
 quick post about it</em> category.</p>
 
@@ -330,9 +330,9 @@ commands that I use often but never seem to remember.</p>
   
   <entry>
     <title type="html"><![CDATA[Revenge of Ruby Hashes]]></title>
-    <link href="http://geopet.github.com/blog/2012/10/02/revenge-of-ruby-hashes/"/>
+    <link href="http://geopet.github.io/blog/2012/10/02/revenge-of-ruby-hashes/"/>
     <updated>2012-10-02T17:02:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/10/02/revenge-of-ruby-hashes</id>
+    <id>http://geopet.github.io/blog/2012/10/02/revenge-of-ruby-hashes</id>
     <content type="html"><![CDATA[<p>Because I can&rsquo;t seem to let this go, I continued to research the
 challenge I was dealing with a <a href="http://blog.geoffpetrie.com/blog/2012/09/25/the-ruby-hashes-case/">few days back</a>
 where I was trying to get the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">cool python trick</a>
@@ -411,9 +411,9 @@ language.</p>
   
   <entry>
     <title type="html"><![CDATA[The Ruby Hashes Case]]></title>
-    <link href="http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case/"/>
+    <link href="http://geopet.github.io/blog/2012/09/25/the-ruby-hashes-case/"/>
     <updated>2012-09-25T23:55:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/09/25/the-ruby-hashes-case</id>
+    <id>http://geopet.github.io/blog/2012/09/25/the-ruby-hashes-case</id>
     <content type="html"><![CDATA[<p>Contrary to the date listed, the <a href="http://blog.geoffpetrie.com/blog/2012/09/25/python-dictionaries/">previous post</a> about Python and dictionaries and PHP and associative arrays was written a few weeks back. I&rsquo;ve since been spending more time with Ruby.</p>
 
 <p>After posting that article about how tight the Python code was in order to build a string with just the right number of semicolons, I decided to see if I could do the same thing with Ruby.</p>
@@ -440,9 +440,9 @@ end
   
   <entry>
     <title type="html"><![CDATA[Python Dictionaries, PHP Associative Arrays and Python Objects]]></title>
-    <link href="http://geopet.github.com/blog/2012/09/25/python-dictionaries/"/>
+    <link href="http://geopet.github.io/blog/2012/09/25/python-dictionaries/"/>
     <updated>2012-09-25T20:47:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/09/25/python-dictionaries</id>
+    <id>http://geopet.github.io/blog/2012/09/25/python-dictionaries</id>
     <content type="html"><![CDATA[<p>If you read my previous post on <a href="http://blog.geoffpetrie.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/">the challenge of education as a developer</a>, you&rsquo;ll know about my interested in the Python language and syntax. I have had a reason to look at Python again recently and it&rsquo;s pretty amazing what I had forgotten about the language.</p>
 
 <p>Now I&rsquo;ll admit that my understanding of object models and design patterns isn&rsquo;t the finest. But as I was going through my Python refresher I had a bit of an aha moment.</p>
@@ -562,10 +562,10 @@ print_r($str);
   
   <entry>
     <title type="html"><![CDATA[Git Tip: Use Prune to Update Local Repo Branches]]></title>
-    <link href="http://geopet.github.com/blog/2012/09/04/some-quick-git-tips/"/>
+    <link href="http://geopet.github.io/blog/2012/09/04/some-quick-git-tips/"/>
     <updated>2012-09-04T21:46:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/09/04/some-quick-git-tips</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://geopet.github.com/images/git-prune.jpg" title="[pruning the stale branches]" ></p>
+    <id>http://geopet.github.io/blog/2012/09/04/some-quick-git-tips</id>
+    <content type="html"><![CDATA[<p><img class="center" src="http://geopet.github.io/images/git-prune.jpg" title="[pruning the stale branches]" ></p>
 
 <p>I have multiple places where I work and I use <a href="http://git-scm.com/">Git</a> to support that. The general Git workflow I&rsquo;ve adopted is similar to the one <a href="http://scottchacon.com/2011/08/31/github-flow.html">Scott Chacon describes</a>.</p>
 
@@ -609,14 +609,14 @@ print_r($str);
   
   <entry>
     <title type="html"><![CDATA[On the Problems of Education in a Developer's World]]></title>
-    <link href="http://geopet.github.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/"/>
+    <link href="http://geopet.github.io/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/"/>
     <updated>2012-08-29T11:31:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world</id>
+    <id>http://geopet.github.io/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world</id>
     <content type="html"><![CDATA[<p>or,</p>
 
 <h2>How the Learning Voice Needs to Roundhouse Kick the Work Voice in the Face</h2>
 
-<p><img class="center" src="http://geopet.github.com/images/on_the_problems_of_education_in_a_developers_world-loc-classroom.jpg" title="N.Y. schools opening" alt="N.Y. schools opening"></p>
+<p><img class="center" src="http://geopet.github.io/images/on_the_problems_of_education_in_a_developers_world-loc-classroom.jpg" title="N.Y. schools opening" alt="N.Y. schools opening"></p>
 
 <p><strong>Preface:</strong></p>
 
@@ -746,9 +746,9 @@ print_r($str);
   
   <entry>
     <title type="html"><![CDATA[Adding a CNAME to Your Octopress Blog]]></title>
-    <link href="http://geopet.github.com/blog/2012/08/22/adding-a-cname-to-your-octopress-blog/"/>
+    <link href="http://geopet.github.io/blog/2012/08/22/adding-a-cname-to-your-octopress-blog/"/>
     <updated>2012-08-22T16:42:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/08/22/adding-a-cname-to-your-octopress-blog</id>
+    <id>http://geopet.github.io/blog/2012/08/22/adding-a-cname-to-your-octopress-blog</id>
     <content type="html"><![CDATA[<p>This option isn&rsquo;t terribly well explained in the <a href="http://octopress.org/docs/deploying/github/">Octopress documentation</a>, and slightly confusing within the <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">Github</a>.</p>
 
 <p>So that I could get <em>blog.geoffpetrie.com</em> to work as my url to my Octopress blog hosted by Github at <em>geopet.github.com</em>, I needed to go to my current hosting service. In my case this is currently <a href="http://www.dreamhost.com/r.cgi?1197623">Dreamhost</a>.</p>
@@ -773,9 +773,9 @@ print_r($str);
   
   <entry>
     <title type="html"><![CDATA[Starting Again With Octopress]]></title>
-    <link href="http://geopet.github.com/blog/2012/08/21/starting-again-with-octopress/"/>
+    <link href="http://geopet.github.io/blog/2012/08/21/starting-again-with-octopress/"/>
     <updated>2012-08-21T22:01:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/08/21/starting-again-with-octopress</id>
+    <id>http://geopet.github.io/blog/2012/08/21/starting-again-with-octopress</id>
     <content type="html"><![CDATA[<p>Moving my <a href="http://faceofgeoff.com">Tumblr</a> to <a href="https://github.com/imathis/octopress">Octopress</a> seems to be a bit more of a chore than I had initially expected. My journey into <a href="https://github.com/mojombo/jekyll">Jekyll</a> turned out to be something that required more time that I could commit at this very moment, so I decided to take a quicker path to getting a better blogging workflow into my life by implementing some really exceptional work done <a href="http://brandonmathis.com/">Brandon Mathis</a> in Octopress as recommended by my friend <a href="http://brianarn.github.com/">Brian Arnold</a>.</p>
 
 <p>Still, this is a new application that I haven&rsquo;t had a chance to really kick the tires on. I tried to grab the less family specific pieces from the Tumblr I kept, and the more bloggy pieces from there. There is more work to be done on that front. For one, I need to get some of the original images from there for the technical pieces that I took screen captures of. In the mean time I&rsquo;ll see if I can get URLs back to the original Tumblr pieces if there is any interest in that at all.</p>
@@ -788,9 +788,9 @@ print_r($str);
   
   <entry>
     <title type="html"><![CDATA[On Sparrow and Google]]></title>
-    <link href="http://geopet.github.com/blog/2012/08/14/on-sparrow-and-google/"/>
+    <link href="http://geopet.github.io/blog/2012/08/14/on-sparrow-and-google/"/>
     <updated>2012-08-14T08:00:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/08/14/on-sparrow-and-google</id>
+    <id>http://geopet.github.io/blog/2012/08/14/on-sparrow-and-google</id>
     <content type="html"><![CDATA[<p>So at the end of last month (July 20, 2012) there was a disturbance in the indie developer force when the great iOS/OS X gmail skin/email client Sparrow was acquired by Google.</p>
 
 <p>I&rsquo;ll provide the text of their announcement at the end of this which you can (at the time of this writing) find <a href="http://sprw.me/">on their site</a>. The gist of the press release was that they&rsquo;d been bought by Google, that they&rsquo;d do one more bug fix and then they&rsquo;d stop working on the Apple products and start working on other Gmail stuff for Google. As a side note, it was amusing to see the long list of &ldquo;advisors&rdquo; and investors that they thanked as well.</p>
@@ -835,9 +835,9 @@ Sparrow</p>
   
   <entry>
     <title type="html"><![CDATA[Why I Love Gweek]]></title>
-    <link href="http://geopet.github.com/blog/2011/12/14/why-i-love-gweek/"/>
+    <link href="http://geopet.github.io/blog/2011/12/14/why-i-love-gweek/"/>
     <updated>2011-12-14T08:00:00-07:00</updated>
-    <id>http://geopet.github.com/blog/2011/12/14/why-i-love-gweek</id>
+    <id>http://geopet.github.io/blog/2011/12/14/why-i-love-gweek</id>
     <content type="html"><![CDATA[<p><img src="http://boingboing.net/images/gweek-logo-300x250.png" align="left" hspace="5" vspace="5">I am a podcast listener. I listen to them on my commute, when I exercise, when I walk from place to place and when I craft. Essentially I try to find reasons to do things that allow me to listen to podcasts. Now because I actually <em>listen</em> to podcasts I have a hard time listening to them while I program or write. This makes me sad sometimes, but I survive.</p>
 
 <p>Because I love podcasts so much, and the time available to me to listen to them is so little, the shows I listen to are at a minimum. This mean that if I add a show I typically need to drop a show.</p>
@@ -908,9 +908,9 @@ Sparrow</p>
   
   <entry>
     <title type="html"><![CDATA[Great Tip on Apple IDs]]></title>
-    <link href="http://geopet.github.com/blog/2011/10/12/great-tip-on-apple-ids/"/>
+    <link href="http://geopet.github.io/blog/2011/10/12/great-tip-on-apple-ids/"/>
     <updated>2011-10-12T12:48:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2011/10/12/great-tip-on-apple-ids</id>
+    <id>http://geopet.github.io/blog/2011/10/12/great-tip-on-apple-ids</id>
     <content type="html"><![CDATA[<blockquote><p>But what if I share my Apple ID?</p>
 
 <p>If you use your Apple ID on multiple devices to buy apps (say, if you have one central account for your, your spouse’s, and your children’s purchases), it’s best not to convert it into an iCloud account. Although your installed iCloud account is, by default, the one you’ll use to purchase music and apps with, you can still manually sign in and out of the App and iTunes Stores on your device. Instead, you should create an entirely separate account to use with iCloud.</p></blockquote>
@@ -921,9 +921,9 @@ Sparrow</p>
   
   <entry>
     <title type="html"><![CDATA[Creating a Service Using Automator for nvALT Notes Version Control]]></title>
-    <link href="http://geopet.github.com/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control/"/>
+    <link href="http://geopet.github.io/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control/"/>
     <updated>2011-09-21T08:00:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control</id>
+    <id>http://geopet.github.io/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control</id>
     <content type="html"><![CDATA[<h2>Introduction</h2>
 
 <p>I&rsquo;m going to get a pretty nerdy here for a moment.</p>
@@ -1010,18 +1010,18 @@ I do most of my commits for my notes file.</li>
 select &ldquo;Service&rdquo; as our document type under the &ldquo;Choose a type for your
 document:&rdquo;</p>
 
-<p><img class="center" src="http://geopet.github.com/images/creating-a-service-01.png"></p>
+<p><img class="center" src="http://geopet.github.io/images/creating-a-service-01.png"></p>
 
 <p>Next, we&rsquo;re going to change the &ldquo;Service receives&rdquo; from the default
 &ldquo;text&rdquo; to &ldquo;no input&rdquo;. Leave the &ldquo;in&rdquo; &ldquo;any application&rdquo; as it is.</p>
 
-<p><img class="center" src="http://geopet.github.com/images/creating-a-service-02.png"></p>
+<p><img class="center" src="http://geopet.github.io/images/creating-a-service-02.png"></p>
 
 <p>Penultimately, we click &ldquo;Utilities&rdquo; under the left-side &ldquo;Library&rdquo; dropdown and
 then drag the &ldquo;Run Shell Script&rdquo; from the middle column over to the
 right side.</p>
 
-<p><img class="center" src="http://geopet.github.com/images/creating-a-service-03.png"></p>
+<p><img class="center" src="http://geopet.github.io/images/creating-a-service-03.png"></p>
 
 <p>Lastly, we enter in the location of the script in the workflow. It&rsquo;s a
 good idea to use the absolute pathname here. In my case it was
@@ -1032,7 +1032,7 @@ of your application menus. Click on the Service and it will do a Git
 commit of all the changes to that notes directory as well as update the
 faux log file we&rsquo;ve created for the day.</p>
 
-<p><img class="center" src="http://geopet.github.com/images/creating-a-service-04.png"></p>
+<p><img class="center" src="http://geopet.github.io/images/creating-a-service-04.png"></p>
 
 <p>But I don&rsquo;t like to use the mouse/trackpad that much. So the final touch
 to this is to create a keyboard shortcut in your System Preferences. Go
@@ -1044,7 +1044,7 @@ field. You can use anything you want for your shortcut, but I chose
 control-option-command-shift-s for mine to avoid any chance of a
 keyboard conflict.</p>
 
-<p><img class="center" src="http://geopet.github.com/images/creating-a-service-05.png"></p>
+<p><img class="center" src="http://geopet.github.io/images/creating-a-service-05.png"></p>
 
 <h2>Conclusion</h2>
 
@@ -1120,9 +1120,9 @@ worry about any files going away without my knowing. <a href="#fnref:4" title="r
   
   <entry>
     <title type="html"><![CDATA[Temp Text Expander Tip]]></title>
-    <link href="http://geopet.github.com/blog/2011/09/20/temp-text-expander-tip/"/>
+    <link href="http://geopet.github.io/blog/2011/09/20/temp-text-expander-tip/"/>
     <updated>2011-09-20T16:00:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2011/09/20/temp-text-expander-tip</id>
+    <id>http://geopet.github.io/blog/2011/09/20/temp-text-expander-tip</id>
     <content type="html"><![CDATA[<blockquote><p>Don’t hesitate to create temporary TextExpander snippets for a specific project, but put them in a ‘Temp’ folder so that you can easily delete them when done.</p></blockquote>
 
 <p>This is <em>such</em> a good idea.<br/>
@@ -1132,9 +1132,9 @@ worry about any files going away without my knowing. <a href="#fnref:4" title="r
   
   <entry>
     <title type="html"><![CDATA[nvAlt Quick Tip]]></title>
-    <link href="http://geopet.github.com/blog/2011/09/20/nvalt-quick-tip/"/>
+    <link href="http://geopet.github.io/blog/2011/09/20/nvalt-quick-tip/"/>
     <updated>2011-09-20T08:00:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2011/09/20/nvalt-quick-tip</id>
+    <id>http://geopet.github.io/blog/2011/09/20/nvalt-quick-tip</id>
     <content type="html"><![CDATA[<h2>Making Markdown Readable and Your Default File Type</h2>
 
 <p>So normally I don&rsquo;t write tips on productivity, but lately I have been

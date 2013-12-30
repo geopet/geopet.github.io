@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: OSX | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/osx/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/osx/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Creating a Service Using Automator for nvALT Notes Version Control]]></title>
-    <link href="http://geopet.github.com/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control/"/>
+    <link href="http://geopet.github.io/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control/"/>
     <updated>2011-09-21T08:00:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control</id>
+    <id>http://geopet.github.io/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control</id>
     <content type="html"><![CDATA[<h2>Introduction</h2>
 
 <p>I&rsquo;m going to get a pretty nerdy here for a moment.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: developers | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/developers/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/developers/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[On the Problems of Education in a Developer's World]]></title>
-    <link href="http://geopet.github.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/"/>
+    <link href="http://geopet.github.io/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/"/>
     <updated>2012-08-29T11:31:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world</id>
+    <id>http://geopet.github.io/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world</id>
     <content type="html"><![CDATA[<p>or,</p>
 
 <h2>How the Learning Voice Needs to Roundhouse Kick the Work Voice in the Face</h2>
@@ -152,9 +152,9 @@
   
   <entry>
     <title type="html"><![CDATA[On Sparrow and Google]]></title>
-    <link href="http://geopet.github.com/blog/2012/08/14/on-sparrow-and-google/"/>
+    <link href="http://geopet.github.io/blog/2012/08/14/on-sparrow-and-google/"/>
     <updated>2012-08-14T08:00:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2012/08/14/on-sparrow-and-google</id>
+    <id>http://geopet.github.io/blog/2012/08/14/on-sparrow-and-google</id>
     <content type="html"><![CDATA[<p>So at the end of last month (July 20, 2012) there was a disturbance in the indie developer force when the great iOS/OS X gmail skin/email client Sparrow was acquired by Google.</p>
 
 <p>I&rsquo;ll provide the text of their announcement at the end of this which you can (at the time of this writing) find <a href="http://sprw.me/">on their site</a>. The gist of the press release was that they&rsquo;d been bought by Google, that they&rsquo;d do one more bug fix and then they&rsquo;d stop working on the Apple products and start working on other Gmail stuff for Google. As a side note, it was amusing to see the long list of &ldquo;advisors&rdquo; and investors that they thanked as well.</p>

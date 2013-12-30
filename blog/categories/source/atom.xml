@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: source | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/source/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/source/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[In Search of the Open Source Project]]></title>
-    <link href="http://geopet.github.com/blog/2011/03/18/in-search-of-the-open-source-project/"/>
+    <link href="http://geopet.github.io/blog/2011/03/18/in-search-of-the-open-source-project/"/>
     <updated>2011-03-18T16:30:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2011/03/18/in-search-of-the-open-source-project</id>
+    <id>http://geopet.github.io/blog/2011/03/18/in-search-of-the-open-source-project</id>
     <content type="html"><![CDATA[<p>Something I wanted to get under my belt this year was to take on a
 significant role in an open source project. I&rsquo;ve built a major part of
 my career around the results of open source work: I am a PHP programmer

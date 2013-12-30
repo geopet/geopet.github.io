@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Apple | Thoughts of Geoff]]></title>
-  <link href="http://geopet.github.com/blog/categories/apple/atom.xml" rel="self"/>
-  <link href="http://geopet.github.com/"/>
-  <updated>2013-12-30T12:26:23-07:00</updated>
-  <id>http://geopet.github.com/</id>
+  <link href="http://geopet.github.io/blog/categories/apple/atom.xml" rel="self"/>
+  <link href="http://geopet.github.io/"/>
+  <updated>2013-12-30T12:31:54-07:00</updated>
+  <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
     <email><![CDATA[g.petrie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[iCloud]]></title>
-    <link href="http://geopet.github.com/blog/2011/09/02/icloud/"/>
+    <link href="http://geopet.github.io/blog/2011/09/02/icloud/"/>
     <updated>2011-09-02T08:00:00-06:00</updated>
-    <id>http://geopet.github.com/blog/2011/09/02/icloud</id>
+    <id>http://geopet.github.io/blog/2011/09/02/icloud</id>
     <content type="html"><![CDATA[<p>I have to say, I&rsquo;m getting pretty jazzed about iOS5 coming out, and,
 more specifically <a href="http://www.apple.com/icloud/">iCloud</a>. The video below was referenced by a <a href="http://www.practicallyefficient.com/2011/09/01/sync/">Practically
 Efficient</a> article
