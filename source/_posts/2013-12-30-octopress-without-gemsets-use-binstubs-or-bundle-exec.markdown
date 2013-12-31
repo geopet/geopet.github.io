@@ -3,13 +3,13 @@ layout: post
 title: "Octopress Without Gemsets: Use Binstubs or bundle exec"
 date: 2013-12-30 15:11:40 -0700
 comments: true
-categories: tips
+categories: [tips, octopress, rake, bundler, binstubs, gemsets]
 published: false
 ---
 
 _It doesn't go without notice that a significant number of my posts have been about how to improve on the engine that I use to publish this blog. Keeping with this theme, I am writing two short posts on my experience of getting Octopress up to speed for the coming year._
 
-As I was preparing my [Octopress](http://octopress.org/) instance for the new year I found a couple of things that were no longer working that had been the last time I published something. <!-- more -->
+As I was preparing my [Octopress](http://octopress.org/) instance for the new year I found a couple of things that were no longer working that were a result of not having gemsets available to me any longer. <!-- more -->
 
 Over this past year I moved from using [rvm](http://rvm.io/) to manage my rubies to using [ruby-install](https://github.com/postmodern/ruby-install) and [chruby](https://github.com/postmodern/chruby). Due to this change I no longer had the benefit of using [gemsets](http://rvm.io/gemsets/basics) that rvm provided so nicely. What this meant was that when I typed `rake generate` or `rake new_post['My Awesome Title']` I would get the following error:
 
