@@ -1,121 +1,177 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-    <url>
-        <loc>http://geopet.github.io/blog/2011/03/18/in-search-of-the-open-source-project/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2011/04/03/object-quote/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2011/04/05/helpful-linux-commands/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2011/05/10/learning-git/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2011/09/02/icloud/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2011/09/07/little-details/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2011/09/20/nvalt-quick-tip/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2011/09/20/temp-text-expander-tip/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://geopet.github.io/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control/
-        </loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2011/10/12/great-tip-on-apple-ids/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2011/12/14/why-i-love-gweek/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2012/08/14/on-sparrow-and-google/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2012/08/21/starting-again-with-octopress/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2012/08/22/adding-a-cname-to-your-octopress-blog/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://geopet.github.io/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/
-        </loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2012/09/04/some-quick-git-tips/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2012/09/25/python-dictionaries/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2012/09/25/the-ruby-hashes-case/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2012/10/02/revenge-of-ruby-hashes/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2012/10/14/git-tips-tagging/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://geopet.github.io/blog/2012/10/14/octopress-change-the-default-preview-server/
-        </loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2012/11/14/vim-precision-editing-video/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2013/01/18/thoughts-on-ego/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2013/01/30/fixing-a-slow-localhost-webrick-server/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/2013/02/15/manually-pushing-to-a-remote-branch/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/blog/archives/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://geopet.github.io/robots.txt</loc>
-        <lastmod>2013-12-30T11:34:51-07:00</lastmod>
-    </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2014/08/15/analysis-of-ottingers-rules-for-variable-and-class-naming/</loc>
+    <lastmod>2014-08-15T23:04:25-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2013/02/15/manually-pushing-to-a-remote-branch/</loc>
+    <lastmod>2013-02-15T11:40:00-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2013/01/30/fixing-a-slow-localhost-webrick-server/</loc>
+    <lastmod>2013-01-30T23:16:00-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2013/01/18/thoughts-on-ego/</loc>
+    <lastmod>2013-01-18T10:36:00-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2012/11/14/vim-precision-editing-video/</loc>
+    <lastmod>2012-11-14T20:25:00-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2012/10/14/octopress-change-the-default-preview-server/</loc>
+    <lastmod>2012-10-14T21:27:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2012/10/14/git-tips-tagging/</loc>
+    <lastmod>2012-10-14T21:06:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2012/10/02/revenge-of-ruby-hashes/</loc>
+    <lastmod>2012-10-02T17:02:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2012/09/25/the-ruby-hashes-case/</loc>
+    <lastmod>2012-09-25T23:55:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2012/09/25/python-dictionaries/</loc>
+    <lastmod>2012-09-25T20:47:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2012/09/04/some-quick-git-tips/</loc>
+    <lastmod>2012-09-04T21:46:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2012/08/29/on-the-problems-of-education-in-a-developers-world/</loc>
+    <lastmod>2012-08-29T11:31:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2012/08/22/adding-a-cname-to-your-octopress-blog/</loc>
+    <lastmod>2012-08-22T16:42:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2012/08/21/starting-again-with-octopress/</loc>
+    <lastmod>2012-08-21T22:01:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2012/08/14/on-sparrow-and-google/</loc>
+    <lastmod>2012-08-14T08:00:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2011/12/14/why-i-love-gweek/</loc>
+    <lastmod>2011-12-14T08:00:00-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2011/10/12/great-tip-on-apple-ids/</loc>
+    <lastmod>2011-10-12T12:48:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2011/09/21/creating-a-service-using-automator-for-nvalt-notes-version-control/</loc>
+    <lastmod>2011-09-21T08:00:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2011/09/20/temp-text-expander-tip/</loc>
+    <lastmod>2011-09-20T16:00:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2011/09/20/nvalt-quick-tip/</loc>
+    <lastmod>2011-09-20T08:00:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2011/09/07/little-details/</loc>
+    <lastmod>2011-09-07T08:00:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2011/09/02/icloud/</loc>
+    <lastmod>2011-09-02T08:00:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2011/05/10/learning-git/</loc>
+    <lastmod>2011-05-10T10:30:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2011/04/05/helpful-linux-commands/</loc>
+    <lastmod>2011-04-05T14:30:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2011/04/03/object-quote/</loc>
+    <lastmod>2011-04-03T10:00:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/blog/2011/03/18/in-search-of-the-open-source-project/</loc>
+    <lastmod>2011-03-18T16:30:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://geopet.github.io/blog/archives/</loc>
+    <lastmod>2014-08-15T23:22:34-06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://geopet.github.io/</loc>
+    <lastmod>2014-08-15T23:22:34-06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  
 </urlset>

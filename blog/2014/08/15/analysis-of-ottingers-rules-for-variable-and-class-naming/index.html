@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Analysis of Ottinger's Rules for Variable and Class Naming - Thoughts of Geoff</title>
+  <meta name="author" content="Geoff Petrie">
+
+  
+  <meta name="description" content="Sections in Ottinger&rsquo;s Rules for Variable and Class Naming:
+* Use Intention-Revealing Names
+* Avoid Disinformation
+* Make Meaningful &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://geopet.github.io/blog/2014/08/15/analysis-of-ottingers-rules-for-variable-and-class-naming">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Thoughts of Geoff" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2059328-12']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Thoughts of Geoff</a></h1>
+  
+    <h2>Some writing by Geoff Petrie</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:geopet.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="http://geoffpetrie.com">About Geoff</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Analysis of Ottinger's Rules for Variable and Class Naming</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-08-15T23:04:25-06:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>11:04 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Sections in Ottinger&rsquo;s <em>Rules for Variable and Class Naming</em>:<br/>
+* Use Intention-Revealing Names<br/>
+* Avoid Disinformation<br/>
+* Make Meaningful Distinctions<br/>
+* Use Pronounceable Names<br/>
+* Use Searchable Names<br/>
+* Avoid Encodings<br/>
+* Avoid Mental Mapping<br/>
+* Use Noun and Verb Phrases<br/>
+* Don&rsquo;t Be Cute<br/>
+* Pick One Word Per Concept<br/>
+* Don&rsquo;t Pun<br/>
+* Use Rich Name Sources<br/>
+* Make Context Meaningful</p>
+
+<p>Naming is one of those things in programming that is always there. Tim Ottinger wrote <a href="http://www.objectmentor.com/resources/articles/Naming.pdf"><em>Rules for Variable and Class Naming</em></a> for Object Mentor in 1997. This is still considered one of the seminal articles on the topic of naming and programming. I thought it might be fun to give it a read an add my thoughts.</p>
+
+<p>Let&rsquo;s get started.</p>
+
+<p>Ottinger starts his paper with:</p>
+
+<blockquote><p>An expressive name for a software object must be clear, precise, and small. This is a guide to better clarity, precision, and terseness in naming.</p></blockquote>
+
+<p>This focus on &ldquo;terseness&rdquo; immediately worries me. With autocompletion and IDEs, the size of the variable or class name is the last thing I&rsquo;m going to worry about. But let&rsquo;s see where this heads.</p>
+
+<h2>Use Intention-Revealing Names</h2>
+
+<blockquote><p>The problem isn&rsquo;t the simplicity of the code but the implicity of the code: the degree to which the context is not explicit in the code itself.</p></blockquote>
+
+<p>This is Ottinger&rsquo;s conclusion after looking at what appears to be a relatively simple Python sample. Ottinger&rsquo;s meaning is here is: <em>Even the simplest code needs to be clear in its intent.</em></p>
+
+<p>In Ottinger&rsquo;s example he takes the unexpressive names of the sample and modifies them to show the intent of the code. He takes his refactoring even further than name changing to introduce a new class using a name he had introduced in the previous refactoring. This new class adds an additional level of elegance and explicitness to the sample.</p>
+
+<p>Something that started out as being difficult to understand, after some small changes, is significantly more clear.</p>
+
+<!-- more -->
+
+
+<h2>Avoid Disinformation</h2>
+
+<blockquote><p>A software author must avoid leaving false clues which obscure the meaning of code.</p></blockquote>
+
+<p>Some words mean different things to different people. Ottinger uses the word &ldquo;list&rdquo; as an example of something that could mean various things to various people.</p>
+
+<p>He argues that instead of <code>AccountList</code> perhaps use <code>AccountGroup</code> or even <code>BunchOfAccounts</code>.</p>
+
+<p>Also, be careful using variables or classes whose names are both long and are only slightly different. For example, <code>XYZControllerForEfficientHandlingOfStrings</code> and <code>XYZControllerForEfficientStorageOfStrings</code>.</p>
+
+<p>Amusingly, Ottinger warns us of using lowercase L&rsquo;s and uppercase o&rsquo;s in our naming as they can easily be misinterpreted as ones and zeros. Raise your hand if you&rsquo;ve been bitten by this one before.</p>
+
+<h2>Make Meaningful Distinctions</h2>
+
+<blockquote><p>If names must be different, then they should also mean something different.</p></blockquote>
+
+<p>This quote has a lot of meaning behind it. Consider the single responsibility principle. If you can&rsquo;t come up with a unique name for something, perhaps that is an indication that the code written with the name that you want to use could <em>also</em> be used for your current problem.</p>
+
+<p>Ottinger warns us against adding noise words and number series in our naming simply to satisfy compilers. Creating variables like <code>string</code>, <code>string1</code>, <code>string2</code> add nothing to meaning. The same thing can be said about adding noise words like <code>Info</code> or <code>Data</code> to produce new classes like <code>ProductInfo</code> or <code>ProductData</code>.</p>
+
+<p>&ldquo;Noise words&rdquo; are tricky for me to understand, though. I can see cases where <code>ProductInfo</code> and <code>ProductData</code> could be useful. But I feel that Ottinger&rsquo;s intent here is to warn off the use of these words if something more <em>explicit</em> can&rsquo;t be used.</p>
+
+<p>Furthermore, if you are creating a class called <code>ProductInfo</code>, perhaps it would be better to have an <code>info</code> method on the <code>Product</code> class. Then you could simply call <code>Product.info</code>.</p>
+
+<h2>Use Pronounceable Names</h2>
+
+<p>This is a fairly self-explanatory section. Use variables and classes that you can say over the phone or in an in-person conversation.</p>
+
+<h2>Use Searchable Names</h2>
+
+<p>Two outstanding quotes from this section:</p>
+
+<blockquote><p>&hellip; longer names trump shorter names, and any searchable name trumps a constant in code.</p></blockquote>
+
+<p>and</p>
+
+<blockquote><p>My personal preference is that single-letter names can ONLY be used as <strong>local</strong> variables inside <strong>short</strong> methods.</p></blockquote>
+
+<p>I love these clear rules of thumb. Although I do worry over the use of single-letter variables in <em>any</em> place. I also have some challenges reconciling the idea that &ldquo;longer names trump shorter names&rdquo; but from before we saw that we should be &ldquo;terse&rdquo; in our naming.</p>
+
+<p>Ultimately, for me, if a name is descriptive that should be the most important thing. If that name is short and descriptive, then that is fine. If it is long and descriptive then that, too, is just fine.</p>
+
+<h2>Avoid Encodings</h2>
+
+<p>Ottinger brings this section to a close with this quote:</p>
+
+<blockquote><p>Modern languages don&rsquo;t need type encoding.</p></blockquote>
+
+<p>It&rsquo;s certainly worth reading this section and learning more about Hungarian Notation, but I won&rsquo;t spend any more time on this here.</p>
+
+<h2>Avoid Mental Mapping</h2>
+
+<p>Don&rsquo;t force the reader of your code to translate what the variable means.</p>
+
+<p>And how awesome is this quote?</p>
+
+<blockquote><p>Smart is overrated. Clarity is king. The very smart must use their talent to write code that others are less likely to misunderstand.</p></blockquote>
+
+<h2>Use Noun and Verb Phrases</h2>
+
+<p>Create variables that allow for you to write code that reads like a sentence.</p>
+
+<p>Ottinger recommends that if this sounds unimportant or difficult to grasp then you should see how difficult it is for you or your colleagues to use your class&rsquo;s API or how challenging it is to read the unit tests for your class.</p>
+
+<p>Another interesting element to this section is the idea of creating methods or functions to make your class read better instead of having a list of overloaded class constructor parameters that wouldn&rsquo;t make sense if you saw the class being instantiated.</p>
+
+<p>So instead of <code>Interest.new(30)</code> you could have something like <code>Interest.thirty_year_mortgage</code>.</p>
+
+<h2>Don&rsquo;t Be Cute</h2>
+
+<p>I once named a major function to a class <code>parsenator</code>. Don&rsquo;t do this.</p>
+
+<p>Seriously, even if the developers who read your code are fans of <em>Phineas and Ferb</em>, no one wants to see that when they&rsquo;re trying to debug something that woke them up in the middle of the night.</p>
+
+<h2>Pick One Word Per Concept</h2>
+
+<p>Frankly, this section wasn&rsquo;t completely clear to me. What I&rsquo;m taking from this is the idea that you should pick a name and then stick with it. Be consistent with your interface.</p>
+
+<p>While this may be tedious, the people who use your API will thank you.</p>
+
+<h2>Don&rsquo;t Pun</h2>
+
+<p>Do not use the same name for different ideas.</p>
+
+<p>Ottinger uses the term &ldquo;add&rdquo; as an example. If you use the name &ldquo;add&rdquo; in one class to be the summing of numbers and then use &ldquo;add&rdquo; in another class to concatenate a list, you are essentially muddying the clarity of what that term means in your system.</p>
+
+<p>Use different names for different actions or things.</p>
+
+<h2>Use Rich Name Sources</h2>
+
+<p>Use names that identify the patterns, algorithms or math terms you are using if you are working at a low level in the code. I.e., use <em>solution domain names</em>. It is better to be clear what the intent of your code is to the developer who will be maintaining it rather than the customer you have written the code for.</p>
+
+<p>At a higher level, though, use <em>problem domain names</em>. Using the problem or business domain names makes the intent clear when you are interacting on that level. Is it easier to understand <code>Game.target.find(23)</code> or <code>Game.enemy_hit_in_quadant?(23)</code>?</p>
+
+<h2>Make Context Meaningful</h2>
+
+<p>There are two items to walk away with from this section.</p>
+
+<p>First, most names are not meaningful unto themselves. Use classes, methods and namespaces to help your readers better understand what your intent is.</p>
+
+<p>Second, do not go around prefixing all of your classes with the problem domain abbreviations.</p>
+
+<p>If all your classes start with <code>BAZ</code>, not only does that not add anything to the clarity of your intent, it also works against autocompletion of your editors and IDEs.</p>
+
+<h2>Conclusion</h2>
+
+<p>Ottinger&rsquo;s paper is exceptional. While I have enjoyed writing this analysis, I am certain that I am missing nuance that is there.</p>
+
+<p>I encourage you to sit down and read through the paper for yourself. At best it&rsquo;ll take you just a short time longer to read it than it did to read this article here.</p>
+
+<p>I&rsquo;m writing this analysis as a learning tool. Please reach out to me if you find anything you want to discuss in greater depth or you have found something incorrect here.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Geoff Petrie</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2014-08-15T23:04:25-06:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>11:04 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/naming/'>naming</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://geopet.github.io/blog/2014/08/15/analysis-of-ottingers-rules-for-variable-and-class-naming/" data-via="geopet" data-counturl="http://geopet.github.io/blog/2014/08/15/analysis-of-ottingers-rules-for-variable-and-class-naming/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/02/15/manually-pushing-to-a-remote-branch/" title="Previous Post: Manually Pushing to a Remote Git Branch">&laquo; Manually Pushing to a Remote Git Branch</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>About Me</h1>
+  <p>I am a web programmer and a technical manager. I like <em>a lot</em> of different things. This space is for me to have a place to write about those things.</p>
+  <p>You can find out more about me by going to <a href="http://geoffpetrie.com">geoffpetrie.com</a></p>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/08/15/analysis-of-ottingers-rules-for-variable-and-class-naming/">Analysis of Ottinger's Rules for Variable and Class Naming</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/15/manually-pushing-to-a-remote-branch/">Manually Pushing to a Remote Git Branch</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/30/fixing-a-slow-localhost-webrick-server/">Fixing a Slow Localhost Webrick Server</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/18/thoughts-on-ego/">Some Thoughts on Ego</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/11/14/vim-precision-editing-video/">Vim - Precision Editing Video</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("geopet", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/geopet" class="twitter-follow-button" data-show-count="false">Follow @geopet</a>
+  
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/geopet">@geopet</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'geopet',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Geoff Petrie -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

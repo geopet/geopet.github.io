@@ -4,7 +4,7 @@
   <title><![CDATA[Category: vim | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.io/blog/categories/vim/atom.xml" rel="self"/>
   <link href="http://geopet.github.io/"/>
-  <updated>2013-12-30T18:05:05-07:00</updated>
+  <updated>2014-08-15T23:22:34-06:00</updated>
   <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -37,9 +37,9 @@ muscle memory workout.</p>
 <p>The three that I picked up from this were:</p>
 
 <ol>
-<li><code>dt.</code> &ndash; delete until the dot.</li>
-<li><code>vi[</code> &ndash; visually highlight everything between the square bracket.</li>
-<li><code>gf</code> &ndash; go to the file under the cursor.</li>
+<li><code>dt.</code> - delete until the dot.</li>
+<li><code>vi[</code> - visually highlight everything between the square bracket.</li>
+<li><code>gf</code> - go to the file under the cursor.</li>
 </ol>
 
 
@@ -52,7 +52,7 @@ it is one that I won&rsquo;t forget. The other two I&rsquo;m in love with. I use
 <iframe src="http://player.vimeo.com/video/53144573?badge=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
-<p> <p><a href="http://vimeo.com/53144573">Vim &ndash; precision editing at the speed of thought</a> from <a href="http://vimeo.com/user4280938">&Oslash;redev Conference</a> on <a href="http://vimeo.com">Vimeo</a>.</p></p>
+<p> <p><a href="http://vimeo.com/53144573">Vim - precision editing at the speed of thought</a> from <a href="http://vimeo.com/user4280938">&Oslash;redev Conference</a> on <a href="http://vimeo.com">Vimeo</a>.</p></p>
 ]]></content>
   </entry>
   

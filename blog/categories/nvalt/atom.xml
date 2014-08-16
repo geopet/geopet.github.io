@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: nvAlt | Thoughts of Geoff]]></title>
+  <title><![CDATA[Category: nvalt | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.io/blog/categories/nvalt/atom.xml" rel="self"/>
   <link href="http://geopet.github.io/"/>
-  <updated>2013-12-30T18:05:05-07:00</updated>
+  <updated>2014-08-15T23:22:34-06:00</updated>
   <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -86,7 +86,7 @@ echo "* "`date`" nvALT Commit" &gt;&gt; /Users/username/Dropbox/notes/noteCommit
 this is what it does.</p>
 
 <ol>
-<li>It makes sure that we'r in my notes directory using the absolute pathname.</li>
+<li>It makes sure that we&#8217;r in my notes directory using the absolute pathname.</li>
 <li>It stages only the modified files to the repository.<a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">[4]</a></li>
 <li>It commits those changes and uses a standard message for my Git
 log file.</li>
@@ -240,7 +240,7 @@ register any of them in the search.  The reason? I needed to change the
 &ldquo;Plain Text Files&rdquo; and then I needed to add the file extension &ldquo;md&rdquo; to
 the &ldquo;Recognize individual files with attributes:&rdquo; extensions. Check out
 the screen capture below if this isn&rsquo;t quite making sense. (Also note
-that there is a &ldquo;+&rdquo; in that preference window, next to the &ldquo;&ndash;&rdquo; symbol,
+that there is a &ldquo;+&rdquo; in that preference window, next to the &ldquo;-&rdquo; symbol,
 but it isn&rsquo;t showing right now in Lion.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>)</p>
 
 <p><img src="../images/nvALT-quick-tip-01.png" alt="" /></p>

@@ -92,14 +92,7 @@ where I was trying to get the &hellip;">
 
 
 
-
-
-
-
-  
-
-
-<time datetime="2012-10-02T17:02:00-06:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2012</time>
+<time class='entry-date' datetime='2012-10-02T17:02:00-06:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>2</span><span class='date-suffix'>nd</span>, <span class='date-year'>2012</span></span> <span class='time'>5:02 pm</span></time>
         
       </p>
     
@@ -120,7 +113,7 @@ similar, may be more of an apples and oranges sort of comparison.</p>
 <p>With this in mind, I tried to trim up the code I wrote the last time to
 produce the same output. This is what I came up with:</p>
 
-<figure class='code'><figcaption><span>The New Semi-Colon Goodness semicolon2.rb </span></figcaption>
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>The New Semi-Colon Goodness semicolon2.rb </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -137,7 +130,7 @@ produce the same output. This is what I came up with:</p>
 </span><span class='line'><span class="k">end</span>
 </span><span class='line'>
 </span><span class='line'><span class="nb">puts</span> <span class="n">arr</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot;; &quot;</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
 
 <p>What I&rsquo;m doing here is forcing myself to work within the confines of the
@@ -148,7 +141,7 @@ want to do to get the output that I want. <em>Semi-colon success achieved!</em><
 <p>I think we can generally agree that this is better than the option I
 proposed previously:</p>
 
-<figure class='code'><figcaption><span>The Old Semi-Colon Badness semicolon.rb </span></figcaption>
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>The Old Semi-Colon Badness semicolon.rb </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -169,7 +162,7 @@ proposed previously:</p>
 </span><span class='line'>    <span class="nb">hash</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
 </span><span class='line'>  <span class="k">end</span>
 </span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
 
 <p>For my money, the new snippet is much more readable and is just a smidge
@@ -194,19 +187,12 @@ language.</p>
 
 
 
-
-
-
-
-  
-
-
-<time datetime="2012-10-02T17:02:00-06:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2012</time>
+<time class='entry-date' datetime='2012-10-02T17:02:00-06:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>2</span><span class='date-suffix'>nd</span>, <span class='date-year'>2012</span></span> <span class='time'>5:02 pm</span></time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/hashes/'>Hashes</a>, <a class='category' href='/blog/categories/objects/'>Objects</a>, <a class='category' href='/blog/categories/ruby/'>Ruby</a>
+    <a class='category' href='/blog/categories/hashes/'>hashes</a>, <a class='category' href='/blog/categories/objects/'>objects</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
   
 </span>
 
@@ -247,6 +233,10 @@ language.</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/08/15/analysis-of-ottingers-rules-for-variable-and-class-naming/">Analysis of Ottinger's Rules for Variable and Class Naming</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/02/15/manually-pushing-to-a-remote-branch/">Manually Pushing to a Remote Git Branch</a>
       </li>
     
@@ -260,10 +250,6 @@ language.</p>
     
       <li class="post">
         <a href="/blog/2012/11/14/vim-precision-editing-video/">Vim - Precision Editing Video</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/10/14/octopress-change-the-default-preview-server/">Octopress: Change the Default Preview Server</a>
       </li>
     
   </ul>
@@ -323,7 +309,7 @@ language.</p>
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Geoff Petrie -
+  Copyright &copy; 2014 - Geoff Petrie -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

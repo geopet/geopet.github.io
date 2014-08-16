@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Tagging | Thoughts of Geoff]]></title>
+  <title><![CDATA[Category: tagging | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.io/blog/categories/tagging/atom.xml" rel="self"/>
   <link href="http://geopet.github.io/"/>
-  <updated>2013-12-30T18:05:05-07:00</updated>
+  <updated>2014-08-15T23:22:34-06:00</updated>
   <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -84,8 +84,8 @@ commands that I use often but never seem to remember.</p>
 
 <p>A couple of nice references on tagging:</p>
 
-<p><a href="http://git-scm.com/book/en/Git-Basics-Tagging">Git Basics &ndash; Tagging</a><br/>
-<a href="http://gitready.com/beginner/2009/02/03/tagging.html">Git Ready &ndash; Tagging</a></p>
+<p><a href="http://git-scm.com/book/en/Git-Basics-Tagging">Git Basics - Tagging</a><br/>
+<a href="http://gitready.com/beginner/2009/02/03/tagging.html">Git Ready - Tagging</a></p>
 ]]></content>
   </entry>
   
