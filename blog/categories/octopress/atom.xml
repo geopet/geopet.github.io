@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://geopet.github.io/"/>
-  <updated>2014-08-15T23:22:34-06:00</updated>
+  <updated>2014-12-31T12:37:03-07:00</updated>
   <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -43,7 +43,7 @@ group and save the changes.</p>
 <p>This is what your <code>Gemfile</code> should look like now if you&rsquo;re running
 Octopress 2.0 without any changes up to this point:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -81,7 +81,7 @@ Octopress 2.0 without any changes up to this point:</p>
 </span><span class='line'><span class="k">end</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
 </span><span class='line'>
 </span><span class='line'><span class="sr">&lt;p&gt;gem &amp;lsquo;sinatra&amp;rsquo;, &amp;lsquo;~&gt; 1.3.2&amp;rsquo;</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+</span></code></pre></td></tr></table></div></figure></p>
 
 <p>The next time you run <code>rake preview</code> your blog on
 <a href="http://localhost:4000">http://localhost:4000</a> should run smooth as silk on the Thin server.</p>

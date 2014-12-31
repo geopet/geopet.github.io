@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ruby | Thoughts of Geoff]]></title>
   <link href="http://geopet.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://geopet.github.io/"/>
-  <updated>2014-08-15T23:22:34-06:00</updated>
+  <updated>2014-12-31T12:37:03-07:00</updated>
   <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -125,7 +125,7 @@ group and save the changes.</p>
 <p>This is what your <code>Gemfile</code> should look like now if you&rsquo;re running
 Octopress 2.0 without any changes up to this point:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -163,7 +163,7 @@ Octopress 2.0 without any changes up to this point:</p>
 </span><span class='line'><span class="k">end</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
 </span><span class='line'>
 </span><span class='line'><span class="sr">&lt;p&gt;gem &amp;lsquo;sinatra&amp;rsquo;, &amp;lsquo;~&gt; 1.3.2&amp;rsquo;</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+</span></code></pre></td></tr></table></div></figure></p>
 
 <p>The next time you run <code>rake preview</code> your blog on
 <a href="http://localhost:4000">http://localhost:4000</a> should run smooth as silk on the Thin server.</p>
@@ -191,7 +191,7 @@ similar, may be more of an apples and oranges sort of comparison.</p>
 <p>With this in mind, I tried to trim up the code I wrote the last time to
 produce the same output. This is what I came up with:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>The New Semi-Colon Goodness semicolon2.rb </span></figcaption>
+<p><figure class='code'><figcaption><span>The New Semi-Colon Goodness semicolon2.rb </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -208,7 +208,7 @@ produce the same output. This is what I came up with:</p>
 </span><span class='line'><span class="sr">end&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
 </span><span class='line'>
 </span><span class='line'><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span><span class="nb">puts</span> <span class="n">arr</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;;</span> <span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;)</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+</span></code></pre></td></tr></table></div></figure></p>
 
 <p>What I&rsquo;m doing here is forcing myself to work within the confines of the
 initial premiss that the values are given to me in a hash. I convert the
@@ -218,7 +218,7 @@ want to do to get the output that I want. <em>Semi-colon success achieved!</em><
 <p>I think we can generally agree that this is better than the option I
 proposed previously:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>The Old Semi-Colon Badness semicolon.rb </span></figcaption>
+<p><figure class='code'><figcaption><span>The Old Semi-Colon Badness semicolon.rb </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -239,7 +239,7 @@ proposed previously:</p>
 </span><span class='line'><span class="sr">    hash.delete(key)</span>
 </span><span class='line'><span class="sr">  end</span>
 </span><span class='line'><span class="sr">end</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+</span></code></pre></td></tr></table></div></figure></p>
 
 <p>For my money, the new snippet is much more readable and is just a smidge
 more compact. A win on all sides.</p>

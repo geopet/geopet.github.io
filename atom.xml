@@ -4,7 +4,7 @@
   <title><![CDATA[Thoughts of Geoff]]></title>
   <link href="http://geopet.github.io/atom.xml" rel="self"/>
   <link href="http://geopet.github.io/"/>
-  <updated>2014-08-15T23:22:34-06:00</updated>
+  <updated>2014-12-31T12:37:03-07:00</updated>
   <id>http://geopet.github.io/</id>
   <author>
     <name><![CDATA[Geoff Petrie]]></name>
@@ -12,6 +12,46 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Top Four Podcasts of 2014]]></title>
+    <link href="http://geopet.github.io/blog/2014/12/31/top-four-podcasts-of-2014/"/>
+    <updated>2014-12-31T12:22:47-07:00</updated>
+    <id>http://geopet.github.io/blog/2014/12/31/top-four-podcasts-of-2014</id>
+    <content type="html"><![CDATA[<p>I listen to a lot of podcasts on a bunch of different subjects. Architecture, math, music, philosophy, software engineering, art, news, history, civil rights &ndash; there is a wealth of information out there and it is amazing!</p>
+
+<p>I have a bunch of podcasts that I can give a mention to, but there are four that stood out this year for me.</p>
+
+<p>If you&rsquo;re not listening to it, and many of you already are, <a href="https://twitter.com/romanmars">Roman Mars&#8217;</a> <a href="http://99percentinvisible.org/">99% Invisible</a> is <em>fantastic</em>. This is a series about architecture, design and how these things impact the world around us. I&rsquo;ve been listening to this show pretty much from the beginning, and every year I continue to be more taken by it. It continues to be one of the podcasts I routinely recommend to people who are just interested in hearing something cool.</p>
+
+<p>From <em>99% Invisible</em> I found <a href="http://songexploder.net/">Song Exploder</a>. This has <em>rapidly</em> made it to the top of my queue. Every episode is just <em>so</em> good. What you&rsquo;re going to find here is a show about how musicians make music. We all know that artists all have their own style, but this series just brings that home in each episode. This may be my favorite show of the year.</p>
+
+<p>I&rsquo;m thrilled to hear <a href="https://twitter.com/HrishiHirway">Hrishi Hirway</a> will be continuing Song Exploder into 2015. If you just want to try it out, all the episodes are amazing, but I would recommend <a href="http://songexploder.net/episode-24-tycho/">Episode 24</a> with Tycho or <a href="http://songexploder.net/episode-22-the-books/">Episode 22</a> with Nick Zammuto of The Books.</p>
+
+<p>Doing what I do for a living, I listen to tech podcasts often, too.</p>
+
+<p>My friend <a href="https://twitter.com/thehoneysauce">Shaun Ambrose</a> mentioned that he had found a podcast on the philosophy of computing called <a href="http://www.computer.org/portal/web/computingnow/oncomputing">On Computing</a> by <a href="https://twitter.com/Grady_Booch">Grady Booch</a>.</p>
+
+<p>This series just sucks you in. I can&rsquo;t describe it properly. It is part philosophy, part technology. It is liberal arts meets computer science. Booch offers so much in each episode. Every one of them is worth listening to multiple times. There are currently 14 episodes that run about 10 minutes per episode. You owe it to yourself, regardless of your profession, to listen to these shows.</p>
+
+<p>The series comes up with a new episode fairly infrequently and it has been running since 2012. I&rsquo;m hopeful that Grady Booch will continue to do more in the coming year.</p>
+
+<p>Finally, <a href="http://thoughtbot.com/">thoughtbot</a> started a new series in October called <a href="http://bikeshed.fm/">The Bike Shed</a> hosted by my friend <a href="https://twitter.com/sgrif">Sean Griffin</a> and <a href="https://twitter.com/derekprior">Derek Prior</a>. I&rsquo;m <em>really</em> enjoying this young series. Sean and Derek are taking us to a more technical discussion of software, and I&rsquo;m grateful for that. I can&rsquo;t wait to hear what they have to say in 2015.</p>
+
+<p>So here&rsquo;s the TL;DR.</p>
+
+<p>My top four podcasts:</p>
+
+<p>Roman Mars&#8217; <a href="http://99percentinvisible.org/">99% Invisible</a><br/>
+Hrishikesh Hirway&rsquo;s <a href="http://songexploder.net/">Song Exploder</a><br/>
+Grady Booch&rsquo;s <a href="http://www.computer.org/portal/web/computingnow/oncomputing">On Computing</a><br/>
+Sean Griffin and Derek Prior&rsquo;s <a href="http://bikeshed.fm/">The Bike Shed</a></p>
+
+<p>Also: If you&rsquo;re looking for a good way to keep up with podcasts for iOS I would recommend <a href="http://www.downcastapp.com/">Downcast</a> (<a href="https://twitter.com/downcastapp">@downcastapp</a>). It is the absolute <em>best</em> podcast catcher I&rsquo;ve ever used. And I&rsquo;ve tried quite a few.</p>
+
+<p>If you have a favorite podcast, I want to hear about it! Hit me up on Twitter: <a href="https://twitter.com/geopet">@geopet</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Analysis of Ottinger's Rules for Variable and Class Naming]]></title>
@@ -1273,71 +1313,6 @@ worry about any files going away without my knowing. <a href="#fnref:4" title="r
 
 <p>This is <em>such</em> a good idea.<br/>
 <a href="http://www.practicallyefficient.com/2011/08/30/1l-te/">One line at a time #16: TextExpander</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[nvAlt Quick Tip]]></title>
-    <link href="http://geopet.github.io/blog/2011/09/20/nvalt-quick-tip/"/>
-    <updated>2011-09-20T08:00:00-06:00</updated>
-    <id>http://geopet.github.io/blog/2011/09/20/nvalt-quick-tip</id>
-    <content type="html"><![CDATA[<h2>Making Markdown Readable and Your Default File Type</h2>
-
-<p>So normally I don&rsquo;t write tips on productivity, but lately I have been
-focusing more and more on workflow and I decided to start diving deeper
-into things like Brett Terpstra&rsquo;s
-<a href="http://brettterpstra.com/project/nvalt/">nvALT</a>, Smile&rsquo;s
-<a href="http://www.smilesoftware.com/TextExpander/">TextExpander</a>, and Second
-Gear&rsquo;s <a href="http://www.secondgearsoftware.com/elements/">Elements</a> (ala <a href="http://macpowerusers.com/">Mac
-Power Users</a>, <a href="http://5by5.tv/b2w">Back to
-Work</a> and <a href="http://www.merlinmann.com/">Merlin
-Mann</a>). This means you may see so more stuff
-from me regarding cool tools like these.</p>
-
-<p>But this is a quick tip. So here it is:</p>
-
-<p>When I installed nvALT there were two pieces that threw me right away.
-First, even after going into the preferences and changing &ldquo;Read notes
-from folder&rdquo; to the folder that had all my Markdown notes it didn&rsquo;t
-register any of them in the search.  The reason? I needed to change the
-&ldquo;Store and read notes on disk as&rdquo; drop down from &ldquo;Single Database&rdquo; to
-&ldquo;Plain Text Files&rdquo; and then I needed to add the file extension &ldquo;md&rdquo; to
-the &ldquo;Recognize individual files with attributes:&rdquo; extensions. Check out
-the screen capture below if this isn&rsquo;t quite making sense. (Also note
-that there is a &ldquo;+&rdquo; in that preference window, next to the &ldquo;-&rdquo; symbol,
-but it isn&rsquo;t showing right now in Lion.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>)</p>
-
-<p><img src="../images/nvALT-quick-tip-01.png" alt="" /></p>
-
-<p>The second item that started to bug me was that any new note/file that I
-created was being created with the <code>.txt</code> extension instead of the <code>.md</code>
-extension that I work in all the time now. Frankly, if I couldn&rsquo;t fix
-this issue, I would have probably abandoned nvALT almost right away.
-Fortunately, I found that by selecting &ldquo;md&rdquo; in the &ldquo;Recognize individual
-files with attributes:&rdquo; list and then hitting the check mark, it bolded
-it and my tests have showed that all my new files being made by nvALT
-are now <code>.md</code> files.</p>
-
-<p>With these two items out of the way I plan to seriously play with this
-system.</p>
-
-<p>If, by some freakish chance Brett Terpstra checks out this post, one
-feature request that I would make right now is to allow for the use of
-his <a href="http://markedapp.com/">Marked</a> app for the preview instead of only
-having the built in, but excellent, nvALT HTML preview. There&rsquo;s a good
-chance that it is already a feature and I&rsquo;m not aware of it. I&rsquo;m loving
-Marked, and if you&rsquo;re a Markdown person and not using it yet, you should
-definitely check it out.</p>
-
-<p><em>I originally posted this on my Tumblr <a href="http://faceofgeoff.com/post/9665888623/nvalt-quick-tip-making-markdown-readable-and-your">The Face of Geoff</a></em></p>
-<div class="footnotes">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>Many thanks to Eddie Smith at <a href="http://www.practicallyefficient.com/2011/08/02/1l-byword-nvalt-simplenote/">Practically Efficient</a> for that helpful one-liner!<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
-</ol>
-</div>
-
 ]]></content>
   </entry>
   
