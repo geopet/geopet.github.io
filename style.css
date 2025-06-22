@@ -1,0 +1,99 @@
+:root {
+    --text-color: #333;
+    --link-color: #007acc;
+    --link-hover-color: #005f99;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8; /* light background */
+    color: var(--text-color);
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    max-width: 600px;
+    width: 90%;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+.name {
+    border-bottom: 2px solid #31c152; /* or any accent color */
+    padding-bottom: 0.2rem;
+}
+
+h1 {
+    font-family: 'Crimson Pro', serif;
+    font-size: clamp(2rem, 5vw + 1rem, 2.5rem);
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 0.2rem;
+    font-style: italic;
+}
+
+.links {
+    margin-top: 1.5rem;
+}
+
+.links a {
+    margin: 0 0.5rem;
+    text-decoration: underline;
+    color: var(--link-color);
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.links a:hover {
+    color: var(--link-hover-color);
+    text-decoration: none;
+}
+
+.creative-links {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.creative-links a {
+    color: #31c152;
+    border-radius: 4px;
+    padding: 0.2em 0.4em;
+    transition: color 0.2s ease, background 0.2s ease;
+}
+
+.creative-links a:hover {
+    color: #fff;
+    background: #7bdd92;
+}
+
+footer {
+    margin-top: 2.5rem;
+    font-size: 0.9rem;
+    color: #777;
+}

@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://geopet.github.io/sitemap.xml 
